@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MenuGuide.h
 //  FBButlerIpad
 //
 //  Created by Hung Vo on 11/11/14.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MenuGuide : UIViewController <UITableViewDataSource,UITableViewDelegate>
+
++(UIColor*)hexColor:(NSString*)hex;
+
 
 @end

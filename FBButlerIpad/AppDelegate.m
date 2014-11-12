@@ -7,13 +7,29 @@
 //
 
 #import "AppDelegate.h"
+#import "MenuGuide.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    //Set up color for Navigation Bar 1/1
+    [[UINavigationBar appearance] setBarTintColor: [MenuGuide hexColor:@"AB2025"]];
+    
+    
+    
+    //Set up color for Back Button of Navigation Bar Step 1/1
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    //Set up title of Nagvigation Bar: Color, Font, and Size
+    [[UINavigationBar appearance] setTitleTextAttributes: @{
+                                                            NSForegroundColorAttributeName: [UIColor whiteColor],
+                                                            
+                                                            NSFontAttributeName: [UIFont fontWithName:@"Helvetica" size:14.0f],
+                                                            
+                                                            }];
     return YES;
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

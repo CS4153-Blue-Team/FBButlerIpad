@@ -14,13 +14,23 @@
 		ABBEE5C11A130BE800B3AA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5C01A130BE800B3AA1C /* main.m */; };
 		ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5C41A130BE800B3AA1C /* AppDelegate.m */; };
 		ABBEE5C81A130BE800B3AA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5C61A130BE800B3AA1C /* Main.storyboard */; };
-		ABBEE5CB1A130BE800B3AA1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5CA1A130BE800B3AA1C /* ViewController.m */; };
 		ABBEE5CD1A130BE800B3AA1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5CC1A130BE800B3AA1C /* Images.xcassets */; };
 		ABBEE5D41A130BE800B3AA1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5D31A130BE800B3AA1C /* XCTest.framework */; };
 		ABBEE5D51A130BE800B3AA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B41A130BE800B3AA1C /* Foundation.framework */; };
 		ABBEE5D61A130BE800B3AA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B81A130BE800B3AA1C /* UIKit.framework */; };
 		ABBEE5DE1A130BE800B3AA1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5DC1A130BE800B3AA1C /* InfoPlist.strings */; };
 		ABBEE5E01A130BE800B3AA1C /* FBButlerIpadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5DF1A130BE800B3AA1C /* FBButlerIpadTests.m */; };
+		ABBEE6021A13103F00B3AA1C /* GuestSideHomeImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5F41A13103F00B3AA1C /* GuestSideHomeImage.jpg */; };
+		ABBEE6031A13103F00B3AA1C /* JWMarriottLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5F61A13103F00B3AA1C /* JWMarriottLogo.png */; };
+		ABBEE6041A13103F00B3AA1C /* JWMarriottLogo.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5F71A13103F00B3AA1C /* JWMarriottLogo.psd */; };
+		ABBEE6051A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5F91A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide */; };
+		ABBEE6061A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5FA1A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide.png */; };
+		ABBEE6071A13103F00B3AA1C /* NavBar_J.W.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5FB1A13103F00B3AA1C /* NavBar_J.W.png */; };
+		ABBEE6081A13103F00B3AA1C /* NavBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5FD1A13103F00B3AA1C /* NavBarBackground.png */; };
+		ABBEE60A1A13103F00B3AA1C /* Page1_RestaurantButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE6001A13103F00B3AA1C /* Page1_RestaurantButton.png */; };
+		ABBEE6141A1315A000B3AA1C /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE6131A1315A000B3AA1C /* Login.m */; };
+		ABBEE6171A13166F00B3AA1C /* MenuGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE6161A13166F00B3AA1C /* MenuGuide.m */; };
+		ABCBAD4F1A13352800FA9401 /* CustomCellMenuGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBAD4E1A13352800FA9401 /* CustomCellMenuGuide.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +55,26 @@
 		ABBEE5C31A130BE800B3AA1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABBEE5C41A130BE800B3AA1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ABBEE5C71A130BE800B3AA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ABBEE5C91A130BE800B3AA1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ABBEE5CA1A130BE800B3AA1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABBEE5CC1A130BE800B3AA1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ABBEE5D21A130BE800B3AA1C /* FBButlerIpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBButlerIpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBEE5D31A130BE800B3AA1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		ABBEE5DB1A130BE800B3AA1C /* FBButlerIpadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBButlerIpadTests-Info.plist"; sourceTree = "<group>"; };
 		ABBEE5DD1A130BE800B3AA1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABBEE5DF1A130BE800B3AA1C /* FBButlerIpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBButlerIpadTests.m; sourceTree = "<group>"; };
+		ABBEE5F41A13103F00B3AA1C /* GuestSideHomeImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GuestSideHomeImage.jpg; sourceTree = "<group>"; };
+		ABBEE5F61A13103F00B3AA1C /* JWMarriottLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JWMarriottLogo.png; sourceTree = "<group>"; };
+		ABBEE5F71A13103F00B3AA1C /* JWMarriottLogo.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = JWMarriottLogo.psd; sourceTree = "<group>"; };
+		ABBEE5F91A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavBar_J.W.MarriottMenuGuide; sourceTree = "<group>"; };
+		ABBEE5FA1A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBar_J.W.MarriottMenuGuide.png; sourceTree = "<group>"; };
+		ABBEE5FB1A13103F00B3AA1C /* NavBar_J.W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBar_J.W.png; sourceTree = "<group>"; };
+		ABBEE5FD1A13103F00B3AA1C /* NavBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarBackground.png; sourceTree = "<group>"; };
+		ABBEE6001A13103F00B3AA1C /* Page1_RestaurantButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Page1_RestaurantButton.png; sourceTree = "<group>"; };
+		ABBEE6121A1315A000B3AA1C /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Login.h; path = ../Login.h; sourceTree = "<group>"; };
+		ABBEE6131A1315A000B3AA1C /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Login.m; path = ../Login.m; sourceTree = "<group>"; };
+		ABBEE6151A13166F00B3AA1C /* MenuGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuGuide.h; sourceTree = "<group>"; };
+		ABBEE6161A13166F00B3AA1C /* MenuGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuGuide.m; sourceTree = "<group>"; };
+		ABCBAD4D1A13352800FA9401 /* CustomCellMenuGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellMenuGuide.h; sourceTree = "<group>"; };
+		ABCBAD4E1A13352800FA9401 /* CustomCellMenuGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellMenuGuide.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +101,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB4A7EFD1A131950000D2EB4 /* Menu Guide Page */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE6151A13166F00B3AA1C /* MenuGuide.h */,
+				ABBEE6161A13166F00B3AA1C /* MenuGuide.m */,
+				ABCBAD4D1A13352800FA9401 /* CustomCellMenuGuide.h */,
+				ABCBAD4E1A13352800FA9401 /* CustomCellMenuGuide.m */,
+			);
+			name = "Menu Guide Page";
+			sourceTree = "<group>";
+		};
 		ABBEE5A81A130BE800B3AA1C = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +145,13 @@
 		ABBEE5BA1A130BE800B3AA1C /* FBButlerIpad */ = {
 			isa = PBXGroup;
 			children = (
+				ABBEE5F01A130FD600B3AA1C /* Customer Images */,
+				ABBEE5E91A130D6000B3AA1C /* Customer Side */,
 				ABBEE5C31A130BE800B3AA1C /* AppDelegate.h */,
 				ABBEE5C41A130BE800B3AA1C /* AppDelegate.m */,
 				ABBEE5C61A130BE800B3AA1C /* Main.storyboard */,
-				ABBEE5C91A130BE800B3AA1C /* ViewController.h */,
-				ABBEE5CA1A130BE800B3AA1C /* ViewController.m */,
+				ABBEE6121A1315A000B3AA1C /* Login.h */,
+				ABBEE6131A1315A000B3AA1C /* Login.m */,
 				ABBEE5CC1A130BE800B3AA1C /* Images.xcassets */,
 				ABBEE5BB1A130BE800B3AA1C /* Supporting Files */,
 			);
@@ -150,6 +185,69 @@
 				ABBEE5DC1A130BE800B3AA1C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABBEE5E91A130D6000B3AA1C /* Customer Side */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A7EFD1A131950000D2EB4 /* Menu Guide Page */,
+			);
+			name = "Customer Side";
+			sourceTree = "<group>";
+		};
+		ABBEE5F01A130FD600B3AA1C /* Customer Images */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5F31A13103F00B3AA1C /* Page1 */,
+			);
+			name = "Customer Images";
+			sourceTree = "<group>";
+		};
+		ABBEE5F31A13103F00B3AA1C /* Page1 */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5F41A13103F00B3AA1C /* GuestSideHomeImage.jpg */,
+				ABBEE5F51A13103F00B3AA1C /* JWMarriottLogo */,
+				ABBEE5F81A13103F00B3AA1C /* NavBar */,
+				ABBEE5FC1A13103F00B3AA1C /* NavBarBackground */,
+				ABBEE5FF1A13103F00B3AA1C /* RestaurantButtonBackground */,
+			);
+			path = Page1;
+			sourceTree = "<group>";
+		};
+		ABBEE5F51A13103F00B3AA1C /* JWMarriottLogo */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5F61A13103F00B3AA1C /* JWMarriottLogo.png */,
+				ABBEE5F71A13103F00B3AA1C /* JWMarriottLogo.psd */,
+			);
+			path = JWMarriottLogo;
+			sourceTree = "<group>";
+		};
+		ABBEE5F81A13103F00B3AA1C /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5F91A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide */,
+				ABBEE5FA1A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide.png */,
+				ABBEE5FB1A13103F00B3AA1C /* NavBar_J.W.png */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		ABBEE5FC1A13103F00B3AA1C /* NavBarBackground */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5FD1A13103F00B3AA1C /* NavBarBackground.png */,
+			);
+			path = NavBarBackground;
+			sourceTree = "<group>";
+		};
+		ABBEE5FF1A13103F00B3AA1C /* RestaurantButtonBackground */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE6001A13103F00B3AA1C /* Page1_RestaurantButton.png */,
+			);
+			path = RestaurantButtonBackground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +326,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBEE6061A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide.png in Resources */,
+				ABBEE6081A13103F00B3AA1C /* NavBarBackground.png in Resources */,
+				ABBEE6021A13103F00B3AA1C /* GuestSideHomeImage.jpg in Resources */,
+				ABBEE6041A13103F00B3AA1C /* JWMarriottLogo.psd in Resources */,
+				ABBEE60A1A13103F00B3AA1C /* Page1_RestaurantButton.png in Resources */,
 				ABBEE5CD1A130BE800B3AA1C /* Images.xcassets in Resources */,
 				ABBEE5BF1A130BE800B3AA1C /* InfoPlist.strings in Resources */,
+				ABBEE6071A13103F00B3AA1C /* NavBar_J.W.png in Resources */,
+				ABBEE6031A13103F00B3AA1C /* JWMarriottLogo.png in Resources */,
 				ABBEE5C81A130BE800B3AA1C /* Main.storyboard in Resources */,
+				ABBEE6051A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +355,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABBEE5CB1A130BE800B3AA1C /* ViewController.m in Sources */,
+				ABBEE6141A1315A000B3AA1C /* Login.m in Sources */,
+				ABBEE6171A13166F00B3AA1C /* MenuGuide.m in Sources */,
+				ABCBAD4F1A13352800FA9401 /* CustomCellMenuGuide.m in Sources */,
 				ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */,
 				ABBEE5C11A130BE800B3AA1C /* main.m in Sources */,
 			);
@@ -381,6 +489,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBButlerIpad/FBButlerIpad-Prefix.pch";
 				INFOPLIST_FILE = "FBButlerIpad/FBButlerIpad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +503,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBButlerIpad/FBButlerIpad-Prefix.pch";
 				INFOPLIST_FILE = "FBButlerIpad/FBButlerIpad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -458,6 +568,7 @@
 				ABBEE5E51A130BE800B3AA1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABBEE5E61A130BE800B3AA1C /* Build configuration list for PBXNativeTarget "FBButlerIpadTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +577,7 @@
 				ABBEE5E81A130BE800B3AA1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
