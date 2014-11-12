@@ -51,6 +51,7 @@
                      @"Sushi Bar",
                      @"Quench",
                      @"Cafe Bodega",
+                     @"Golden Palace",
                      nil];
     self.type = [NSMutableArray arrayWithObjects:
                  @"Italian",
@@ -58,6 +59,7 @@
                  @"Japanese",
                  @"Bar and Grill",
                  @"Sandwiches",
+                 @"Chinese",
                  nil];
     self.hour = [NSMutableArray arrayWithObjects:
                  @"6p-10,Th-Sun",
@@ -65,16 +67,8 @@
                  @"6p-10p,Mo-Fr",
                  @"6p-10p,Daily",
                  @"11a-10p,Daily",
+                 @"8a-8p, Daily",
                  nil];
-    self.cellload = [NSMutableArray arrayWithObjects:
-                 @"NO",
-                 @"NO",
-                 @"NO",
-                 @"NO",
-                 @"NO",
-                 nil];
-
-
 }
 
 - (void)didReceiveMemoryWarning

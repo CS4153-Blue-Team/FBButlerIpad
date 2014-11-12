@@ -158,35 +158,42 @@
     
     
     // Config cell
-    // Note: addSubview is used to remove the default left indentation in iOS 7
-    
-    cell.itemName.text =  self.nameList[indexPath.row];
+    // Add identation on left on food name tag
+    cell.itemName.text =  [NSString stringWithFormat:@"%@%@", @"   ",self.nameList[indexPath.row]];
    
     
     //Set background color for a selected cell
     if (indexPath.row == self.selectedRow){
+        //Set background organge
         cell.itemName.backgroundColor = [[MenuGuide hexColor:@"E04E26"] colorWithAlphaComponent:1.0];
+        //Set text color white
         cell.itemName.textColor= [UIColor whiteColor];
     }
     else{
+        //Set background beige
         cell.itemName.backgroundColor = [[MenuGuide hexColor:@"EFE5DB"] colorWithAlphaComponent:0.7];
+        //Set text color black
         cell.itemName.textColor= [UIColor blackColor];
     }
+    //Set approriate image
     cell.itemImage.image= self.imageList[indexPath.row];
     
     return cell;
 }
 
 - (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
+    //Assist to identify a selected cell in cellForRowAtIndexPath method
     self.selectedRow = -1;
     self.selectedRow = indexPath.row;
     [self.tableView reloadData];
     
+    //Set the name of food on the right panel
     self.theName.text = self.nameList[indexPath.row];
     self.theName.textColor = [MenuGuide hexColor:@"AB2025"];
 
 }
 
+// Initiate Data on the first loading
 -(void) initiateData{
     self.theName.text = self.nameList[0];
     self.theName.textColor = [MenuGuide hexColor:@"AB2025"];
