@@ -65,8 +65,6 @@
 		ABCBADC11A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7A1A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd */; };
 		ABCBADC21A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7B1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png */; };
 		ABCBADC31A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7C1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd */; };
-		ABCBADC41A134E8200FA9401 /* NavBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7E1A134E8200FA9401 /* NavBarBackground.png */; };
-		ABCBADC51A134E8200FA9401 /* NavBarBackground.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7F1A134E8200FA9401 /* NavBarBackground.psd */; };
 		ABCBADC61A134E8200FA9401 /* NavBar_Primo.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD811A134E8200FA9401 /* NavBar_Primo.png */; };
 		ABCBADC71A134E8200FA9401 /* NavBar_Primo.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD821A134E8200FA9401 /* NavBar_Primo.psd */; };
 		ABCBADC81A134E8200FA9401 /* ReviewStars_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD841A134E8200FA9401 /* ReviewStars_2.png */; };
@@ -175,8 +173,6 @@
 		ABCBAD7A1A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemNames_MusselsForno_Beige.psd; sourceTree = "<group>"; };
 		ABCBAD7B1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Page2_ItemName_AntipastiMisti_Beige.png; sourceTree = "<group>"; };
 		ABCBAD7C1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Page2_ItemName_AntipastiMisti_Beige.psd; sourceTree = "<group>"; };
-		ABCBAD7E1A134E8200FA9401 /* NavBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarBackground.png; sourceTree = "<group>"; };
-		ABCBAD7F1A134E8200FA9401 /* NavBarBackground.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavBarBackground.psd; sourceTree = "<group>"; };
 		ABCBAD811A134E8200FA9401 /* NavBar_Primo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBar_Primo.png; sourceTree = "<group>"; };
 		ABCBAD821A134E8200FA9401 /* NavBar_Primo.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavBar_Primo.psd; sourceTree = "<group>"; };
 		ABCBAD841A134E8200FA9401 /* ReviewStars_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReviewStars_2.png; sourceTree = "<group>"; };
@@ -403,7 +399,6 @@
 				ABCBAD5B1A134E8200FA9401 /* HomeNavButton */,
 				ABCBAD5E1A134E8200FA9401 /* Images */,
 				ABCBAD661A134E8200FA9401 /* ItemNames */,
-				ABCBAD7D1A134E8200FA9401 /* NavBarBackground */,
 				ABCBAD801A134E8200FA9401 /* NavBarTitle */,
 				ABCBAD831A134E8200FA9401 /* ReviewStars2 */,
 				ABCBAD861A134E8200FA9401 /* ReviewStars3 */,
@@ -498,15 +493,6 @@
 				ABCBAD761A134E8200FA9401 /* ItemName_BlankTab_Orange.psd */,
 			);
 			path = ItemNameBlankTabOrange;
-			sourceTree = "<group>";
-		};
-		ABCBAD7D1A134E8200FA9401 /* NavBarBackground */ = {
-			isa = PBXGroup;
-			children = (
-				ABCBAD7E1A134E8200FA9401 /* NavBarBackground.png */,
-				ABCBAD7F1A134E8200FA9401 /* NavBarBackground.psd */,
-			);
-			path = NavBarBackground;
 			sourceTree = "<group>";
 		};
 		ABCBAD801A134E8200FA9401 /* NavBarTitle */ = {
@@ -665,7 +651,6 @@
 				ABBEE6061A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide.png in Resources */,
 				ABCBADB61A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.png in Resources */,
 				ABCBADAA1A134E8200FA9401 /* MusselsAlForno2.jpg in Resources */,
-				ABCBADC51A134E8200FA9401 /* NavBarBackground.psd in Resources */,
 				ABCBADC31A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd in Resources */,
 				ABCBADCE1A134E8200FA9401 /* ReviewStars_5.png in Resources */,
 				ABCBADDE1A134E8200FA9401 /* PastaTab_Orange.png in Resources */,
@@ -724,7 +709,6 @@
 				ABCBADAB1A134E8200FA9401 /* OystersRockefeller.jpg in Resources */,
 				ABCBADDF1A134E8200FA9401 /* PastaTab_Orange.psd in Resources */,
 				ABCBADDD1A134E8200FA9401 /* PastaTab_Beige.psd in Resources */,
-				ABCBADC41A134E8200FA9401 /* NavBarBackground.png in Resources */,
 				ABCBADB31A134E8200FA9401 /* ItemName_OystersRocke_Beige.psd in Resources */,
 				ABCBADB71A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.psd in Resources */,
 				ABCBADBD1A134E8200FA9401 /* ItemName_BlankTab_Orange.psd in Resources */,
