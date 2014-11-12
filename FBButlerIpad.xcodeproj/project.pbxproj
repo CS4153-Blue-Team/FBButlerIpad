@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABBEE5B51A130BE800B3AA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B41A130BE800B3AA1C /* Foundation.framework */; };
+		ABBEE5B71A130BE800B3AA1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */; };
+		ABBEE5B91A130BE800B3AA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B81A130BE800B3AA1C /* UIKit.framework */; };
+		ABBEE5BF1A130BE800B3AA1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5BD1A130BE800B3AA1C /* InfoPlist.strings */; };
+		ABBEE5C11A130BE800B3AA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5C01A130BE800B3AA1C /* main.m */; };
+		ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5C41A130BE800B3AA1C /* AppDelegate.m */; };
+		ABBEE5C81A130BE800B3AA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5C61A130BE800B3AA1C /* Main.storyboard */; };
+		ABBEE5CB1A130BE800B3AA1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5CA1A130BE800B3AA1C /* ViewController.m */; };
+		ABBEE5CD1A130BE800B3AA1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5CC1A130BE800B3AA1C /* Images.xcassets */; };
+		ABBEE5D41A130BE800B3AA1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5D31A130BE800B3AA1C /* XCTest.framework */; };
+		ABBEE5D51A130BE800B3AA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B41A130BE800B3AA1C /* Foundation.framework */; };
+		ABBEE5D61A130BE800B3AA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B81A130BE800B3AA1C /* UIKit.framework */; };
+		ABBEE5DE1A130BE800B3AA1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5DC1A130BE800B3AA1C /* InfoPlist.strings */; };
+		ABBEE5E01A130BE800B3AA1C /* FBButlerIpadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5DF1A130BE800B3AA1C /* FBButlerIpadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABBEE5D71A130BE800B3AA1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABBEE5A91A130BE800B3AA1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBEE5B01A130BE800B3AA1C;
+			remoteInfo = FBButlerIpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABBEE5B11A130BE800B3AA1C /* FBButlerIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBButlerIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBEE5B41A130BE800B3AA1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABBEE5B81A130BE800B3AA1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABBEE5BC1A130BE800B3AA1C /* FBButlerIpad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBButlerIpad-Info.plist"; sourceTree = "<group>"; };
+		ABBEE5BE1A130BE800B3AA1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABBEE5C01A130BE800B3AA1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABBEE5C21A130BE800B3AA1C /* FBButlerIpad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBButlerIpad-Prefix.pch"; sourceTree = "<group>"; };
+		ABBEE5C31A130BE800B3AA1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABBEE5C41A130BE800B3AA1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABBEE5C71A130BE800B3AA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABBEE5C91A130BE800B3AA1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABBEE5CA1A130BE800B3AA1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABBEE5CC1A130BE800B3AA1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABBEE5D21A130BE800B3AA1C /* FBButlerIpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBButlerIpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBEE5D31A130BE800B3AA1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABBEE5DB1A130BE800B3AA1C /* FBButlerIpadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBButlerIpadTests-Info.plist"; sourceTree = "<group>"; };
+		ABBEE5DD1A130BE800B3AA1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABBEE5DF1A130BE800B3AA1C /* FBButlerIpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBButlerIpadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABBEE5AE1A130BE800B3AA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBEE5B71A130BE800B3AA1C /* CoreGraphics.framework in Frameworks */,
+				ABBEE5B91A130BE800B3AA1C /* UIKit.framework in Frameworks */,
+				ABBEE5B51A130BE800B3AA1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBEE5CF1A130BE800B3AA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBEE5D41A130BE800B3AA1C /* XCTest.framework in Frameworks */,
+				ABBEE5D61A130BE800B3AA1C /* UIKit.framework in Frameworks */,
+				ABBEE5D51A130BE800B3AA1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBEE5A81A130BE800B3AA1C = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5BA1A130BE800B3AA1C /* FBButlerIpad */,
+				ABBEE5D91A130BE800B3AA1C /* FBButlerIpadTests */,
+				ABBEE5B31A130BE800B3AA1C /* Frameworks */,
+				ABBEE5B21A130BE800B3AA1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABBEE5B21A130BE800B3AA1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5B11A130BE800B3AA1C /* FBButlerIpad.app */,
+				ABBEE5D21A130BE800B3AA1C /* FBButlerIpadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABBEE5B31A130BE800B3AA1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5B41A130BE800B3AA1C /* Foundation.framework */,
+				ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */,
+				ABBEE5B81A130BE800B3AA1C /* UIKit.framework */,
+				ABBEE5D31A130BE800B3AA1C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABBEE5BA1A130BE800B3AA1C /* FBButlerIpad */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5C31A130BE800B3AA1C /* AppDelegate.h */,
+				ABBEE5C41A130BE800B3AA1C /* AppDelegate.m */,
+				ABBEE5C61A130BE800B3AA1C /* Main.storyboard */,
+				ABBEE5C91A130BE800B3AA1C /* ViewController.h */,
+				ABBEE5CA1A130BE800B3AA1C /* ViewController.m */,
+				ABBEE5CC1A130BE800B3AA1C /* Images.xcassets */,
+				ABBEE5BB1A130BE800B3AA1C /* Supporting Files */,
+			);
+			path = FBButlerIpad;
+			sourceTree = "<group>";
+		};
+		ABBEE5BB1A130BE800B3AA1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5BC1A130BE800B3AA1C /* FBButlerIpad-Info.plist */,
+				ABBEE5BD1A130BE800B3AA1C /* InfoPlist.strings */,
+				ABBEE5C01A130BE800B3AA1C /* main.m */,
+				ABBEE5C21A130BE800B3AA1C /* FBButlerIpad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABBEE5D91A130BE800B3AA1C /* FBButlerIpadTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5DF1A130BE800B3AA1C /* FBButlerIpadTests.m */,
+				ABBEE5DA1A130BE800B3AA1C /* Supporting Files */,
+			);
+			path = FBButlerIpadTests;
+			sourceTree = "<group>";
+		};
+		ABBEE5DA1A130BE800B3AA1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5DB1A130BE800B3AA1C /* FBButlerIpadTests-Info.plist */,
+				ABBEE5DC1A130BE800B3AA1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABBEE5B01A130BE800B3AA1C /* FBButlerIpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBEE5E31A130BE800B3AA1C /* Build configuration list for PBXNativeTarget "FBButlerIpad" */;
+			buildPhases = (
+				ABBEE5AD1A130BE800B3AA1C /* Sources */,
+				ABBEE5AE1A130BE800B3AA1C /* Frameworks */,
+				ABBEE5AF1A130BE800B3AA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBButlerIpad;
+			productName = FBButlerIpad;
+			productReference = ABBEE5B11A130BE800B3AA1C /* FBButlerIpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABBEE5D11A130BE800B3AA1C /* FBButlerIpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBEE5E61A130BE800B3AA1C /* Build configuration list for PBXNativeTarget "FBButlerIpadTests" */;
+			buildPhases = (
+				ABBEE5CE1A130BE800B3AA1C /* Sources */,
+				ABBEE5CF1A130BE800B3AA1C /* Frameworks */,
+				ABBEE5D01A130BE800B3AA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBEE5D81A130BE800B3AA1C /* PBXTargetDependency */,
+			);
+			name = FBButlerIpadTests;
+			productName = FBButlerIpadTests;
+			productReference = ABBEE5D21A130BE800B3AA1C /* FBButlerIpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABBEE5A91A130BE800B3AA1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hung Vo";
+				TargetAttributes = {
+					ABBEE5D11A130BE800B3AA1C = {
+						TestTargetID = ABBEE5B01A130BE800B3AA1C;
+					};
+				};
+			};
+			buildConfigurationList = ABBEE5AC1A130BE800B3AA1C /* Build configuration list for PBXProject "FBButlerIpad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABBEE5A81A130BE800B3AA1C;
+			productRefGroup = ABBEE5B21A130BE800B3AA1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBEE5B01A130BE800B3AA1C /* FBButlerIpad */,
+				ABBEE5D11A130BE800B3AA1C /* FBButlerIpadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABBEE5AF1A130BE800B3AA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBEE5CD1A130BE800B3AA1C /* Images.xcassets in Resources */,
+				ABBEE5BF1A130BE800B3AA1C /* InfoPlist.strings in Resources */,
+				ABBEE5C81A130BE800B3AA1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBEE5D01A130BE800B3AA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBEE5DE1A130BE800B3AA1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABBEE5AD1A130BE800B3AA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBEE5CB1A130BE800B3AA1C /* ViewController.m in Sources */,
+				ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */,
+				ABBEE5C11A130BE800B3AA1C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBEE5CE1A130BE800B3AA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBEE5E01A130BE800B3AA1C /* FBButlerIpadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABBEE5D81A130BE800B3AA1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABBEE5B01A130BE800B3AA1C /* FBButlerIpad */;
+			targetProxy = ABBEE5D71A130BE800B3AA1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABBEE5BD1A130BE800B3AA1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBEE5BE1A130BE800B3AA1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABBEE5C61A130BE800B3AA1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBEE5C71A130BE800B3AA1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABBEE5DC1A130BE800B3AA1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBEE5DD1A130BE800B3AA1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABBEE5E11A130BE800B3AA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ABBEE5E21A130BE800B3AA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABBEE5E41A130BE800B3AA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBButlerIpad/FBButlerIpad-Prefix.pch";
+				INFOPLIST_FILE = "FBButlerIpad/FBButlerIpad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABBEE5E51A130BE800B3AA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBButlerIpad/FBButlerIpad-Prefix.pch";
+				INFOPLIST_FILE = "FBButlerIpad/FBButlerIpad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABBEE5E71A130BE800B3AA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FBButlerIpad.app/FBButlerIpad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBButlerIpad/FBButlerIpad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FBButlerIpadTests/FBButlerIpadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABBEE5E81A130BE800B3AA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FBButlerIpad.app/FBButlerIpad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBButlerIpad/FBButlerIpad-Prefix.pch";
+				INFOPLIST_FILE = "FBButlerIpadTests/FBButlerIpadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABBEE5AC1A130BE800B3AA1C /* Build configuration list for PBXProject "FBButlerIpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBEE5E11A130BE800B3AA1C /* Debug */,
+				ABBEE5E21A130BE800B3AA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBEE5E31A130BE800B3AA1C /* Build configuration list for PBXNativeTarget "FBButlerIpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBEE5E41A130BE800B3AA1C /* Debug */,
+				ABBEE5E51A130BE800B3AA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABBEE5E61A130BE800B3AA1C /* Build configuration list for PBXNativeTarget "FBButlerIpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBEE5E71A130BE800B3AA1C /* Debug */,
+				ABBEE5E81A130BE800B3AA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABBEE5A91A130BE800B3AA1C /* Project object */;
+}
