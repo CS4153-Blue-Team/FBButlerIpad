@@ -7,6 +7,7 @@
 //
 
 #import "MenuGuide.h"
+#import "MenuView.h"
 #import "CustomCellMenuGuide.h"
 
 @interface MenuGuide ()
@@ -14,6 +15,7 @@
 @property (strong,nonatomic) NSMutableArray *type;
 @property (strong,nonatomic) NSMutableArray *hour;
 @property (strong,nonatomic) NSMutableArray *cellload;
+@property (strong,nonatomic) NSIndexPath *index;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 
@@ -134,6 +136,10 @@
     return cell;
 }
 
+- (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
+    self.index = indexPath;
+    [self performSegueWithIdentifier:@"menuguide-menuview" sender:self];
+}
 
 //Set up a color based on hex values (form: #FFFFFF)
 +(UIColor*)hexColor:(NSString*)hex
@@ -173,15 +179,16 @@
 }
 
 
-/*
+
  #pragma mark - Navigation
  
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
- {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([segue.identifier isEqualToString:@"menuguide-menuview"]){
+        MenuView *sub = segue.destinationViewController;
+        sub.getRestaurant = self.name[self.index.row];
+    }
+}
+
 
 @end

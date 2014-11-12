@@ -31,6 +31,70 @@
 		ABBEE6141A1315A000B3AA1C /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE6131A1315A000B3AA1C /* Login.m */; };
 		ABBEE6171A13166F00B3AA1C /* MenuGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE6161A13166F00B3AA1C /* MenuGuide.m */; };
 		ABCBAD4F1A13352800FA9401 /* CustomCellMenuGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBAD4E1A13352800FA9401 /* CustomCellMenuGuide.m */; };
+		ABCBAD521A134BB600FA9401 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBAD511A134BB600FA9401 /* MenuView.m */; };
+		ABCBADA31A134E8200FA9401 /* DivideDots.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD561A134E8200FA9401 /* DivideDots.png */; };
+		ABCBADA41A134E8200FA9401 /* DivideDots.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD571A134E8200FA9401 /* DivideDots.psd */; };
+		ABCBADA51A134E8200FA9401 /* GrayOutMenuItem.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD591A134E8200FA9401 /* GrayOutMenuItem.png */; };
+		ABCBADA61A134E8200FA9401 /* GrayOutMenuItem.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD5A1A134E8200FA9401 /* GrayOutMenuItem.psd */; };
+		ABCBADA71A134E8200FA9401 /* HomeNavButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD5C1A134E8200FA9401 /* HomeNavButton.png */; };
+		ABCBADA81A134E8200FA9401 /* HomeNavButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD5D1A134E8200FA9401 /* HomeNavButton.psd */; };
+		ABCBADA91A134E8200FA9401 /* AntipastiMisti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD5F1A134E8200FA9401 /* AntipastiMisti.jpg */; };
+		ABCBADAA1A134E8200FA9401 /* MusselsAlForno2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD601A134E8200FA9401 /* MusselsAlForno2.jpg */; };
+		ABCBADAB1A134E8200FA9401 /* OystersRockefeller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD611A134E8200FA9401 /* OystersRockefeller.jpg */; };
+		ABCBADAC1A134E8200FA9401 /* PrimoLettuces.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD621A134E8200FA9401 /* PrimoLettuces.jpg */; };
+		ABCBADAD1A134E8200FA9401 /* WagyuBeefTartare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD631A134E8200FA9401 /* WagyuBeefTartare.jpg */; };
+		ABCBADAE1A134E8200FA9401 /* WildMushroomTart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD641A134E8200FA9401 /* WildMushroomTart.jpg */; };
+		ABCBADAF1A134E8200FA9401 /* WineBraisedOctopus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD651A134E8200FA9401 /* WineBraisedOctopus.jpg */; };
+		ABCBADB01A134E8200FA9401 /* ItemName_MusselForno_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD671A134E8200FA9401 /* ItemName_MusselForno_Orange.png */; };
+		ABCBADB11A134E8200FA9401 /* ItemName_MusselForno_Orange.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD681A134E8200FA9401 /* ItemName_MusselForno_Orange.psd */; };
+		ABCBADB21A134E8200FA9401 /* ItemName_OystersRocke_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD691A134E8200FA9401 /* ItemName_OystersRocke_Beige.png */; };
+		ABCBADB31A134E8200FA9401 /* ItemName_OystersRocke_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD6A1A134E8200FA9401 /* ItemName_OystersRocke_Beige.psd */; };
+		ABCBADB41A134E8200FA9401 /* ItemName_OystersRocke_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD6B1A134E8200FA9401 /* ItemName_OystersRocke_Orange.png */; };
+		ABCBADB51A134E8200FA9401 /* ItemName_OystersRocke_Orange.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD6C1A134E8200FA9401 /* ItemName_OystersRocke_Orange.psd */; };
+		ABCBADB61A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD6D1A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.png */; };
+		ABCBADB71A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD6E1A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.psd */; };
+		ABCBADB81A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD6F1A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.png */; };
+		ABCBADB91A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD701A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.psd */; };
+		ABCBADBA1A134E8200FA9401 /* ItemName_BlankTab_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD721A134E8200FA9401 /* ItemName_BlankTab_Beige.png */; };
+		ABCBADBB1A134E8200FA9401 /* ItemName_BlankTab_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD731A134E8200FA9401 /* ItemName_BlankTab_Beige.psd */; };
+		ABCBADBC1A134E8200FA9401 /* ItemName_BlankTab_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD751A134E8200FA9401 /* ItemName_BlankTab_Orange.png */; };
+		ABCBADBD1A134E8200FA9401 /* ItemName_BlankTab_Orange.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD761A134E8200FA9401 /* ItemName_BlankTab_Orange.psd */; };
+		ABCBADBE1A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD771A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.png */; };
+		ABCBADBF1A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD781A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.psd */; };
+		ABCBADC01A134E8200FA9401 /* ItemNames_MusselsForno_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD791A134E8200FA9401 /* ItemNames_MusselsForno_Beige.png */; };
+		ABCBADC11A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7A1A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd */; };
+		ABCBADC21A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7B1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png */; };
+		ABCBADC31A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7C1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd */; };
+		ABCBADC41A134E8200FA9401 /* NavBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7E1A134E8200FA9401 /* NavBarBackground.png */; };
+		ABCBADC51A134E8200FA9401 /* NavBarBackground.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7F1A134E8200FA9401 /* NavBarBackground.psd */; };
+		ABCBADC61A134E8200FA9401 /* NavBar_Primo.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD811A134E8200FA9401 /* NavBar_Primo.png */; };
+		ABCBADC71A134E8200FA9401 /* NavBar_Primo.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD821A134E8200FA9401 /* NavBar_Primo.psd */; };
+		ABCBADC81A134E8200FA9401 /* ReviewStars_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD841A134E8200FA9401 /* ReviewStars_2.png */; };
+		ABCBADC91A134E8200FA9401 /* ReviewStars_2.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD851A134E8200FA9401 /* ReviewStars_2.psd */; };
+		ABCBADCA1A134E8200FA9401 /* ReviewStars_3.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD871A134E8200FA9401 /* ReviewStars_3.png */; };
+		ABCBADCB1A134E8200FA9401 /* ReviewStars_3.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD881A134E8200FA9401 /* ReviewStars_3.psd */; };
+		ABCBADCC1A134E8200FA9401 /* ReviewStars_4.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD8A1A134E8200FA9401 /* ReviewStars_4.png */; };
+		ABCBADCD1A134E8200FA9401 /* ReviewStars_4.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD8B1A134E8200FA9401 /* ReviewStars_4.psd */; };
+		ABCBADCE1A134E8200FA9401 /* ReviewStars_5.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD8D1A134E8200FA9401 /* ReviewStars_5.png */; };
+		ABCBADCF1A134E8200FA9401 /* ReviewStars_5.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD8E1A134E8200FA9401 /* ReviewStars_5.psd */; };
+		ABCBADD01A134E8200FA9401 /* AppetizerTab_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD901A134E8200FA9401 /* AppetizerTab_Beige.png */; };
+		ABCBADD11A134E8200FA9401 /* AppetizerTab_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD911A134E8200FA9401 /* AppetizerTab_Beige.psd */; };
+		ABCBADD21A134E8200FA9401 /* AppetizerTab_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD921A134E8200FA9401 /* AppetizerTab_Orange.png */; };
+		ABCBADD31A134E8200FA9401 /* AppetizerTab_Orange.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD931A134E8200FA9401 /* AppetizerTab_Orange.psd */; };
+		ABCBADD41A134E8200FA9401 /* BeverageTab_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD941A134E8200FA9401 /* BeverageTab_Beige.png */; };
+		ABCBADD51A134E8200FA9401 /* BeverageTab_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD951A134E8200FA9401 /* BeverageTab_Beige.psd */; };
+		ABCBADD61A134E8200FA9401 /* BeverageTab_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD961A134E8200FA9401 /* BeverageTab_Orange.png */; };
+		ABCBADD71A134E8200FA9401 /* BeverageTab_Orange.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD971A134E8200FA9401 /* BeverageTab_Orange.psd */; };
+		ABCBADD81A134E8200FA9401 /* EntreeTab_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD981A134E8200FA9401 /* EntreeTab_Beige.png */; };
+		ABCBADD91A134E8200FA9401 /* EntreeTab_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD991A134E8200FA9401 /* EntreeTab_Beige.psd */; };
+		ABCBADDA1A134E8200FA9401 /* EntreeTab_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD9A1A134E8200FA9401 /* EntreeTab_Orange.png */; };
+		ABCBADDB1A134E8200FA9401 /* EntreeTab_Orange.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD9B1A134E8200FA9401 /* EntreeTab_Orange.psd */; };
+		ABCBADDC1A134E8200FA9401 /* PastaTab_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD9C1A134E8200FA9401 /* PastaTab_Beige.png */; };
+		ABCBADDD1A134E8200FA9401 /* PastaTab_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD9D1A134E8200FA9401 /* PastaTab_Beige.psd */; };
+		ABCBADDE1A134E8200FA9401 /* PastaTab_Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD9E1A134E8200FA9401 /* PastaTab_Orange.png */; };
+		ABCBADDF1A134E8200FA9401 /* PastaTab_Orange.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD9F1A134E8200FA9401 /* PastaTab_Orange.psd */; };
+		ABCBADE01A134E8200FA9401 /* WhiteBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBADA11A134E8200FA9401 /* WhiteBackButton.png */; };
+		ABCBADE11A134E8200FA9401 /* WhiteBackButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBADA21A134E8200FA9401 /* WhiteBackButton.psd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +139,71 @@
 		ABBEE6161A13166F00B3AA1C /* MenuGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuGuide.m; sourceTree = "<group>"; };
 		ABCBAD4D1A13352800FA9401 /* CustomCellMenuGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellMenuGuide.h; sourceTree = "<group>"; };
 		ABCBAD4E1A13352800FA9401 /* CustomCellMenuGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellMenuGuide.m; sourceTree = "<group>"; };
+		ABCBAD501A134BB600FA9401 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		ABCBAD511A134BB600FA9401 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		ABCBAD561A134E8200FA9401 /* DivideDots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DivideDots.png; sourceTree = "<group>"; };
+		ABCBAD571A134E8200FA9401 /* DivideDots.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = DivideDots.psd; sourceTree = "<group>"; };
+		ABCBAD591A134E8200FA9401 /* GrayOutMenuItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrayOutMenuItem.png; sourceTree = "<group>"; };
+		ABCBAD5A1A134E8200FA9401 /* GrayOutMenuItem.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = GrayOutMenuItem.psd; sourceTree = "<group>"; };
+		ABCBAD5C1A134E8200FA9401 /* HomeNavButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeNavButton.png; sourceTree = "<group>"; };
+		ABCBAD5D1A134E8200FA9401 /* HomeNavButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = HomeNavButton.psd; sourceTree = "<group>"; };
+		ABCBAD5F1A134E8200FA9401 /* AntipastiMisti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AntipastiMisti.jpg; sourceTree = "<group>"; };
+		ABCBAD601A134E8200FA9401 /* MusselsAlForno2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MusselsAlForno2.jpg; sourceTree = "<group>"; };
+		ABCBAD611A134E8200FA9401 /* OystersRockefeller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OystersRockefeller.jpg; sourceTree = "<group>"; };
+		ABCBAD621A134E8200FA9401 /* PrimoLettuces.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PrimoLettuces.jpg; sourceTree = "<group>"; };
+		ABCBAD631A134E8200FA9401 /* WagyuBeefTartare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WagyuBeefTartare.jpg; sourceTree = "<group>"; };
+		ABCBAD641A134E8200FA9401 /* WildMushroomTart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WildMushroomTart.jpg; sourceTree = "<group>"; };
+		ABCBAD651A134E8200FA9401 /* WineBraisedOctopus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WineBraisedOctopus.jpg; sourceTree = "<group>"; };
+		ABCBAD671A134E8200FA9401 /* ItemName_MusselForno_Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemName_MusselForno_Orange.png; sourceTree = "<group>"; };
+		ABCBAD681A134E8200FA9401 /* ItemName_MusselForno_Orange.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemName_MusselForno_Orange.psd; sourceTree = "<group>"; };
+		ABCBAD691A134E8200FA9401 /* ItemName_OystersRocke_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemName_OystersRocke_Beige.png; sourceTree = "<group>"; };
+		ABCBAD6A1A134E8200FA9401 /* ItemName_OystersRocke_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemName_OystersRocke_Beige.psd; sourceTree = "<group>"; };
+		ABCBAD6B1A134E8200FA9401 /* ItemName_OystersRocke_Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemName_OystersRocke_Orange.png; sourceTree = "<group>"; };
+		ABCBAD6C1A134E8200FA9401 /* ItemName_OystersRocke_Orange.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemName_OystersRocke_Orange.psd; sourceTree = "<group>"; };
+		ABCBAD6D1A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemName_PrimoLettuce_Beige.png; sourceTree = "<group>"; };
+		ABCBAD6E1A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemName_PrimoLettuce_Beige.psd; sourceTree = "<group>"; };
+		ABCBAD6F1A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemName_PrimoLettuce_Orange.png; sourceTree = "<group>"; };
+		ABCBAD701A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemName_PrimoLettuce_Orange.psd; sourceTree = "<group>"; };
+		ABCBAD721A134E8200FA9401 /* ItemName_BlankTab_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemName_BlankTab_Beige.png; sourceTree = "<group>"; };
+		ABCBAD731A134E8200FA9401 /* ItemName_BlankTab_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemName_BlankTab_Beige.psd; sourceTree = "<group>"; };
+		ABCBAD751A134E8200FA9401 /* ItemName_BlankTab_Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemName_BlankTab_Orange.png; sourceTree = "<group>"; };
+		ABCBAD761A134E8200FA9401 /* ItemName_BlankTab_Orange.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemName_BlankTab_Orange.psd; sourceTree = "<group>"; };
+		ABCBAD771A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemNames_AntipastiMisti_Orange.png; sourceTree = "<group>"; };
+		ABCBAD781A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemNames_AntipastiMisti_Orange.psd; sourceTree = "<group>"; };
+		ABCBAD791A134E8200FA9401 /* ItemNames_MusselsForno_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemNames_MusselsForno_Beige.png; sourceTree = "<group>"; };
+		ABCBAD7A1A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemNames_MusselsForno_Beige.psd; sourceTree = "<group>"; };
+		ABCBAD7B1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Page2_ItemName_AntipastiMisti_Beige.png; sourceTree = "<group>"; };
+		ABCBAD7C1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Page2_ItemName_AntipastiMisti_Beige.psd; sourceTree = "<group>"; };
+		ABCBAD7E1A134E8200FA9401 /* NavBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarBackground.png; sourceTree = "<group>"; };
+		ABCBAD7F1A134E8200FA9401 /* NavBarBackground.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavBarBackground.psd; sourceTree = "<group>"; };
+		ABCBAD811A134E8200FA9401 /* NavBar_Primo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBar_Primo.png; sourceTree = "<group>"; };
+		ABCBAD821A134E8200FA9401 /* NavBar_Primo.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavBar_Primo.psd; sourceTree = "<group>"; };
+		ABCBAD841A134E8200FA9401 /* ReviewStars_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReviewStars_2.png; sourceTree = "<group>"; };
+		ABCBAD851A134E8200FA9401 /* ReviewStars_2.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReviewStars_2.psd; sourceTree = "<group>"; };
+		ABCBAD871A134E8200FA9401 /* ReviewStars_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReviewStars_3.png; sourceTree = "<group>"; };
+		ABCBAD881A134E8200FA9401 /* ReviewStars_3.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReviewStars_3.psd; sourceTree = "<group>"; };
+		ABCBAD8A1A134E8200FA9401 /* ReviewStars_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReviewStars_4.png; sourceTree = "<group>"; };
+		ABCBAD8B1A134E8200FA9401 /* ReviewStars_4.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReviewStars_4.psd; sourceTree = "<group>"; };
+		ABCBAD8D1A134E8200FA9401 /* ReviewStars_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReviewStars_5.png; sourceTree = "<group>"; };
+		ABCBAD8E1A134E8200FA9401 /* ReviewStars_5.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReviewStars_5.psd; sourceTree = "<group>"; };
+		ABCBAD901A134E8200FA9401 /* AppetizerTab_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppetizerTab_Beige.png; sourceTree = "<group>"; };
+		ABCBAD911A134E8200FA9401 /* AppetizerTab_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppetizerTab_Beige.psd; sourceTree = "<group>"; };
+		ABCBAD921A134E8200FA9401 /* AppetizerTab_Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppetizerTab_Orange.png; sourceTree = "<group>"; };
+		ABCBAD931A134E8200FA9401 /* AppetizerTab_Orange.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppetizerTab_Orange.psd; sourceTree = "<group>"; };
+		ABCBAD941A134E8200FA9401 /* BeverageTab_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeverageTab_Beige.png; sourceTree = "<group>"; };
+		ABCBAD951A134E8200FA9401 /* BeverageTab_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BeverageTab_Beige.psd; sourceTree = "<group>"; };
+		ABCBAD961A134E8200FA9401 /* BeverageTab_Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeverageTab_Orange.png; sourceTree = "<group>"; };
+		ABCBAD971A134E8200FA9401 /* BeverageTab_Orange.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BeverageTab_Orange.psd; sourceTree = "<group>"; };
+		ABCBAD981A134E8200FA9401 /* EntreeTab_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EntreeTab_Beige.png; sourceTree = "<group>"; };
+		ABCBAD991A134E8200FA9401 /* EntreeTab_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = EntreeTab_Beige.psd; sourceTree = "<group>"; };
+		ABCBAD9A1A134E8200FA9401 /* EntreeTab_Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EntreeTab_Orange.png; sourceTree = "<group>"; };
+		ABCBAD9B1A134E8200FA9401 /* EntreeTab_Orange.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = EntreeTab_Orange.psd; sourceTree = "<group>"; };
+		ABCBAD9C1A134E8200FA9401 /* PastaTab_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PastaTab_Beige.png; sourceTree = "<group>"; };
+		ABCBAD9D1A134E8200FA9401 /* PastaTab_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PastaTab_Beige.psd; sourceTree = "<group>"; };
+		ABCBAD9E1A134E8200FA9401 /* PastaTab_Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PastaTab_Orange.png; sourceTree = "<group>"; };
+		ABCBAD9F1A134E8200FA9401 /* PastaTab_Orange.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PastaTab_Orange.psd; sourceTree = "<group>"; };
+		ABCBADA11A134E8200FA9401 /* WhiteBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteBackButton.png; sourceTree = "<group>"; };
+		ABCBADA21A134E8200FA9401 /* WhiteBackButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteBackButton.psd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +320,7 @@
 			isa = PBXGroup;
 			children = (
 				AB4A7EFD1A131950000D2EB4 /* Menu Guide Page */,
+				ABCBAD531A134C3700FA9401 /* Menu View Page */,
 			);
 			name = "Customer Side";
 			sourceTree = "<group>";
@@ -199,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				ABBEE5F31A13103F00B3AA1C /* Page1 */,
+				ABCBAD541A134E8200FA9401 /* Page2 */,
 			);
 			name = "Customer Images";
 			sourceTree = "<group>";
@@ -248,6 +379,206 @@
 				ABBEE6001A13103F00B3AA1C /* Page1_RestaurantButton.png */,
 			);
 			path = RestaurantButtonBackground;
+			sourceTree = "<group>";
+		};
+		ABCBAD531A134C3700FA9401 /* Menu View Page */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD501A134BB600FA9401 /* MenuView.h */,
+				ABCBAD511A134BB600FA9401 /* MenuView.m */,
+			);
+			name = "Menu View Page";
+			sourceTree = "<group>";
+		};
+		ABCBAD541A134E8200FA9401 /* Page2 */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD551A134E8200FA9401 /* DividingDots */,
+				ABCBAD581A134E8200FA9401 /* GrayOutMenuItem */,
+				ABCBAD5B1A134E8200FA9401 /* HomeNavButton */,
+				ABCBAD5E1A134E8200FA9401 /* Images */,
+				ABCBAD661A134E8200FA9401 /* ItemNames */,
+				ABCBAD7D1A134E8200FA9401 /* NavBarBackground */,
+				ABCBAD801A134E8200FA9401 /* NavBarTitle */,
+				ABCBAD831A134E8200FA9401 /* ReviewStars2 */,
+				ABCBAD861A134E8200FA9401 /* ReviewStars3 */,
+				ABCBAD891A134E8200FA9401 /* ReviewStars4 */,
+				ABCBAD8C1A134E8200FA9401 /* ReviewStars5 */,
+				ABCBAD8F1A134E8200FA9401 /* Tabs */,
+				ABCBADA01A134E8200FA9401 /* WhiteBackButton */,
+			);
+			name = Page2;
+			path = Page1/Page2;
+			sourceTree = "<group>";
+		};
+		ABCBAD551A134E8200FA9401 /* DividingDots */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD561A134E8200FA9401 /* DivideDots.png */,
+				ABCBAD571A134E8200FA9401 /* DivideDots.psd */,
+			);
+			path = DividingDots;
+			sourceTree = "<group>";
+		};
+		ABCBAD581A134E8200FA9401 /* GrayOutMenuItem */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD591A134E8200FA9401 /* GrayOutMenuItem.png */,
+				ABCBAD5A1A134E8200FA9401 /* GrayOutMenuItem.psd */,
+			);
+			path = GrayOutMenuItem;
+			sourceTree = "<group>";
+		};
+		ABCBAD5B1A134E8200FA9401 /* HomeNavButton */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD5C1A134E8200FA9401 /* HomeNavButton.png */,
+				ABCBAD5D1A134E8200FA9401 /* HomeNavButton.psd */,
+			);
+			path = HomeNavButton;
+			sourceTree = "<group>";
+		};
+		ABCBAD5E1A134E8200FA9401 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD5F1A134E8200FA9401 /* AntipastiMisti.jpg */,
+				ABCBAD601A134E8200FA9401 /* MusselsAlForno2.jpg */,
+				ABCBAD611A134E8200FA9401 /* OystersRockefeller.jpg */,
+				ABCBAD621A134E8200FA9401 /* PrimoLettuces.jpg */,
+				ABCBAD631A134E8200FA9401 /* WagyuBeefTartare.jpg */,
+				ABCBAD641A134E8200FA9401 /* WildMushroomTart.jpg */,
+				ABCBAD651A134E8200FA9401 /* WineBraisedOctopus.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		ABCBAD661A134E8200FA9401 /* ItemNames */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD671A134E8200FA9401 /* ItemName_MusselForno_Orange.png */,
+				ABCBAD681A134E8200FA9401 /* ItemName_MusselForno_Orange.psd */,
+				ABCBAD691A134E8200FA9401 /* ItemName_OystersRocke_Beige.png */,
+				ABCBAD6A1A134E8200FA9401 /* ItemName_OystersRocke_Beige.psd */,
+				ABCBAD6B1A134E8200FA9401 /* ItemName_OystersRocke_Orange.png */,
+				ABCBAD6C1A134E8200FA9401 /* ItemName_OystersRocke_Orange.psd */,
+				ABCBAD6D1A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.png */,
+				ABCBAD6E1A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.psd */,
+				ABCBAD6F1A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.png */,
+				ABCBAD701A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.psd */,
+				ABCBAD711A134E8200FA9401 /* ItemNameBlankTabeBeige */,
+				ABCBAD741A134E8200FA9401 /* ItemNameBlankTabOrange */,
+				ABCBAD771A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.png */,
+				ABCBAD781A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.psd */,
+				ABCBAD791A134E8200FA9401 /* ItemNames_MusselsForno_Beige.png */,
+				ABCBAD7A1A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd */,
+				ABCBAD7B1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png */,
+				ABCBAD7C1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd */,
+			);
+			path = ItemNames;
+			sourceTree = "<group>";
+		};
+		ABCBAD711A134E8200FA9401 /* ItemNameBlankTabeBeige */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD721A134E8200FA9401 /* ItemName_BlankTab_Beige.png */,
+				ABCBAD731A134E8200FA9401 /* ItemName_BlankTab_Beige.psd */,
+			);
+			path = ItemNameBlankTabeBeige;
+			sourceTree = "<group>";
+		};
+		ABCBAD741A134E8200FA9401 /* ItemNameBlankTabOrange */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD751A134E8200FA9401 /* ItemName_BlankTab_Orange.png */,
+				ABCBAD761A134E8200FA9401 /* ItemName_BlankTab_Orange.psd */,
+			);
+			path = ItemNameBlankTabOrange;
+			sourceTree = "<group>";
+		};
+		ABCBAD7D1A134E8200FA9401 /* NavBarBackground */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD7E1A134E8200FA9401 /* NavBarBackground.png */,
+				ABCBAD7F1A134E8200FA9401 /* NavBarBackground.psd */,
+			);
+			path = NavBarBackground;
+			sourceTree = "<group>";
+		};
+		ABCBAD801A134E8200FA9401 /* NavBarTitle */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD811A134E8200FA9401 /* NavBar_Primo.png */,
+				ABCBAD821A134E8200FA9401 /* NavBar_Primo.psd */,
+			);
+			path = NavBarTitle;
+			sourceTree = "<group>";
+		};
+		ABCBAD831A134E8200FA9401 /* ReviewStars2 */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD841A134E8200FA9401 /* ReviewStars_2.png */,
+				ABCBAD851A134E8200FA9401 /* ReviewStars_2.psd */,
+			);
+			path = ReviewStars2;
+			sourceTree = "<group>";
+		};
+		ABCBAD861A134E8200FA9401 /* ReviewStars3 */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD871A134E8200FA9401 /* ReviewStars_3.png */,
+				ABCBAD881A134E8200FA9401 /* ReviewStars_3.psd */,
+			);
+			path = ReviewStars3;
+			sourceTree = "<group>";
+		};
+		ABCBAD891A134E8200FA9401 /* ReviewStars4 */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD8A1A134E8200FA9401 /* ReviewStars_4.png */,
+				ABCBAD8B1A134E8200FA9401 /* ReviewStars_4.psd */,
+			);
+			path = ReviewStars4;
+			sourceTree = "<group>";
+		};
+		ABCBAD8C1A134E8200FA9401 /* ReviewStars5 */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD8D1A134E8200FA9401 /* ReviewStars_5.png */,
+				ABCBAD8E1A134E8200FA9401 /* ReviewStars_5.psd */,
+			);
+			path = ReviewStars5;
+			sourceTree = "<group>";
+		};
+		ABCBAD8F1A134E8200FA9401 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBAD901A134E8200FA9401 /* AppetizerTab_Beige.png */,
+				ABCBAD911A134E8200FA9401 /* AppetizerTab_Beige.psd */,
+				ABCBAD921A134E8200FA9401 /* AppetizerTab_Orange.png */,
+				ABCBAD931A134E8200FA9401 /* AppetizerTab_Orange.psd */,
+				ABCBAD941A134E8200FA9401 /* BeverageTab_Beige.png */,
+				ABCBAD951A134E8200FA9401 /* BeverageTab_Beige.psd */,
+				ABCBAD961A134E8200FA9401 /* BeverageTab_Orange.png */,
+				ABCBAD971A134E8200FA9401 /* BeverageTab_Orange.psd */,
+				ABCBAD981A134E8200FA9401 /* EntreeTab_Beige.png */,
+				ABCBAD991A134E8200FA9401 /* EntreeTab_Beige.psd */,
+				ABCBAD9A1A134E8200FA9401 /* EntreeTab_Orange.png */,
+				ABCBAD9B1A134E8200FA9401 /* EntreeTab_Orange.psd */,
+				ABCBAD9C1A134E8200FA9401 /* PastaTab_Beige.png */,
+				ABCBAD9D1A134E8200FA9401 /* PastaTab_Beige.psd */,
+				ABCBAD9E1A134E8200FA9401 /* PastaTab_Orange.png */,
+				ABCBAD9F1A134E8200FA9401 /* PastaTab_Orange.psd */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		ABCBADA01A134E8200FA9401 /* WhiteBackButton */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBADA11A134E8200FA9401 /* WhiteBackButton.png */,
+				ABCBADA21A134E8200FA9401 /* WhiteBackButton.psd */,
+			);
+			path = WhiteBackButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,15 +658,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABBEE6061A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide.png in Resources */,
+				ABCBADB61A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.png in Resources */,
+				ABCBADAA1A134E8200FA9401 /* MusselsAlForno2.jpg in Resources */,
+				ABCBADC51A134E8200FA9401 /* NavBarBackground.psd in Resources */,
+				ABCBADC31A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd in Resources */,
+				ABCBADCE1A134E8200FA9401 /* ReviewStars_5.png in Resources */,
+				ABCBADDE1A134E8200FA9401 /* PastaTab_Orange.png in Resources */,
+				ABCBADA41A134E8200FA9401 /* DivideDots.psd in Resources */,
+				ABCBADAE1A134E8200FA9401 /* WildMushroomTart.jpg in Resources */,
+				ABCBADBB1A134E8200FA9401 /* ItemName_BlankTab_Beige.psd in Resources */,
+				ABCBADD41A134E8200FA9401 /* BeverageTab_Beige.png in Resources */,
 				ABBEE6081A13103F00B3AA1C /* NavBarBackground.png in Resources */,
+				ABCBADCA1A134E8200FA9401 /* ReviewStars_3.png in Resources */,
+				ABCBADD21A134E8200FA9401 /* AppetizerTab_Orange.png in Resources */,
+				ABCBADD91A134E8200FA9401 /* EntreeTab_Beige.psd in Resources */,
+				ABCBADBC1A134E8200FA9401 /* ItemName_BlankTab_Orange.png in Resources */,
+				ABCBADA51A134E8200FA9401 /* GrayOutMenuItem.png in Resources */,
+				ABCBADCD1A134E8200FA9401 /* ReviewStars_4.psd in Resources */,
+				ABCBADB41A134E8200FA9401 /* ItemName_OystersRocke_Orange.png in Resources */,
+				ABCBADD51A134E8200FA9401 /* BeverageTab_Beige.psd in Resources */,
+				ABCBADC01A134E8200FA9401 /* ItemNames_MusselsForno_Beige.png in Resources */,
+				ABCBADE01A134E8200FA9401 /* WhiteBackButton.png in Resources */,
+				ABCBADBA1A134E8200FA9401 /* ItemName_BlankTab_Beige.png in Resources */,
+				ABCBADD81A134E8200FA9401 /* EntreeTab_Beige.png in Resources */,
+				ABCBADCF1A134E8200FA9401 /* ReviewStars_5.psd in Resources */,
 				ABBEE6021A13103F00B3AA1C /* GuestSideHomeImage.jpg in Resources */,
+				ABCBADD01A134E8200FA9401 /* AppetizerTab_Beige.png in Resources */,
+				ABCBADAF1A134E8200FA9401 /* WineBraisedOctopus.jpg in Resources */,
 				ABBEE6041A13103F00B3AA1C /* JWMarriottLogo.psd in Resources */,
+				ABCBADB11A134E8200FA9401 /* ItemName_MusselForno_Orange.psd in Resources */,
+				ABCBADCB1A134E8200FA9401 /* ReviewStars_3.psd in Resources */,
+				ABCBADA31A134E8200FA9401 /* DivideDots.png in Resources */,
+				ABCBADD11A134E8200FA9401 /* AppetizerTab_Beige.psd in Resources */,
+				ABCBADB51A134E8200FA9401 /* ItemName_OystersRocke_Orange.psd in Resources */,
+				ABCBADB01A134E8200FA9401 /* ItemName_MusselForno_Orange.png in Resources */,
+				ABCBADC71A134E8200FA9401 /* NavBar_Primo.psd in Resources */,
 				ABBEE60A1A13103F00B3AA1C /* Page1_RestaurantButton.png in Resources */,
+				ABCBADDA1A134E8200FA9401 /* EntreeTab_Orange.png in Resources */,
+				ABCBADB21A134E8200FA9401 /* ItemName_OystersRocke_Beige.png in Resources */,
+				ABCBADB81A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.png in Resources */,
 				ABBEE5CD1A130BE800B3AA1C /* Images.xcassets in Resources */,
+				ABCBADA81A134E8200FA9401 /* HomeNavButton.psd in Resources */,
 				ABBEE5BF1A130BE800B3AA1C /* InfoPlist.strings in Resources */,
+				ABCBADC21A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png in Resources */,
+				ABCBADD61A134E8200FA9401 /* BeverageTab_Orange.png in Resources */,
+				ABCBADBF1A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.psd in Resources */,
+				ABCBADD31A134E8200FA9401 /* AppetizerTab_Orange.psd in Resources */,
 				ABBEE6071A13103F00B3AA1C /* NavBar_J.W.png in Resources */,
+				ABCBADDB1A134E8200FA9401 /* EntreeTab_Orange.psd in Resources */,
+				ABCBADA91A134E8200FA9401 /* AntipastiMisti.jpg in Resources */,
+				ABCBADCC1A134E8200FA9401 /* ReviewStars_4.png in Resources */,
+				ABCBADC91A134E8200FA9401 /* ReviewStars_2.psd in Resources */,
+				ABCBADC11A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd in Resources */,
+				ABCBADBE1A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.png in Resources */,
 				ABBEE6031A13103F00B3AA1C /* JWMarriottLogo.png in Resources */,
+				ABCBADC61A134E8200FA9401 /* NavBar_Primo.png in Resources */,
 				ABBEE5C81A130BE800B3AA1C /* Main.storyboard in Resources */,
+				ABCBADAC1A134E8200FA9401 /* PrimoLettuces.jpg in Resources */,
+				ABCBADC81A134E8200FA9401 /* ReviewStars_2.png in Resources */,
+				ABCBADAB1A134E8200FA9401 /* OystersRockefeller.jpg in Resources */,
+				ABCBADDF1A134E8200FA9401 /* PastaTab_Orange.psd in Resources */,
+				ABCBADDD1A134E8200FA9401 /* PastaTab_Beige.psd in Resources */,
+				ABCBADC41A134E8200FA9401 /* NavBarBackground.png in Resources */,
+				ABCBADB31A134E8200FA9401 /* ItemName_OystersRocke_Beige.psd in Resources */,
+				ABCBADB71A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.psd in Resources */,
+				ABCBADBD1A134E8200FA9401 /* ItemName_BlankTab_Orange.psd in Resources */,
+				ABCBADA61A134E8200FA9401 /* GrayOutMenuItem.psd in Resources */,
+				ABCBADDC1A134E8200FA9401 /* PastaTab_Beige.png in Resources */,
+				ABCBADB91A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.psd in Resources */,
+				ABCBADAD1A134E8200FA9401 /* WagyuBeefTartare.jpg in Resources */,
+				ABCBADE11A134E8200FA9401 /* WhiteBackButton.psd in Resources */,
+				ABCBADA71A134E8200FA9401 /* HomeNavButton.png in Resources */,
+				ABCBADD71A134E8200FA9401 /* BeverageTab_Orange.psd in Resources */,
 				ABBEE6051A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +754,7 @@
 				ABCBAD4F1A13352800FA9401 /* CustomCellMenuGuide.m in Sources */,
 				ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */,
 				ABBEE5C11A130BE800B3AA1C /* main.m in Sources */,
+				ABCBAD521A134BB600FA9401 /* MenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,7 +25,7 @@
     [[UINavigationBar appearance] setTitleTextAttributes: @{
                                                             NSForegroundColorAttributeName: [UIColor whiteColor],
                                                             
-                                                            NSFontAttributeName: [UIFont fontWithName:@"Helvetica" size:14.0f],
+                                                            NSFontAttributeName: [UIFont fontWithName:@"Helvetica" size:20.0f],
                                                             
                                                             }];
     return YES;
