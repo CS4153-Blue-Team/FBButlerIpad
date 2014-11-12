@@ -112,19 +112,11 @@
     //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cells" forIndexPath:indexPath];
     
     // Config cell
-    // Note: addSubview is used to remove the default left indentation in iOS 7
-    
     cell.backgroundColor = [UIColor clearColor];
     
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 309, 120)];
     imageView.image = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
 
-    //Check whether a cell needs to be reloaded
-//    if([self.cellload[indexPath.row] boolValue]==NO){
-//        //[cell.contentView addSubview:imageView];
-//        [self.cellload removeObjectAtIndex:indexPath.row];
-//        [self.cellload insertObject:@"YES" atIndex:indexPath.row];
-//    }
     
     cell.cellName.text =  self.name[indexPath.row];
     cell.cellType.text = self.type[indexPath.row];

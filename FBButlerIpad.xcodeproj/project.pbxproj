@@ -95,6 +95,7 @@
 		ABCBADDF1A134E8200FA9401 /* PastaTab_Orange.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD9F1A134E8200FA9401 /* PastaTab_Orange.psd */; };
 		ABCBADE01A134E8200FA9401 /* WhiteBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBADA11A134E8200FA9401 /* WhiteBackButton.png */; };
 		ABCBADE11A134E8200FA9401 /* WhiteBackButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBADA21A134E8200FA9401 /* WhiteBackButton.psd */; };
+		ABCBADE41A13A4EB00FA9401 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBADE31A13A4EB00FA9401 /* ItemCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -204,6 +205,8 @@
 		ABCBAD9F1A134E8200FA9401 /* PastaTab_Orange.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PastaTab_Orange.psd; sourceTree = "<group>"; };
 		ABCBADA11A134E8200FA9401 /* WhiteBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteBackButton.png; sourceTree = "<group>"; };
 		ABCBADA21A134E8200FA9401 /* WhiteBackButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteBackButton.psd; sourceTree = "<group>"; };
+		ABCBADE21A13A4EB00FA9401 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		ABCBADE31A13A4EB00FA9401 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,6 +389,8 @@
 			children = (
 				ABCBAD501A134BB600FA9401 /* MenuView.h */,
 				ABCBAD511A134BB600FA9401 /* MenuView.m */,
+				ABCBADE21A13A4EB00FA9401 /* ItemCell.h */,
+				ABCBADE31A13A4EB00FA9401 /* ItemCell.m */,
 			);
 			name = "Menu View Page";
 			sourceTree = "<group>";
@@ -752,6 +757,7 @@
 				ABBEE6141A1315A000B3AA1C /* Login.m in Sources */,
 				ABBEE6171A13166F00B3AA1C /* MenuGuide.m in Sources */,
 				ABCBAD4F1A13352800FA9401 /* CustomCellMenuGuide.m in Sources */,
+				ABCBADE41A13A4EB00FA9401 /* ItemCell.m in Sources */,
 				ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */,
 				ABBEE5C11A130BE800B3AA1C /* main.m in Sources */,
 				ABCBAD521A134BB600FA9401 /* MenuView.m in Sources */,
