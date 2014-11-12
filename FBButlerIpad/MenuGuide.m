@@ -55,7 +55,7 @@
     self.type = [NSMutableArray arrayWithObjects:
                  @"Italian",
                  @"American",
-                 @"Japanse",
+                 @"Japanese",
                  @"Bar and Grill",
                  @"Sandwiches",
                  nil];
