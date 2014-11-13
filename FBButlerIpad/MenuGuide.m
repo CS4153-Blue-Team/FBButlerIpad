@@ -11,11 +11,14 @@
 #import "CustomCellMenuGuide.h"
 
 @interface MenuGuide ()
-@property (strong,nonatomic) NSMutableArray *name;
-@property (strong,nonatomic) NSMutableArray *type;
-@property (strong,nonatomic) NSMutableArray *hour;
-@property (strong,nonatomic) NSMutableArray *cellload;
+
+@property (strong,nonatomic) NSMutableArray *name;//Restaurant's name
+@property (strong,nonatomic) NSMutableArray *type;//Restaurant's type
+@property (strong,nonatomic) NSMutableArray *hour;//Restaurant's hours
+
+//Used to get a restaurant's name from a selected cell
 @property (strong,nonatomic) NSIndexPath *index;
+
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 
@@ -36,6 +39,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //Load a image for the title on navigatin bar
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"NavBar_J.W.png"]];
 
     
@@ -44,7 +48,7 @@
 }
 
 -(void) setupList{
-    //Following codes are for testing purpose
+    //Following arrays are for testing purpose
     self.name = [NSMutableArray arrayWithObjects:
                      @"Primo",
                      @"Cintron",
@@ -86,13 +90,14 @@
 }
 
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {    // Return the number of rows in the section.
-    
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    // Return the number of rows in the section.
     return [self.name count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    //Make use of custom cells
     CustomCellMenuGuide *cell = (CustomCellMenuGuide *)[tableView dequeueReusableCellWithIdentifier:@"Cells"];
     
     if (cell == nil)
@@ -101,20 +106,16 @@
         cell = [nib objectAtIndex:0];
     }
     
-
-    
-    //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cells" forIndexPath:indexPath];
-    
     // Config cell
+    //Set the background color of table view to be transparent
     cell.backgroundColor = [UIColor clearColor];
     
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 309, 120)];
-    imageView.image = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
-
-    
+    //Assign restaurant's name, type, and business hours
     cell.cellName.text =  self.name[indexPath.row];
     cell.cellType.text = self.type[indexPath.row];
     cell.cellHour.text = self.hour[indexPath.row];
+    
+    //Get a default image for display purpose
     cell.cellImage.image = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
     
     
@@ -122,6 +123,7 @@
     return cell;
 }
 
+//Perform a segue when a restaurant is selected
 - (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
     self.index = indexPath;
     [self performSegueWithIdentifier:@"menuguide-menuview" sender:self];
@@ -166,8 +168,8 @@
 
 
 
- #pragma mark - Navigation
- 
+#pragma mark - Navigation
+// Prepare for segue before moving to Menu View
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if([segue.identifier isEqualToString:@"menuguide-menuview"]){

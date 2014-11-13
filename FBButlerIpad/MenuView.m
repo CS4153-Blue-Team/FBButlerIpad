@@ -11,19 +11,23 @@
 #import "ItemCell.h"
 
 @interface MenuView ()
+
+//Property for Buttons on Top
+@property (strong,nonatomic) NSMutableArray *buttonList;
+
+//Properties for Table View on the left side
 @property (strong,nonatomic) NSMutableArray *imageList;
 @property (strong,nonatomic) NSMutableArray *nameList;
-@property (strong,nonatomic) NSMutableArray *buttonList;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (assign) int selectedRow;
 
-//Variable for the right panel
-@property (weak, nonatomic) IBOutlet UILabel *theName;
-@property (weak, nonatomic) IBOutlet UILabel *theDescription;
-@property (weak, nonatomic) IBOutlet UILabel *thePrice;
-@property (weak, nonatomic) IBOutlet UILabel *theContent;
-@property (weak, nonatomic) IBOutlet UIImageView *theRating;
-@property (weak, nonatomic) IBOutlet UIImageView *theComment;
+//Properties for the right side
+@property (weak, nonatomic) IBOutlet UILabel *theName;//Food Name
+@property (weak, nonatomic) IBOutlet UILabel *theDescription;//Food's Description
+@property (weak, nonatomic) IBOutlet UILabel *thePrice;//Price
+@property (weak, nonatomic) IBOutlet UILabel *theContent;//Food's ingredients
+@property (weak, nonatomic) IBOutlet UIImageView *theRating;//Star rating
+@property (weak, nonatomic) IBOutlet UIImageView *theComment;//Comment
 
 @end
 
@@ -44,10 +48,10 @@
     // Set restaurant name
     self.navigationItem.title = self.getRestaurant;
     
-    //Create category button
+    //Create category buttons
     [self createButton];
     
-    //Following codes are for testing purpose
+    //Following arrays are for testing purpose
     self.imageList = [NSMutableArray arrayWithObjects:
                      [UIImage imageNamed:@"AntipastiMisti.jpg"],
                      [UIImage imageNamed:@"MusselsAlForno2.jpg"],
@@ -66,6 +70,7 @@
                      @"Wild Mushroom Tart",
                      @"Wine Braised Octopus",
                      nil];
+    
     [self initiateData];
     [self.tableView reloadData];
 }
@@ -97,23 +102,37 @@
         
         [button setTitle:[categories objectAtIndex:i] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-        button.backgroundColor = [MenuGuide hexColor:@"EFE5DB"];
+        
+        if(i==0){
+            //Set orange color on the first botton
+            button.backgroundColor = [MenuGuide hexColor:@"E04E26"];
+            //Set color white on the first botton
+            [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        }else{
+            button.backgroundColor = [MenuGuide hexColor:@"EFE5DB"];
+        }
+        
         button.titleLabel.font = [UIFont fontWithName:@"Times-Bold" size:10];
         button.titleLabel.font = [UIFont systemFontOfSize:22.0f];
         button.frame = CGRectMake(startpoint, 64.0, buttonwidth, 62.0);
         [self.view addSubview:button];
         startpoint+=buttonwidth;
+        
+        //Keep track of buttons for retrieving data later on
         [self.buttonList addObject:button];
     }
 }
 
+//Call an action when a button is tapped
 -(void) tapButton:(UIButton*)sender{
     //Reset font and background color of all buttons
     [self resetButton];
     //Change font and background color of the selected button
     [sender setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    //Set orange color on the selected botton
     sender.backgroundColor = [MenuGuide hexColor:@"E04E26"];
 }
+
 
 //Reset font and background color of all buttons
 -(void) resetButton{
@@ -195,8 +214,11 @@
 
 // Initiate Data on the first loading
 -(void) initiateData{
+    //Get the first name of food on the first category
     self.theName.text = self.nameList[0];
     self.theName.textColor = [MenuGuide hexColor:@"AB2025"];
+    
+    
 
 }
 /*
