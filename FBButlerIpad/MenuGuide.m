@@ -9,12 +9,19 @@
 #import "MenuGuide.h"
 #import "MenuView.h"
 #import "CustomCellMenuGuide.h"
+#import "Restaurant.h"
+#import "Hotel.h"
+#import "HotelNetworking.h"
+#import "RestaurantNetworking.h"
 
 @interface MenuGuide ()
 
-@property (strong,nonatomic) NSMutableArray *name;//Restaurant's name
+/*@property (strong,nonatomic) NSMutableArray *name;//Restaurant's name
 @property (strong,nonatomic) NSMutableArray *type;//Restaurant's type
-@property (strong,nonatomic) NSMutableArray *hour;//Restaurant's hours
+@property (strong,nonatomic) NSMutableArray *hour;//Restaurant's hours*/
+
+@property NSMutableArray *restaurants;
+@property Hotel* hotel;
 
 //Used to get a restaurant's name from a selected cell
 @property (strong,nonatomic) NSIndexPath *index;
@@ -31,6 +38,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        
         // Custom initialization
     }
     return self;
@@ -38,10 +46,30 @@
 
 - (void)viewDidLoad
 {
+    //NOT CURRENTLY MULTITHREAD...
+    
     [super viewDidLoad];
     //Load a image for the title on navigatin bar
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"NavBar_J.W.png"]];
-
+    [self setLoading:true];
+    
+    self.hotel = [HotelNetworking fakeGetHotelWithDelay:1 requestFailed:false];
+    if (self.hotel == nil)
+    {
+        NSLog(@"TODO: ALERT VIEW!!!");
+        return;
+    }
+    self.restaurants = [NSMutableArray arrayWithArray:[RestaurantNetworking fakeGetAllRestForHotel:self.hotel withDelay:(1) withFail:(false)]];
+    if (self.restaurants == nil)
+    {
+        NSLog(@"TODO: ALERT VIEW");
+    }
+    
+    NSLog(@"Restaurant count in view did load %i",self.restaurants.count);
+    
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:self.hotel.image];/*[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"NavBar_J.W.png"]];*/
+    //[self setLoading:true];
+    //[NSThread sleepForTimeInterval:3];
+    [self setLoading:false];
     
 
     [self setupList];
@@ -49,7 +77,7 @@
 
 -(void) setupList{
     //Following arrays are for testing purpose
-    self.name = [NSMutableArray arrayWithObjects:
+    /*self.name = [NSMutableArray arrayWithObjects:
                      @"Primo",
                      @"Cintron",
                      @"Sushi Bar",
@@ -72,7 +100,7 @@
                  @"6p-10p,Daily",
                  @"11a-10p,Daily",
                  @"8a-8p, Daily",
-                 nil];
+                 nil];*/
 }
 
 - (void)didReceiveMemoryWarning
@@ -92,7 +120,8 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return [self.name count];
+    NSLog(@"Restaurant count: %i",[self.restaurants count]);
+    return [self.restaurants count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -100,24 +129,23 @@
     //Make use of custom cells
     CustomCellMenuGuide *cell = (CustomCellMenuGuide *)[tableView dequeueReusableCellWithIdentifier:@"Cells"];
     
-    if (cell == nil)
+    /*if (cell == nil)
     {
         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"CustomCellMenuGuide" owner:self options:nil];
         cell = [nib objectAtIndex:0];
-    }
+    }*/
     
     // Config cell
     //Set the background color of table view to be transparent
     cell.backgroundColor = [UIColor clearColor];
     
     //Assign restaurant's name, type, and business hours
-    cell.cellName.text =  self.name[indexPath.row];
+    /*cell.cellName.text =  self.name[indexPath.row];
     cell.cellType.text = self.type[indexPath.row];
-    cell.cellHour.text = self.hour[indexPath.row];
+    cell.cellHour.text = self.hour[indexPath.row];*/
     
     //Get a default image for display purpose
-    cell.cellImage.image = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
-    
+    cell.cellImage.image = ((Restaurant*)self.restaurants[indexPath.row]).buttonImage ;
     
     
     return cell;
@@ -166,7 +194,19 @@
                            alpha:1.0f];
 }
 
-
+-(void) setLoading:(bool) loading
+{
+    if (loading)
+    {
+        [[UIApplication sharedApplication] beginIgnoringInteractionEvents];
+        [self.activityIndicator startAnimating];
+    }
+    else
+    {
+        [[UIApplication sharedApplication] endIgnoringInteractionEvents];
+        [self.activityIndicator stopAnimating];
+    }
+}
 
 #pragma mark - Navigation
 // Prepare for segue before moving to Menu View
@@ -174,7 +214,7 @@
 {
     if([segue.identifier isEqualToString:@"menuguide-menuview"]){
         MenuView *sub = segue.destinationViewController;
-        sub.getRestaurant = self.name[self.index.row];
+        sub.restaurant = self.restaurants[self.index.row];
     }
 }
 

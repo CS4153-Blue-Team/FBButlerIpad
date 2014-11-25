@@ -13,5 +13,6 @@
 //Public class method to set a color with 6 digits hex string e.g @"#FFFFFF"
 +(UIColor*)hexColor:(NSString*)hex;
 
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 @end
