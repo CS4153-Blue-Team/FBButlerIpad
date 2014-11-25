@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Hung Vo. All rights reserved.
 //
 
+//Use: Customize cells inside a table view
 #import "CustomCellMenuGuide.h"
 
 

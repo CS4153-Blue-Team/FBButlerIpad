@@ -42,4 +42,9 @@
     [self performSegueWithIdentifier:@"login-menuguide" sender:self];
 }
 
+//Tap a button to go to Menu Butler
+- (IBAction)tapEmployee:(id)sender {
+    [self performSegueWithIdentifier:@"login-menubutler" sender:self];
+}
+
 @end

@@ -7,6 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0125EA451A15B7CD0034F85B /* Menu Butler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125EA441A15B7CD0034F85B /* Menu Butler.m */; };
+		0125EA7F1A1732560034F85B /* EditInventory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125EA7E1A1732560034F85B /* EditInventory.m */; };
+		0125EAA61A1740350034F85B /* add item button.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA831A1740350034F85B /* add item button.psd */; };
+		0125EAA71A1740350034F85B /* add-item-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA841A1740350034F85B /* add-item-button.png */; };
+		0125EAA81A1740350034F85B /* list alphabet divide.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA861A1740350034F85B /* list alphabet divide.psd */; };
+		0125EAA91A1740350034F85B /* list-alphabet divide.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA871A1740350034F85B /* list-alphabet divide.png */; };
+		0125EAAA1A1740350034F85B /* alphabet slider.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA891A1740350034F85B /* alphabet slider.psd */; };
+		0125EAAB1A1740350034F85B /* alphabet-slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA8A1A1740350034F85B /* alphabet-slider.png */; };
+		0125EAAC1A1740350034F85B /* LineDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA8C1A1740350034F85B /* LineDivider.png */; };
+		0125EAAD1A1740350034F85B /* LineDivider.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA8D1A1740350034F85B /* LineDivider.psd */; };
+		0125EAAE1A1740350034F85B /* slider green.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA8F1A1740350034F85B /* slider green.psd */; };
+		0125EAAF1A1740350034F85B /* slider-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA901A1740350034F85B /* slider-green.png */; };
+		0125EAB01A1740350034F85B /* home button.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA921A1740350034F85B /* home button.psd */; };
+		0125EAB11A1740350034F85B /* home-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA931A1740350034F85B /* home-button.png */; };
+		0125EAB21A1740350034F85B /* ingredient inventory title.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA951A1740350034F85B /* ingredient inventory title.psd */; };
+		0125EAB41A1740350034F85B /* item list space.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA981A1740350034F85B /* item list space.psd */; };
+		0125EAB51A1740350034F85B /* item-list-space.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA991A1740350034F85B /* item-list-space.png */; };
+		0125EAB61A1740350034F85B /* logout button.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA9B1A1740350034F85B /* logout button.psd */; };
+		0125EAB71A1740350034F85B /* logout-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA9C1A1740350034F85B /* logout-button.png */; };
+		0125EAB81A1740350034F85B /* nav bar.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA9E1A1740350034F85B /* nav bar.psd */; };
+		0125EAB91A1740350034F85B /* nav-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EA9F1A1740350034F85B /* nav-bar.png */; };
+		0125EABA1A1740350034F85B /* slider red.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAA11A1740350034F85B /* slider red.psd */; };
+		0125EABB1A1740350034F85B /* slider-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAA21A1740350034F85B /* slider-red.png */; };
+		0125EABC1A1740350034F85B /* WhiteBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAA41A1740350034F85B /* WhiteBackButton.png */; };
+		0125EABD1A1740350034F85B /* WhiteBackButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAA51A1740350034F85B /* WhiteBackButton.psd */; };
+		0125EABF1A1740D20034F85B /* EditInventoryBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0125EABE1A1740D20034F85B /* EditInventoryBanner.jpg */; };
+		0125EAC31A17442A0034F85B /* ingredient-inventory-title.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAC21A17442A0034F85B /* ingredient-inventory-title.png */; };
+		0125EAC71A18598E0034F85B /* Inventory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125EAC61A18598E0034F85B /* Inventory.m */; };
+		0125EAED1A185C700034F85B /* add item button.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EACA1A185C700034F85B /* add item button.psd */; };
+		0125EAEE1A185C700034F85B /* add-item-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EACB1A185C700034F85B /* add-item-button.png */; };
+		0125EAEF1A185C700034F85B /* list alphabet divide.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EACD1A185C700034F85B /* list alphabet divide.psd */; };
+		0125EAF01A185C700034F85B /* list-alphabet divide.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EACE1A185C700034F85B /* list-alphabet divide.png */; };
+		0125EAF11A185C700034F85B /* alphabet slider.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAD01A185C700034F85B /* alphabet slider.psd */; };
+		0125EAF21A185C700034F85B /* alphabet-slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAD11A185C700034F85B /* alphabet-slider.png */; };
+		0125EAF31A185C700034F85B /* LineDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAD31A185C700034F85B /* LineDivider.png */; };
+		0125EAF41A185C700034F85B /* LineDivider.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAD41A185C700034F85B /* LineDivider.psd */; };
+		0125EAF51A185C700034F85B /* slider green.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAD61A185C700034F85B /* slider green.psd */; };
+		0125EAF61A185C700034F85B /* slider-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAD71A185C700034F85B /* slider-green.png */; };
+		0125EAF71A185C700034F85B /* home button.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAD91A185C700034F85B /* home button.psd */; };
+		0125EAF81A185C700034F85B /* home-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EADA1A185C700034F85B /* home-button.png */; };
+		0125EAF91A185C700034F85B /* item list space.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EADC1A185C700034F85B /* item list space.psd */; };
+		0125EAFA1A185C700034F85B /* item-list-space.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EADD1A185C700034F85B /* item-list-space.png */; };
+		0125EAFB1A185C700034F85B /* logout button.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EADF1A185C700034F85B /* logout button.psd */; };
+		0125EAFC1A185C700034F85B /* logout-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAE01A185C700034F85B /* logout-button.png */; };
+		0125EAFD1A185C700034F85B /* menu inventory title.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAE21A185C700034F85B /* menu inventory title.psd */; };
+		0125EAFF1A185C700034F85B /* nav bar.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAE51A185C700034F85B /* nav bar.psd */; };
+		0125EB001A185C700034F85B /* nav-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAE61A185C700034F85B /* nav-bar.png */; };
+		0125EB011A185C700034F85B /* slider red.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAE81A185C700034F85B /* slider red.psd */; };
+		0125EB021A185C700034F85B /* slider-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAE91A185C700034F85B /* slider-red.png */; };
+		0125EB031A185C700034F85B /* WhiteBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAEB1A185C700034F85B /* WhiteBackButton.png */; };
+		0125EB041A185C700034F85B /* WhiteBackButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EAEC1A185C700034F85B /* WhiteBackButton.psd */; };
+		0125EB301A185CA20034F85B /* AllergyDropDownButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB071A185CA20034F85B /* AllergyDropDownButton.png */; };
+		0125EB311A185CA20034F85B /* AllergyDropDownButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB081A185CA20034F85B /* AllergyDropDownButton.psd */; };
+		0125EB321A185CA20034F85B /* BackgroundOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB0A1A185CA20034F85B /* BackgroundOverlay.png */; };
+		0125EB331A185CA20034F85B /* BackgroundOverlay.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB0B1A185CA20034F85B /* BackgroundOverlay.psd */; };
+		0125EB341A185CA20034F85B /* BlackPlusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB0D1A185CA20034F85B /* BlackPlusButton.png */; };
+		0125EB351A185CA20034F85B /* BlackPlusButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB0E1A185CA20034F85B /* BlackPlusButton.psd */; };
+		0125EB361A185CA20034F85B /* BoxLineDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB101A185CA20034F85B /* BoxLineDivider.png */; };
+		0125EB371A185CA20034F85B /* BoxLineDivider.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB111A185CA20034F85B /* BoxLineDivider.psd */; };
+		0125EB381A185CA20034F85B /* CancelButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB131A185CA20034F85B /* CancelButton.png */; };
+		0125EB391A185CA20034F85B /* CancelButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB141A185CA20034F85B /* CancelButton.psd */; };
+		0125EB3A1A185CA20034F85B /* CancelNavButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB161A185CA20034F85B /* CancelNavButton.png */; };
+		0125EB3B1A185CA20034F85B /* CancelNavButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB171A185CA20034F85B /* CancelNavButton.psd */; };
+		0125EB3C1A185CA20034F85B /* DropDownMenuColorCode.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB181A185CA20034F85B /* DropDownMenuColorCode.png */; };
+		0125EB3D1A185CA20034F85B /* EditIngredientInventory.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB1A1A185CA20034F85B /* EditIngredientInventory.png */; };
+		0125EB3E1A185CA20034F85B /* EditIngredientInventory.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB1B1A185CA20034F85B /* EditIngredientInventory.psd */; };
+		0125EB3F1A185CA20034F85B /* EditInventoryBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB1C1A185CA20034F85B /* EditInventoryBanner.jpg */; };
+		0125EB401A185CA20034F85B /* EditInventoryImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB1D1A185CA20034F85B /* EditInventoryImage.jpg */; };
+		0125EB411A185CA20034F85B /* InventoryNavButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB1F1A185CA20034F85B /* InventoryNavButton.png */; };
+		0125EB421A185CA20034F85B /* InventoryNavButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB201A185CA20034F85B /* InventoryNavButton.psd */; };
+		0125EB431A185CA20034F85B /* NavBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB221A185CA20034F85B /* NavBarBackground.png */; };
+		0125EB441A185CA20034F85B /* NavBarBackground.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB231A185CA20034F85B /* NavBarBackground.psd */; };
+		0125EB451A185CA20034F85B /* SaveButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB251A185CA20034F85B /* SaveButton.png */; };
+		0125EB461A185CA20034F85B /* SaveButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB261A185CA20034F85B /* SaveButton.psd */; };
+		0125EB471A185CA20034F85B /* WhiteBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB281A185CA20034F85B /* WhiteBackButton.png */; };
+		0125EB481A185CA20034F85B /* WhiteBackButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB291A185CA20034F85B /* WhiteBackButton.psd */; };
+		0125EB491A185CA20034F85B /* WhiteDropDownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB2B1A185CA20034F85B /* WhiteDropDownArrow.png */; };
+		0125EB4A1A185CA20034F85B /* WhiteDropDownArrow.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB2C1A185CA20034F85B /* WhiteDropDownArrow.psd */; };
+		0125EB4B1A185CA20034F85B /* WhiteTextFieldBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB2E1A185CA20034F85B /* WhiteTextFieldBox.png */; };
+		0125EB4C1A185CA20034F85B /* WhiteTextFieldBox.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB2F1A185CA20034F85B /* WhiteTextFieldBox.psd */; };
+		0125EB4E1A18686B0034F85B /* EditMenuItemBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB4D1A18686B0034F85B /* EditMenuItemBanner.jpg */; };
+		0125EB531A1872440034F85B /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125EB521A1872440034F85B /* Menu.m */; };
+		0125EB571A1874C30034F85B /* EditMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125EB561A1874C30034F85B /* EditMenu.m */; };
+		0125EB591A1876530034F85B /* menu-inventory-title.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EB581A1876530034F85B /* menu-inventory-title.png */; };
+		0125EC0F1A1878A60034F85B /* BackgroundOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBF01A1878A60034F85B /* BackgroundOverlay.png */; };
+		0125EC101A1878A60034F85B /* BackgroundOverlay.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBF11A1878A60034F85B /* BackgroundOverlay.psd */; };
+		0125EC111A1878A60034F85B /* BoxLineDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBF31A1878A60034F85B /* BoxLineDivider.png */; };
+		0125EC121A1878A60034F85B /* BoxLineDivider.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBF41A1878A60034F85B /* BoxLineDivider.psd */; };
+		0125EC131A1878A60034F85B /* CancelButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBF61A1878A60034F85B /* CancelButton.png */; };
+		0125EC141A1878A60034F85B /* CancelButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBF71A1878A60034F85B /* CancelButton.psd */; };
+		0125EC151A1878A60034F85B /* CancelNavButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBF91A1878A60034F85B /* CancelNavButton.png */; };
+		0125EC161A1878A60034F85B /* CancelNavButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBFA1A1878A60034F85B /* CancelNavButton.psd */; };
+		0125EC171A1878A60034F85B /* EditRestaurantBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBFB1A1878A60034F85B /* EditRestaurantBanner.jpg */; };
+		0125EC181A1878A60034F85B /* EditRestaurantImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBFC1A1878A60034F85B /* EditRestaurantImage.jpg */; };
+		0125EC191A1878A60034F85B /* EditRestaurantTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBFE1A1878A60034F85B /* EditRestaurantTitle.png */; };
+		0125EC1A1A1878A60034F85B /* EditRestaurantTitle.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EBFF1A1878A60034F85B /* EditRestaurantTitle.psd */; };
+		0125EC1B1A1878A60034F85B /* HomeNavButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC011A1878A60034F85B /* HomeNavButton.png */; };
+		0125EC1C1A1878A60034F85B /* HomeNavButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC021A1878A60034F85B /* HomeNavButton.psd */; };
+		0125EC1D1A1878A60034F85B /* NavBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC041A1878A60034F85B /* NavBarBackground.png */; };
+		0125EC1E1A1878A60034F85B /* NavBarBackground.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC051A1878A60034F85B /* NavBarBackground.psd */; };
+		0125EC1F1A1878A60034F85B /* SaveButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC071A1878A60034F85B /* SaveButton.png */; };
+		0125EC201A1878A60034F85B /* SaveButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC081A1878A60034F85B /* SaveButton.psd */; };
+		0125EC211A1878A60034F85B /* WhiteBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC0A1A1878A60034F85B /* WhiteBackButton.png */; };
+		0125EC221A1878A60034F85B /* WhiteBackButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC0B1A1878A60034F85B /* WhiteBackButton.psd */; };
+		0125EC231A1878A60034F85B /* WhiteTextFieldBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC0D1A1878A60034F85B /* WhiteTextFieldBox.png */; };
+		0125EC241A1878A60034F85B /* WhiteTextFieldBox.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC0E1A1878A60034F85B /* WhiteTextFieldBox.psd */; };
+		0125EC5C1A1878B20034F85B /* BackgroundOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC271A1878B20034F85B /* BackgroundOverlay.png */; };
+		0125EC5D1A1878B20034F85B /* BackgroundOverlay.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC281A1878B20034F85B /* BackgroundOverlay.psd */; };
+		0125EC5E1A1878B20034F85B /* BlackPlusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC2A1A1878B20034F85B /* BlackPlusButton.png */; };
+		0125EC5F1A1878B20034F85B /* BlackPlusButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC2B1A1878B20034F85B /* BlackPlusButton.psd */; };
+		0125EC601A1878B20034F85B /* BoxLineDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC2D1A1878B20034F85B /* BoxLineDivider.png */; };
+		0125EC611A1878B20034F85B /* BoxLineDivider.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC2E1A1878B20034F85B /* BoxLineDivider.psd */; };
+		0125EC621A1878B20034F85B /* CancelButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC301A1878B20034F85B /* CancelButton.png */; };
+		0125EC631A1878B20034F85B /* CancelButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC311A1878B20034F85B /* CancelButton.psd */; };
+		0125EC641A1878B20034F85B /* CancelNavButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC331A1878B20034F85B /* CancelNavButton.png */; };
+		0125EC651A1878B20034F85B /* CancelNavButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC341A1878B20034F85B /* CancelNavButton.psd */; };
+		0125EC661A1878B20034F85B /* CategoryDropDownButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC361A1878B20034F85B /* CategoryDropDownButton.png */; };
+		0125EC671A1878B20034F85B /* CategoryDropDownButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC371A1878B20034F85B /* CategoryDropDownButton.psd */; };
+		0125EC681A1878B20034F85B /* DropDownMenuColorCode.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC381A1878B20034F85B /* DropDownMenuColorCode.png */; };
+		0125EC691A1878B20034F85B /* EditMenuInventoryTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC3A1A1878B20034F85B /* EditMenuInventoryTitle.png */; };
+		0125EC6A1A1878B20034F85B /* EditMenuInventoryTitle.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC3B1A1878B20034F85B /* EditMenuInventoryTitle.psd */; };
+		0125EC6B1A1878B20034F85B /* EditMenuItemBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC3C1A1878B20034F85B /* EditMenuItemBanner.jpg */; };
+		0125EC6C1A1878B20034F85B /* EditMenuItemImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC3D1A1878B20034F85B /* EditMenuItemImage.jpg */; };
+		0125EC6D1A1878B20034F85B /* ImageButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC3F1A1878B20034F85B /* ImageButton.png */; };
+		0125EC6E1A1878B20034F85B /* ImageButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC401A1878B20034F85B /* ImageButton.psd */; };
+		0125EC6F1A1878B20034F85B /* IngredientDropDownButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC421A1878B20034F85B /* IngredientDropDownButton.png */; };
+		0125EC701A1878B20034F85B /* IngredientDropDownButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC431A1878B20034F85B /* IngredientDropDownButton.psd */; };
+		0125EC711A1878B20034F85B /* InventoryNavButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC451A1878B20034F85B /* InventoryNavButton.png */; };
+		0125EC721A1878B20034F85B /* InventoryNavButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC461A1878B20034F85B /* InventoryNavButton.psd */; };
+		0125EC731A1878B20034F85B /* LargeWhiteTextBoxField.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC481A1878B20034F85B /* LargeWhiteTextBoxField.png */; };
+		0125EC741A1878B20034F85B /* LargeWhiteTextBoxField.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC491A1878B20034F85B /* LargeWhiteTextBoxField.psd */; };
+		0125EC751A1878B20034F85B /* NavBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC4B1A1878B20034F85B /* NavBarBackground.png */; };
+		0125EC761A1878B20034F85B /* NavBarBackground.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC4C1A1878B20034F85B /* NavBarBackground.psd */; };
+		0125EC771A1878B20034F85B /* SaveButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC4E1A1878B20034F85B /* SaveButton.png */; };
+		0125EC781A1878B20034F85B /* SaveButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC4F1A1878B20034F85B /* SaveButton.psd */; };
+		0125EC791A1878B20034F85B /* WhiteBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC511A1878B20034F85B /* WhiteBackButton.png */; };
+		0125EC7A1A1878B20034F85B /* WhiteBackButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC521A1878B20034F85B /* WhiteBackButton.psd */; };
+		0125EC7B1A1878B20034F85B /* WhiteDropDownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC541A1878B20034F85B /* WhiteDropDownArrow.png */; };
+		0125EC7C1A1878B20034F85B /* WhiteDropDownArrow.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC551A1878B20034F85B /* WhiteDropDownArrow.psd */; };
+		0125EC7D1A1878B20034F85B /* WhitePlusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC571A1878B20034F85B /* WhitePlusButton.png */; };
+		0125EC7E1A1878B20034F85B /* WhitePlusButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC581A1878B20034F85B /* WhitePlusButton.psd */; };
+		0125EC7F1A1878B20034F85B /* WhiteTextFieldBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC5A1A1878B20034F85B /* WhiteTextFieldBox.png */; };
+		0125EC801A1878B20034F85B /* WhiteTextFieldBox.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC5B1A1878B20034F85B /* WhiteTextFieldBox.psd */; };
+		0125EC841A187D140034F85B /* EditRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125EC831A187D140034F85B /* EditRestaurant.m */; };
 		ABBEE5B51A130BE800B3AA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B41A130BE800B3AA1C /* Foundation.framework */; };
 		ABBEE5B71A130BE800B3AA1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */; };
 		ABBEE5B91A130BE800B3AA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B81A130BE800B3AA1C /* UIKit.framework */; };
@@ -65,8 +209,6 @@
 		ABCBADC11A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7A1A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd */; };
 		ABCBADC21A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7B1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png */; };
 		ABCBADC31A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7C1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd */; };
-		ABCBADC41A134E8200FA9401 /* NavBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7E1A134E8200FA9401 /* NavBarBackground.png */; };
-		ABCBADC51A134E8200FA9401 /* NavBarBackground.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD7F1A134E8200FA9401 /* NavBarBackground.psd */; };
 		ABCBADC61A134E8200FA9401 /* NavBar_Primo.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD811A134E8200FA9401 /* NavBar_Primo.png */; };
 		ABCBADC71A134E8200FA9401 /* NavBar_Primo.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD821A134E8200FA9401 /* NavBar_Primo.psd */; };
 		ABCBADC81A134E8200FA9401 /* ReviewStars_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD841A134E8200FA9401 /* ReviewStars_2.png */; };
@@ -109,6 +251,156 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0125EA431A15B7CD0034F85B /* Menu Butler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Menu Butler.h"; sourceTree = "<group>"; };
+		0125EA441A15B7CD0034F85B /* Menu Butler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Menu Butler.m"; sourceTree = "<group>"; };
+		0125EA7D1A1732560034F85B /* EditInventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditInventory.h; sourceTree = "<group>"; };
+		0125EA7E1A1732560034F85B /* EditInventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditInventory.m; sourceTree = "<group>"; };
+		0125EA831A1740350034F85B /* add item button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "add item button.psd"; sourceTree = "<group>"; };
+		0125EA841A1740350034F85B /* add-item-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-item-button.png"; sourceTree = "<group>"; };
+		0125EA861A1740350034F85B /* list alphabet divide.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "list alphabet divide.psd"; sourceTree = "<group>"; };
+		0125EA871A1740350034F85B /* list-alphabet divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-alphabet divide.png"; sourceTree = "<group>"; };
+		0125EA891A1740350034F85B /* alphabet slider.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alphabet slider.psd"; sourceTree = "<group>"; };
+		0125EA8A1A1740350034F85B /* alphabet-slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alphabet-slider.png"; sourceTree = "<group>"; };
+		0125EA8C1A1740350034F85B /* LineDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LineDivider.png; sourceTree = "<group>"; };
+		0125EA8D1A1740350034F85B /* LineDivider.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = LineDivider.psd; sourceTree = "<group>"; };
+		0125EA8F1A1740350034F85B /* slider green.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "slider green.psd"; sourceTree = "<group>"; };
+		0125EA901A1740350034F85B /* slider-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-green.png"; sourceTree = "<group>"; };
+		0125EA921A1740350034F85B /* home button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "home button.psd"; sourceTree = "<group>"; };
+		0125EA931A1740350034F85B /* home-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-button.png"; sourceTree = "<group>"; };
+		0125EA951A1740350034F85B /* ingredient inventory title.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ingredient inventory title.psd"; sourceTree = "<group>"; };
+		0125EA981A1740350034F85B /* item list space.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "item list space.psd"; sourceTree = "<group>"; };
+		0125EA991A1740350034F85B /* item-list-space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item-list-space.png"; sourceTree = "<group>"; };
+		0125EA9B1A1740350034F85B /* logout button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "logout button.psd"; sourceTree = "<group>"; };
+		0125EA9C1A1740350034F85B /* logout-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout-button.png"; sourceTree = "<group>"; };
+		0125EA9E1A1740350034F85B /* nav bar.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nav bar.psd"; sourceTree = "<group>"; };
+		0125EA9F1A1740350034F85B /* nav-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar.png"; sourceTree = "<group>"; };
+		0125EAA11A1740350034F85B /* slider red.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "slider red.psd"; sourceTree = "<group>"; };
+		0125EAA21A1740350034F85B /* slider-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-red.png"; sourceTree = "<group>"; };
+		0125EAA41A1740350034F85B /* WhiteBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteBackButton.png; sourceTree = "<group>"; };
+		0125EAA51A1740350034F85B /* WhiteBackButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteBackButton.psd; sourceTree = "<group>"; };
+		0125EABE1A1740D20034F85B /* EditInventoryBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EditInventoryBanner.jpg; sourceTree = "<group>"; };
+		0125EAC21A17442A0034F85B /* ingredient-inventory-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ingredient-inventory-title.png"; sourceTree = "<group>"; };
+		0125EAC51A18598E0034F85B /* Inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inventory.h; sourceTree = "<group>"; };
+		0125EAC61A18598E0034F85B /* Inventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inventory.m; sourceTree = "<group>"; };
+		0125EACA1A185C700034F85B /* add item button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "add item button.psd"; sourceTree = "<group>"; };
+		0125EACB1A185C700034F85B /* add-item-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-item-button.png"; sourceTree = "<group>"; };
+		0125EACD1A185C700034F85B /* list alphabet divide.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "list alphabet divide.psd"; sourceTree = "<group>"; };
+		0125EACE1A185C700034F85B /* list-alphabet divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-alphabet divide.png"; sourceTree = "<group>"; };
+		0125EAD01A185C700034F85B /* alphabet slider.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alphabet slider.psd"; sourceTree = "<group>"; };
+		0125EAD11A185C700034F85B /* alphabet-slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alphabet-slider.png"; sourceTree = "<group>"; };
+		0125EAD31A185C700034F85B /* LineDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LineDivider.png; sourceTree = "<group>"; };
+		0125EAD41A185C700034F85B /* LineDivider.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = LineDivider.psd; sourceTree = "<group>"; };
+		0125EAD61A185C700034F85B /* slider green.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "slider green.psd"; sourceTree = "<group>"; };
+		0125EAD71A185C700034F85B /* slider-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-green.png"; sourceTree = "<group>"; };
+		0125EAD91A185C700034F85B /* home button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "home button.psd"; sourceTree = "<group>"; };
+		0125EADA1A185C700034F85B /* home-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-button.png"; sourceTree = "<group>"; };
+		0125EADC1A185C700034F85B /* item list space.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "item list space.psd"; sourceTree = "<group>"; };
+		0125EADD1A185C700034F85B /* item-list-space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item-list-space.png"; sourceTree = "<group>"; };
+		0125EADF1A185C700034F85B /* logout button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "logout button.psd"; sourceTree = "<group>"; };
+		0125EAE01A185C700034F85B /* logout-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout-button.png"; sourceTree = "<group>"; };
+		0125EAE21A185C700034F85B /* menu inventory title.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "menu inventory title.psd"; sourceTree = "<group>"; };
+		0125EAE51A185C700034F85B /* nav bar.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nav bar.psd"; sourceTree = "<group>"; };
+		0125EAE61A185C700034F85B /* nav-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar.png"; sourceTree = "<group>"; };
+		0125EAE81A185C700034F85B /* slider red.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "slider red.psd"; sourceTree = "<group>"; };
+		0125EAE91A185C700034F85B /* slider-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-red.png"; sourceTree = "<group>"; };
+		0125EAEB1A185C700034F85B /* WhiteBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteBackButton.png; sourceTree = "<group>"; };
+		0125EAEC1A185C700034F85B /* WhiteBackButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteBackButton.psd; sourceTree = "<group>"; };
+		0125EB071A185CA20034F85B /* AllergyDropDownButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AllergyDropDownButton.png; sourceTree = "<group>"; };
+		0125EB081A185CA20034F85B /* AllergyDropDownButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = AllergyDropDownButton.psd; sourceTree = "<group>"; };
+		0125EB0A1A185CA20034F85B /* BackgroundOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundOverlay.png; sourceTree = "<group>"; };
+		0125EB0B1A185CA20034F85B /* BackgroundOverlay.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BackgroundOverlay.psd; sourceTree = "<group>"; };
+		0125EB0D1A185CA20034F85B /* BlackPlusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackPlusButton.png; sourceTree = "<group>"; };
+		0125EB0E1A185CA20034F85B /* BlackPlusButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlackPlusButton.psd; sourceTree = "<group>"; };
+		0125EB101A185CA20034F85B /* BoxLineDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BoxLineDivider.png; sourceTree = "<group>"; };
+		0125EB111A185CA20034F85B /* BoxLineDivider.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BoxLineDivider.psd; sourceTree = "<group>"; };
+		0125EB131A185CA20034F85B /* CancelButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CancelButton.png; sourceTree = "<group>"; };
+		0125EB141A185CA20034F85B /* CancelButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = CancelButton.psd; sourceTree = "<group>"; };
+		0125EB161A185CA20034F85B /* CancelNavButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CancelNavButton.png; sourceTree = "<group>"; };
+		0125EB171A185CA20034F85B /* CancelNavButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = CancelNavButton.psd; sourceTree = "<group>"; };
+		0125EB181A185CA20034F85B /* DropDownMenuColorCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DropDownMenuColorCode.png; sourceTree = "<group>"; };
+		0125EB1A1A185CA20034F85B /* EditIngredientInventory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EditIngredientInventory.png; sourceTree = "<group>"; };
+		0125EB1B1A185CA20034F85B /* EditIngredientInventory.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = EditIngredientInventory.psd; sourceTree = "<group>"; };
+		0125EB1C1A185CA20034F85B /* EditInventoryBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EditInventoryBanner.jpg; sourceTree = "<group>"; };
+		0125EB1D1A185CA20034F85B /* EditInventoryImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EditInventoryImage.jpg; sourceTree = "<group>"; };
+		0125EB1F1A185CA20034F85B /* InventoryNavButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InventoryNavButton.png; sourceTree = "<group>"; };
+		0125EB201A185CA20034F85B /* InventoryNavButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = InventoryNavButton.psd; sourceTree = "<group>"; };
+		0125EB221A185CA20034F85B /* NavBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarBackground.png; sourceTree = "<group>"; };
+		0125EB231A185CA20034F85B /* NavBarBackground.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavBarBackground.psd; sourceTree = "<group>"; };
+		0125EB251A185CA20034F85B /* SaveButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SaveButton.png; sourceTree = "<group>"; };
+		0125EB261A185CA20034F85B /* SaveButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = SaveButton.psd; sourceTree = "<group>"; };
+		0125EB281A185CA20034F85B /* WhiteBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteBackButton.png; sourceTree = "<group>"; };
+		0125EB291A185CA20034F85B /* WhiteBackButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteBackButton.psd; sourceTree = "<group>"; };
+		0125EB2B1A185CA20034F85B /* WhiteDropDownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteDropDownArrow.png; sourceTree = "<group>"; };
+		0125EB2C1A185CA20034F85B /* WhiteDropDownArrow.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteDropDownArrow.psd; sourceTree = "<group>"; };
+		0125EB2E1A185CA20034F85B /* WhiteTextFieldBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteTextFieldBox.png; sourceTree = "<group>"; };
+		0125EB2F1A185CA20034F85B /* WhiteTextFieldBox.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteTextFieldBox.psd; sourceTree = "<group>"; };
+		0125EB4D1A18686B0034F85B /* EditMenuItemBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EditMenuItemBanner.jpg; sourceTree = "<group>"; };
+		0125EB511A1872440034F85B /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		0125EB521A1872440034F85B /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		0125EB551A1874C30034F85B /* EditMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMenu.h; sourceTree = "<group>"; };
+		0125EB561A1874C30034F85B /* EditMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMenu.m; sourceTree = "<group>"; };
+		0125EB581A1876530034F85B /* menu-inventory-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-inventory-title.png"; sourceTree = "<group>"; };
+		0125EBF01A1878A60034F85B /* BackgroundOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundOverlay.png; sourceTree = "<group>"; };
+		0125EBF11A1878A60034F85B /* BackgroundOverlay.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BackgroundOverlay.psd; sourceTree = "<group>"; };
+		0125EBF31A1878A60034F85B /* BoxLineDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BoxLineDivider.png; sourceTree = "<group>"; };
+		0125EBF41A1878A60034F85B /* BoxLineDivider.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BoxLineDivider.psd; sourceTree = "<group>"; };
+		0125EBF61A1878A60034F85B /* CancelButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CancelButton.png; sourceTree = "<group>"; };
+		0125EBF71A1878A60034F85B /* CancelButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = CancelButton.psd; sourceTree = "<group>"; };
+		0125EBF91A1878A60034F85B /* CancelNavButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CancelNavButton.png; sourceTree = "<group>"; };
+		0125EBFA1A1878A60034F85B /* CancelNavButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = CancelNavButton.psd; sourceTree = "<group>"; };
+		0125EBFB1A1878A60034F85B /* EditRestaurantBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EditRestaurantBanner.jpg; sourceTree = "<group>"; };
+		0125EBFC1A1878A60034F85B /* EditRestaurantImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EditRestaurantImage.jpg; sourceTree = "<group>"; };
+		0125EBFE1A1878A60034F85B /* EditRestaurantTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EditRestaurantTitle.png; sourceTree = "<group>"; };
+		0125EBFF1A1878A60034F85B /* EditRestaurantTitle.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = EditRestaurantTitle.psd; sourceTree = "<group>"; };
+		0125EC011A1878A60034F85B /* HomeNavButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeNavButton.png; sourceTree = "<group>"; };
+		0125EC021A1878A60034F85B /* HomeNavButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = HomeNavButton.psd; sourceTree = "<group>"; };
+		0125EC041A1878A60034F85B /* NavBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarBackground.png; sourceTree = "<group>"; };
+		0125EC051A1878A60034F85B /* NavBarBackground.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavBarBackground.psd; sourceTree = "<group>"; };
+		0125EC071A1878A60034F85B /* SaveButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SaveButton.png; sourceTree = "<group>"; };
+		0125EC081A1878A60034F85B /* SaveButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = SaveButton.psd; sourceTree = "<group>"; };
+		0125EC0A1A1878A60034F85B /* WhiteBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteBackButton.png; sourceTree = "<group>"; };
+		0125EC0B1A1878A60034F85B /* WhiteBackButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteBackButton.psd; sourceTree = "<group>"; };
+		0125EC0D1A1878A60034F85B /* WhiteTextFieldBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteTextFieldBox.png; sourceTree = "<group>"; };
+		0125EC0E1A1878A60034F85B /* WhiteTextFieldBox.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteTextFieldBox.psd; sourceTree = "<group>"; };
+		0125EC271A1878B20034F85B /* BackgroundOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundOverlay.png; sourceTree = "<group>"; };
+		0125EC281A1878B20034F85B /* BackgroundOverlay.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BackgroundOverlay.psd; sourceTree = "<group>"; };
+		0125EC2A1A1878B20034F85B /* BlackPlusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackPlusButton.png; sourceTree = "<group>"; };
+		0125EC2B1A1878B20034F85B /* BlackPlusButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlackPlusButton.psd; sourceTree = "<group>"; };
+		0125EC2D1A1878B20034F85B /* BoxLineDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BoxLineDivider.png; sourceTree = "<group>"; };
+		0125EC2E1A1878B20034F85B /* BoxLineDivider.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BoxLineDivider.psd; sourceTree = "<group>"; };
+		0125EC301A1878B20034F85B /* CancelButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CancelButton.png; sourceTree = "<group>"; };
+		0125EC311A1878B20034F85B /* CancelButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = CancelButton.psd; sourceTree = "<group>"; };
+		0125EC331A1878B20034F85B /* CancelNavButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CancelNavButton.png; sourceTree = "<group>"; };
+		0125EC341A1878B20034F85B /* CancelNavButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = CancelNavButton.psd; sourceTree = "<group>"; };
+		0125EC361A1878B20034F85B /* CategoryDropDownButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CategoryDropDownButton.png; sourceTree = "<group>"; };
+		0125EC371A1878B20034F85B /* CategoryDropDownButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = CategoryDropDownButton.psd; sourceTree = "<group>"; };
+		0125EC381A1878B20034F85B /* DropDownMenuColorCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DropDownMenuColorCode.png; sourceTree = "<group>"; };
+		0125EC3A1A1878B20034F85B /* EditMenuInventoryTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EditMenuInventoryTitle.png; sourceTree = "<group>"; };
+		0125EC3B1A1878B20034F85B /* EditMenuInventoryTitle.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = EditMenuInventoryTitle.psd; sourceTree = "<group>"; };
+		0125EC3C1A1878B20034F85B /* EditMenuItemBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EditMenuItemBanner.jpg; sourceTree = "<group>"; };
+		0125EC3D1A1878B20034F85B /* EditMenuItemImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EditMenuItemImage.jpg; sourceTree = "<group>"; };
+		0125EC3F1A1878B20034F85B /* ImageButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageButton.png; sourceTree = "<group>"; };
+		0125EC401A1878B20034F85B /* ImageButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ImageButton.psd; sourceTree = "<group>"; };
+		0125EC421A1878B20034F85B /* IngredientDropDownButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IngredientDropDownButton.png; sourceTree = "<group>"; };
+		0125EC431A1878B20034F85B /* IngredientDropDownButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = IngredientDropDownButton.psd; sourceTree = "<group>"; };
+		0125EC451A1878B20034F85B /* InventoryNavButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InventoryNavButton.png; sourceTree = "<group>"; };
+		0125EC461A1878B20034F85B /* InventoryNavButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = InventoryNavButton.psd; sourceTree = "<group>"; };
+		0125EC481A1878B20034F85B /* LargeWhiteTextBoxField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LargeWhiteTextBoxField.png; sourceTree = "<group>"; };
+		0125EC491A1878B20034F85B /* LargeWhiteTextBoxField.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = LargeWhiteTextBoxField.psd; sourceTree = "<group>"; };
+		0125EC4B1A1878B20034F85B /* NavBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarBackground.png; sourceTree = "<group>"; };
+		0125EC4C1A1878B20034F85B /* NavBarBackground.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavBarBackground.psd; sourceTree = "<group>"; };
+		0125EC4E1A1878B20034F85B /* SaveButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SaveButton.png; sourceTree = "<group>"; };
+		0125EC4F1A1878B20034F85B /* SaveButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = SaveButton.psd; sourceTree = "<group>"; };
+		0125EC511A1878B20034F85B /* WhiteBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteBackButton.png; sourceTree = "<group>"; };
+		0125EC521A1878B20034F85B /* WhiteBackButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteBackButton.psd; sourceTree = "<group>"; };
+		0125EC541A1878B20034F85B /* WhiteDropDownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteDropDownArrow.png; sourceTree = "<group>"; };
+		0125EC551A1878B20034F85B /* WhiteDropDownArrow.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteDropDownArrow.psd; sourceTree = "<group>"; };
+		0125EC571A1878B20034F85B /* WhitePlusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhitePlusButton.png; sourceTree = "<group>"; };
+		0125EC581A1878B20034F85B /* WhitePlusButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhitePlusButton.psd; sourceTree = "<group>"; };
+		0125EC5A1A1878B20034F85B /* WhiteTextFieldBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteTextFieldBox.png; sourceTree = "<group>"; };
+		0125EC5B1A1878B20034F85B /* WhiteTextFieldBox.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteTextFieldBox.psd; sourceTree = "<group>"; };
+		0125EC821A187D140034F85B /* EditRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditRestaurant.h; sourceTree = "<group>"; };
+		0125EC831A187D140034F85B /* EditRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditRestaurant.m; sourceTree = "<group>"; };
 		ABBEE5B11A130BE800B3AA1C /* FBButlerIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBButlerIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBEE5B41A130BE800B3AA1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -175,8 +467,6 @@
 		ABCBAD7A1A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItemNames_MusselsForno_Beige.psd; sourceTree = "<group>"; };
 		ABCBAD7B1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Page2_ItemName_AntipastiMisti_Beige.png; sourceTree = "<group>"; };
 		ABCBAD7C1A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Page2_ItemName_AntipastiMisti_Beige.psd; sourceTree = "<group>"; };
-		ABCBAD7E1A134E8200FA9401 /* NavBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarBackground.png; sourceTree = "<group>"; };
-		ABCBAD7F1A134E8200FA9401 /* NavBarBackground.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavBarBackground.psd; sourceTree = "<group>"; };
 		ABCBAD811A134E8200FA9401 /* NavBar_Primo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBar_Primo.png; sourceTree = "<group>"; };
 		ABCBAD821A134E8200FA9401 /* NavBar_Primo.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = NavBar_Primo.psd; sourceTree = "<group>"; };
 		ABCBAD841A134E8200FA9401 /* ReviewStars_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReviewStars_2.png; sourceTree = "<group>"; };
@@ -233,6 +523,770 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0125EA2C1A15B4E30034F85B /* Employee Side */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC811A187CF50034F85B /* Edit Restaurant Page */,
+				0125EB541A1874A80034F85B /* Edit Menu Page */,
+				0125EB501A1869490034F85B /* Menu Page */,
+				0125EAC41A18596F0034F85B /* Inventory Page */,
+				0125EA7C1A1731EE0034F85B /* Edit Inventory Page */,
+				0125EA421A15B74E0034F85B /* Menu Butler Page */,
+			);
+			name = "Employee Side";
+			sourceTree = "<group>";
+		};
+		0125EA2D1A15B4FC0034F85B /* Employee Images */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB4D1A18686B0034F85B /* EditMenuItemBanner.jpg */,
+				0125EC251A1878B20034F85B /* Page9 */,
+				0125EBEE1A1878A60034F85B /* Page8 */,
+				0125EB051A185CA20034F85B /* Page7 */,
+				0125EAC81A185C700034F85B /* Page6 */,
+				0125EABE1A1740D20034F85B /* EditInventoryBanner.jpg */,
+				0125EA811A1740350034F85B /* Page5 */,
+			);
+			name = "Employee Images";
+			sourceTree = "<group>";
+		};
+		0125EA421A15B74E0034F85B /* Menu Butler Page */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA431A15B7CD0034F85B /* Menu Butler.h */,
+				0125EA441A15B7CD0034F85B /* Menu Butler.m */,
+			);
+			name = "Menu Butler Page";
+			sourceTree = "<group>";
+		};
+		0125EA7C1A1731EE0034F85B /* Edit Inventory Page */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA7D1A1732560034F85B /* EditInventory.h */,
+				0125EA7E1A1732560034F85B /* EditInventory.m */,
+			);
+			name = "Edit Inventory Page";
+			sourceTree = "<group>";
+		};
+		0125EA811A1740350034F85B /* Page5 */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA821A1740350034F85B /* AddItemButton */,
+				0125EA851A1740350034F85B /* AlphabetLetterDivider */,
+				0125EA881A1740350034F85B /* AlphabetSlider */,
+				0125EA8B1A1740350034F85B /* BeigeLineDivider */,
+				0125EA8E1A1740350034F85B /* GreenSlider */,
+				0125EA911A1740350034F85B /* HomeButton */,
+				0125EA941A1740350034F85B /* IngredientInventoryTitle */,
+				0125EA971A1740350034F85B /* ItemListSpacing */,
+				0125EA9A1A1740350034F85B /* LogoutButton */,
+				0125EA9D1A1740350034F85B /* NavBar */,
+				0125EAA01A1740350034F85B /* RedSlider */,
+				0125EAA31A1740350034F85B /* WhiteBackButton */,
+			);
+			path = Page5;
+			sourceTree = "<group>";
+		};
+		0125EA821A1740350034F85B /* AddItemButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA831A1740350034F85B /* add item button.psd */,
+				0125EA841A1740350034F85B /* add-item-button.png */,
+			);
+			path = AddItemButton;
+			sourceTree = "<group>";
+		};
+		0125EA851A1740350034F85B /* AlphabetLetterDivider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA861A1740350034F85B /* list alphabet divide.psd */,
+				0125EA871A1740350034F85B /* list-alphabet divide.png */,
+			);
+			path = AlphabetLetterDivider;
+			sourceTree = "<group>";
+		};
+		0125EA881A1740350034F85B /* AlphabetSlider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA891A1740350034F85B /* alphabet slider.psd */,
+				0125EA8A1A1740350034F85B /* alphabet-slider.png */,
+			);
+			path = AlphabetSlider;
+			sourceTree = "<group>";
+		};
+		0125EA8B1A1740350034F85B /* BeigeLineDivider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA8C1A1740350034F85B /* LineDivider.png */,
+				0125EA8D1A1740350034F85B /* LineDivider.psd */,
+			);
+			path = BeigeLineDivider;
+			sourceTree = "<group>";
+		};
+		0125EA8E1A1740350034F85B /* GreenSlider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA8F1A1740350034F85B /* slider green.psd */,
+				0125EA901A1740350034F85B /* slider-green.png */,
+			);
+			path = GreenSlider;
+			sourceTree = "<group>";
+		};
+		0125EA911A1740350034F85B /* HomeButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA921A1740350034F85B /* home button.psd */,
+				0125EA931A1740350034F85B /* home-button.png */,
+			);
+			path = HomeButton;
+			sourceTree = "<group>";
+		};
+		0125EA941A1740350034F85B /* IngredientInventoryTitle */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA951A1740350034F85B /* ingredient inventory title.psd */,
+				0125EAC21A17442A0034F85B /* ingredient-inventory-title.png */,
+			);
+			path = IngredientInventoryTitle;
+			sourceTree = "<group>";
+		};
+		0125EA971A1740350034F85B /* ItemListSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA981A1740350034F85B /* item list space.psd */,
+				0125EA991A1740350034F85B /* item-list-space.png */,
+			);
+			path = ItemListSpacing;
+			sourceTree = "<group>";
+		};
+		0125EA9A1A1740350034F85B /* LogoutButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA9B1A1740350034F85B /* logout button.psd */,
+				0125EA9C1A1740350034F85B /* logout-button.png */,
+			);
+			path = LogoutButton;
+			sourceTree = "<group>";
+		};
+		0125EA9D1A1740350034F85B /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				0125EA9E1A1740350034F85B /* nav bar.psd */,
+				0125EA9F1A1740350034F85B /* nav-bar.png */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		0125EAA01A1740350034F85B /* RedSlider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAA11A1740350034F85B /* slider red.psd */,
+				0125EAA21A1740350034F85B /* slider-red.png */,
+			);
+			path = RedSlider;
+			sourceTree = "<group>";
+		};
+		0125EAA31A1740350034F85B /* WhiteBackButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAA41A1740350034F85B /* WhiteBackButton.png */,
+				0125EAA51A1740350034F85B /* WhiteBackButton.psd */,
+			);
+			path = WhiteBackButton;
+			sourceTree = "<group>";
+		};
+		0125EAC41A18596F0034F85B /* Inventory Page */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAC51A18598E0034F85B /* Inventory.h */,
+				0125EAC61A18598E0034F85B /* Inventory.m */,
+			);
+			name = "Inventory Page";
+			sourceTree = "<group>";
+		};
+		0125EAC81A185C700034F85B /* Page6 */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAC91A185C700034F85B /* AddItemButton */,
+				0125EACC1A185C700034F85B /* AlphabetLetterDivider */,
+				0125EACF1A185C700034F85B /* AlphabetSlider */,
+				0125EAD21A185C700034F85B /* BeigeLineDivider */,
+				0125EAD51A185C700034F85B /* GreenSlider */,
+				0125EAD81A185C700034F85B /* HomeButton */,
+				0125EADB1A185C700034F85B /* ItemListSpacing */,
+				0125EADE1A185C700034F85B /* LogoutButton */,
+				0125EAE11A185C700034F85B /* MenuInventoryTitle */,
+				0125EAE41A185C700034F85B /* NavBar */,
+				0125EAE71A185C700034F85B /* RedSlider */,
+				0125EAEA1A185C700034F85B /* WhiteBackButton */,
+			);
+			path = Page6;
+			sourceTree = "<group>";
+		};
+		0125EAC91A185C700034F85B /* AddItemButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EACA1A185C700034F85B /* add item button.psd */,
+				0125EACB1A185C700034F85B /* add-item-button.png */,
+			);
+			path = AddItemButton;
+			sourceTree = "<group>";
+		};
+		0125EACC1A185C700034F85B /* AlphabetLetterDivider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EACD1A185C700034F85B /* list alphabet divide.psd */,
+				0125EACE1A185C700034F85B /* list-alphabet divide.png */,
+			);
+			path = AlphabetLetterDivider;
+			sourceTree = "<group>";
+		};
+		0125EACF1A185C700034F85B /* AlphabetSlider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAD01A185C700034F85B /* alphabet slider.psd */,
+				0125EAD11A185C700034F85B /* alphabet-slider.png */,
+			);
+			path = AlphabetSlider;
+			sourceTree = "<group>";
+		};
+		0125EAD21A185C700034F85B /* BeigeLineDivider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAD31A185C700034F85B /* LineDivider.png */,
+				0125EAD41A185C700034F85B /* LineDivider.psd */,
+			);
+			path = BeigeLineDivider;
+			sourceTree = "<group>";
+		};
+		0125EAD51A185C700034F85B /* GreenSlider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAD61A185C700034F85B /* slider green.psd */,
+				0125EAD71A185C700034F85B /* slider-green.png */,
+			);
+			path = GreenSlider;
+			sourceTree = "<group>";
+		};
+		0125EAD81A185C700034F85B /* HomeButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAD91A185C700034F85B /* home button.psd */,
+				0125EADA1A185C700034F85B /* home-button.png */,
+			);
+			path = HomeButton;
+			sourceTree = "<group>";
+		};
+		0125EADB1A185C700034F85B /* ItemListSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				0125EADC1A185C700034F85B /* item list space.psd */,
+				0125EADD1A185C700034F85B /* item-list-space.png */,
+			);
+			path = ItemListSpacing;
+			sourceTree = "<group>";
+		};
+		0125EADE1A185C700034F85B /* LogoutButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EADF1A185C700034F85B /* logout button.psd */,
+				0125EAE01A185C700034F85B /* logout-button.png */,
+			);
+			path = LogoutButton;
+			sourceTree = "<group>";
+		};
+		0125EAE11A185C700034F85B /* MenuInventoryTitle */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAE21A185C700034F85B /* menu inventory title.psd */,
+				0125EB581A1876530034F85B /* menu-inventory-title.png */,
+			);
+			path = MenuInventoryTitle;
+			sourceTree = "<group>";
+		};
+		0125EAE41A185C700034F85B /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAE51A185C700034F85B /* nav bar.psd */,
+				0125EAE61A185C700034F85B /* nav-bar.png */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		0125EAE71A185C700034F85B /* RedSlider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAE81A185C700034F85B /* slider red.psd */,
+				0125EAE91A185C700034F85B /* slider-red.png */,
+			);
+			path = RedSlider;
+			sourceTree = "<group>";
+		};
+		0125EAEA1A185C700034F85B /* WhiteBackButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EAEB1A185C700034F85B /* WhiteBackButton.png */,
+				0125EAEC1A185C700034F85B /* WhiteBackButton.psd */,
+			);
+			path = WhiteBackButton;
+			sourceTree = "<group>";
+		};
+		0125EB051A185CA20034F85B /* Page7 */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB061A185CA20034F85B /* AllergyDropDownButton */,
+				0125EB091A185CA20034F85B /* BackgroundOverlay */,
+				0125EB0C1A185CA20034F85B /* BlackPlusButton */,
+				0125EB0F1A185CA20034F85B /* BoxLineDivider */,
+				0125EB121A185CA20034F85B /* CancelButton */,
+				0125EB151A185CA20034F85B /* CancelNavButton */,
+				0125EB181A185CA20034F85B /* DropDownMenuColorCode.png */,
+				0125EB191A185CA20034F85B /* EditIngredientInventoryTitle */,
+				0125EB1C1A185CA20034F85B /* EditInventoryBanner.jpg */,
+				0125EB1D1A185CA20034F85B /* EditInventoryImage.jpg */,
+				0125EB1E1A185CA20034F85B /* InventoryNavButton */,
+				0125EB211A185CA20034F85B /* NavBarBackground */,
+				0125EB241A185CA20034F85B /* SaveButton */,
+				0125EB271A185CA20034F85B /* WhiteBackButton */,
+				0125EB2A1A185CA20034F85B /* WhiteDropDownArrow */,
+				0125EB2D1A185CA20034F85B /* WhiteTextFieldBox */,
+			);
+			path = Page7;
+			sourceTree = "<group>";
+		};
+		0125EB061A185CA20034F85B /* AllergyDropDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB071A185CA20034F85B /* AllergyDropDownButton.png */,
+				0125EB081A185CA20034F85B /* AllergyDropDownButton.psd */,
+			);
+			path = AllergyDropDownButton;
+			sourceTree = "<group>";
+		};
+		0125EB091A185CA20034F85B /* BackgroundOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB0A1A185CA20034F85B /* BackgroundOverlay.png */,
+				0125EB0B1A185CA20034F85B /* BackgroundOverlay.psd */,
+			);
+			path = BackgroundOverlay;
+			sourceTree = "<group>";
+		};
+		0125EB0C1A185CA20034F85B /* BlackPlusButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB0D1A185CA20034F85B /* BlackPlusButton.png */,
+				0125EB0E1A185CA20034F85B /* BlackPlusButton.psd */,
+			);
+			path = BlackPlusButton;
+			sourceTree = "<group>";
+		};
+		0125EB0F1A185CA20034F85B /* BoxLineDivider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB101A185CA20034F85B /* BoxLineDivider.png */,
+				0125EB111A185CA20034F85B /* BoxLineDivider.psd */,
+			);
+			path = BoxLineDivider;
+			sourceTree = "<group>";
+		};
+		0125EB121A185CA20034F85B /* CancelButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB131A185CA20034F85B /* CancelButton.png */,
+				0125EB141A185CA20034F85B /* CancelButton.psd */,
+			);
+			path = CancelButton;
+			sourceTree = "<group>";
+		};
+		0125EB151A185CA20034F85B /* CancelNavButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB161A185CA20034F85B /* CancelNavButton.png */,
+				0125EB171A185CA20034F85B /* CancelNavButton.psd */,
+			);
+			path = CancelNavButton;
+			sourceTree = "<group>";
+		};
+		0125EB191A185CA20034F85B /* EditIngredientInventoryTitle */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB1A1A185CA20034F85B /* EditIngredientInventory.png */,
+				0125EB1B1A185CA20034F85B /* EditIngredientInventory.psd */,
+			);
+			path = EditIngredientInventoryTitle;
+			sourceTree = "<group>";
+		};
+		0125EB1E1A185CA20034F85B /* InventoryNavButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB1F1A185CA20034F85B /* InventoryNavButton.png */,
+				0125EB201A185CA20034F85B /* InventoryNavButton.psd */,
+			);
+			path = InventoryNavButton;
+			sourceTree = "<group>";
+		};
+		0125EB211A185CA20034F85B /* NavBarBackground */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB221A185CA20034F85B /* NavBarBackground.png */,
+				0125EB231A185CA20034F85B /* NavBarBackground.psd */,
+			);
+			path = NavBarBackground;
+			sourceTree = "<group>";
+		};
+		0125EB241A185CA20034F85B /* SaveButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB251A185CA20034F85B /* SaveButton.png */,
+				0125EB261A185CA20034F85B /* SaveButton.psd */,
+			);
+			path = SaveButton;
+			sourceTree = "<group>";
+		};
+		0125EB271A185CA20034F85B /* WhiteBackButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB281A185CA20034F85B /* WhiteBackButton.png */,
+				0125EB291A185CA20034F85B /* WhiteBackButton.psd */,
+			);
+			path = WhiteBackButton;
+			sourceTree = "<group>";
+		};
+		0125EB2A1A185CA20034F85B /* WhiteDropDownArrow */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB2B1A185CA20034F85B /* WhiteDropDownArrow.png */,
+				0125EB2C1A185CA20034F85B /* WhiteDropDownArrow.psd */,
+			);
+			path = WhiteDropDownArrow;
+			sourceTree = "<group>";
+		};
+		0125EB2D1A185CA20034F85B /* WhiteTextFieldBox */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB2E1A185CA20034F85B /* WhiteTextFieldBox.png */,
+				0125EB2F1A185CA20034F85B /* WhiteTextFieldBox.psd */,
+			);
+			path = WhiteTextFieldBox;
+			sourceTree = "<group>";
+		};
+		0125EB501A1869490034F85B /* Menu Page */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB511A1872440034F85B /* Menu.h */,
+				0125EB521A1872440034F85B /* Menu.m */,
+			);
+			name = "Menu Page";
+			sourceTree = "<group>";
+		};
+		0125EB541A1874A80034F85B /* Edit Menu Page */ = {
+			isa = PBXGroup;
+			children = (
+				0125EB551A1874C30034F85B /* EditMenu.h */,
+				0125EB561A1874C30034F85B /* EditMenu.m */,
+			);
+			name = "Edit Menu Page";
+			sourceTree = "<group>";
+		};
+		0125EBEE1A1878A60034F85B /* Page8 */ = {
+			isa = PBXGroup;
+			children = (
+				0125EBEF1A1878A60034F85B /* BackgroundOverlay */,
+				0125EBF21A1878A60034F85B /* BoxLineDivider */,
+				0125EBF51A1878A60034F85B /* CancelButton */,
+				0125EBF81A1878A60034F85B /* CancelNavButton */,
+				0125EBFB1A1878A60034F85B /* EditRestaurantBanner.jpg */,
+				0125EBFC1A1878A60034F85B /* EditRestaurantImage.jpg */,
+				0125EBFD1A1878A60034F85B /* EditRestaurantTitle */,
+				0125EC001A1878A60034F85B /* HomeNavButton */,
+				0125EC031A1878A60034F85B /* NavBarBackground */,
+				0125EC061A1878A60034F85B /* SaveButton */,
+				0125EC091A1878A60034F85B /* WhiteBackButton */,
+				0125EC0C1A1878A60034F85B /* WhiteTextFieldBox */,
+			);
+			path = Page8;
+			sourceTree = "<group>";
+		};
+		0125EBEF1A1878A60034F85B /* BackgroundOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				0125EBF01A1878A60034F85B /* BackgroundOverlay.png */,
+				0125EBF11A1878A60034F85B /* BackgroundOverlay.psd */,
+			);
+			path = BackgroundOverlay;
+			sourceTree = "<group>";
+		};
+		0125EBF21A1878A60034F85B /* BoxLineDivider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EBF31A1878A60034F85B /* BoxLineDivider.png */,
+				0125EBF41A1878A60034F85B /* BoxLineDivider.psd */,
+			);
+			path = BoxLineDivider;
+			sourceTree = "<group>";
+		};
+		0125EBF51A1878A60034F85B /* CancelButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EBF61A1878A60034F85B /* CancelButton.png */,
+				0125EBF71A1878A60034F85B /* CancelButton.psd */,
+			);
+			path = CancelButton;
+			sourceTree = "<group>";
+		};
+		0125EBF81A1878A60034F85B /* CancelNavButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EBF91A1878A60034F85B /* CancelNavButton.png */,
+				0125EBFA1A1878A60034F85B /* CancelNavButton.psd */,
+			);
+			path = CancelNavButton;
+			sourceTree = "<group>";
+		};
+		0125EBFD1A1878A60034F85B /* EditRestaurantTitle */ = {
+			isa = PBXGroup;
+			children = (
+				0125EBFE1A1878A60034F85B /* EditRestaurantTitle.png */,
+				0125EBFF1A1878A60034F85B /* EditRestaurantTitle.psd */,
+			);
+			path = EditRestaurantTitle;
+			sourceTree = "<group>";
+		};
+		0125EC001A1878A60034F85B /* HomeNavButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC011A1878A60034F85B /* HomeNavButton.png */,
+				0125EC021A1878A60034F85B /* HomeNavButton.psd */,
+			);
+			path = HomeNavButton;
+			sourceTree = "<group>";
+		};
+		0125EC031A1878A60034F85B /* NavBarBackground */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC041A1878A60034F85B /* NavBarBackground.png */,
+				0125EC051A1878A60034F85B /* NavBarBackground.psd */,
+			);
+			path = NavBarBackground;
+			sourceTree = "<group>";
+		};
+		0125EC061A1878A60034F85B /* SaveButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC071A1878A60034F85B /* SaveButton.png */,
+				0125EC081A1878A60034F85B /* SaveButton.psd */,
+			);
+			path = SaveButton;
+			sourceTree = "<group>";
+		};
+		0125EC091A1878A60034F85B /* WhiteBackButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC0A1A1878A60034F85B /* WhiteBackButton.png */,
+				0125EC0B1A1878A60034F85B /* WhiteBackButton.psd */,
+			);
+			path = WhiteBackButton;
+			sourceTree = "<group>";
+		};
+		0125EC0C1A1878A60034F85B /* WhiteTextFieldBox */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC0D1A1878A60034F85B /* WhiteTextFieldBox.png */,
+				0125EC0E1A1878A60034F85B /* WhiteTextFieldBox.psd */,
+			);
+			path = WhiteTextFieldBox;
+			sourceTree = "<group>";
+		};
+		0125EC251A1878B20034F85B /* Page9 */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC261A1878B20034F85B /* BackgroundOverlay */,
+				0125EC291A1878B20034F85B /* BlackPlusButton */,
+				0125EC2C1A1878B20034F85B /* BoxLineDivider */,
+				0125EC2F1A1878B20034F85B /* CancelButton */,
+				0125EC321A1878B20034F85B /* CancelNavButton */,
+				0125EC351A1878B20034F85B /* CategoryDropDownButton */,
+				0125EC381A1878B20034F85B /* DropDownMenuColorCode.png */,
+				0125EC391A1878B20034F85B /* EditMenuInventory */,
+				0125EC3C1A1878B20034F85B /* EditMenuItemBanner.jpg */,
+				0125EC3D1A1878B20034F85B /* EditMenuItemImage.jpg */,
+				0125EC3E1A1878B20034F85B /* ImageButton */,
+				0125EC411A1878B20034F85B /* IngredientDropDownButton */,
+				0125EC441A1878B20034F85B /* InventoryNavButton */,
+				0125EC471A1878B20034F85B /* LargeWhiteTextBoxField */,
+				0125EC4A1A1878B20034F85B /* NavBarBackground */,
+				0125EC4D1A1878B20034F85B /* SaveButton */,
+				0125EC501A1878B20034F85B /* WhiteBackButton */,
+				0125EC531A1878B20034F85B /* WhiteDropDownArrow */,
+				0125EC561A1878B20034F85B /* WhitePlusButton */,
+				0125EC591A1878B20034F85B /* WhiteTextFieldBox */,
+			);
+			path = Page9;
+			sourceTree = "<group>";
+		};
+		0125EC261A1878B20034F85B /* BackgroundOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC271A1878B20034F85B /* BackgroundOverlay.png */,
+				0125EC281A1878B20034F85B /* BackgroundOverlay.psd */,
+			);
+			path = BackgroundOverlay;
+			sourceTree = "<group>";
+		};
+		0125EC291A1878B20034F85B /* BlackPlusButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC2A1A1878B20034F85B /* BlackPlusButton.png */,
+				0125EC2B1A1878B20034F85B /* BlackPlusButton.psd */,
+			);
+			path = BlackPlusButton;
+			sourceTree = "<group>";
+		};
+		0125EC2C1A1878B20034F85B /* BoxLineDivider */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC2D1A1878B20034F85B /* BoxLineDivider.png */,
+				0125EC2E1A1878B20034F85B /* BoxLineDivider.psd */,
+			);
+			path = BoxLineDivider;
+			sourceTree = "<group>";
+		};
+		0125EC2F1A1878B20034F85B /* CancelButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC301A1878B20034F85B /* CancelButton.png */,
+				0125EC311A1878B20034F85B /* CancelButton.psd */,
+			);
+			path = CancelButton;
+			sourceTree = "<group>";
+		};
+		0125EC321A1878B20034F85B /* CancelNavButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC331A1878B20034F85B /* CancelNavButton.png */,
+				0125EC341A1878B20034F85B /* CancelNavButton.psd */,
+			);
+			path = CancelNavButton;
+			sourceTree = "<group>";
+		};
+		0125EC351A1878B20034F85B /* CategoryDropDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC361A1878B20034F85B /* CategoryDropDownButton.png */,
+				0125EC371A1878B20034F85B /* CategoryDropDownButton.psd */,
+			);
+			path = CategoryDropDownButton;
+			sourceTree = "<group>";
+		};
+		0125EC391A1878B20034F85B /* EditMenuInventory */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC3A1A1878B20034F85B /* EditMenuInventoryTitle.png */,
+				0125EC3B1A1878B20034F85B /* EditMenuInventoryTitle.psd */,
+			);
+			path = EditMenuInventory;
+			sourceTree = "<group>";
+		};
+		0125EC3E1A1878B20034F85B /* ImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC3F1A1878B20034F85B /* ImageButton.png */,
+				0125EC401A1878B20034F85B /* ImageButton.psd */,
+			);
+			path = ImageButton;
+			sourceTree = "<group>";
+		};
+		0125EC411A1878B20034F85B /* IngredientDropDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC421A1878B20034F85B /* IngredientDropDownButton.png */,
+				0125EC431A1878B20034F85B /* IngredientDropDownButton.psd */,
+			);
+			path = IngredientDropDownButton;
+			sourceTree = "<group>";
+		};
+		0125EC441A1878B20034F85B /* InventoryNavButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC451A1878B20034F85B /* InventoryNavButton.png */,
+				0125EC461A1878B20034F85B /* InventoryNavButton.psd */,
+			);
+			path = InventoryNavButton;
+			sourceTree = "<group>";
+		};
+		0125EC471A1878B20034F85B /* LargeWhiteTextBoxField */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC481A1878B20034F85B /* LargeWhiteTextBoxField.png */,
+				0125EC491A1878B20034F85B /* LargeWhiteTextBoxField.psd */,
+			);
+			path = LargeWhiteTextBoxField;
+			sourceTree = "<group>";
+		};
+		0125EC4A1A1878B20034F85B /* NavBarBackground */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC4B1A1878B20034F85B /* NavBarBackground.png */,
+				0125EC4C1A1878B20034F85B /* NavBarBackground.psd */,
+			);
+			path = NavBarBackground;
+			sourceTree = "<group>";
+		};
+		0125EC4D1A1878B20034F85B /* SaveButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC4E1A1878B20034F85B /* SaveButton.png */,
+				0125EC4F1A1878B20034F85B /* SaveButton.psd */,
+			);
+			path = SaveButton;
+			sourceTree = "<group>";
+		};
+		0125EC501A1878B20034F85B /* WhiteBackButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC511A1878B20034F85B /* WhiteBackButton.png */,
+				0125EC521A1878B20034F85B /* WhiteBackButton.psd */,
+			);
+			path = WhiteBackButton;
+			sourceTree = "<group>";
+		};
+		0125EC531A1878B20034F85B /* WhiteDropDownArrow */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC541A1878B20034F85B /* WhiteDropDownArrow.png */,
+				0125EC551A1878B20034F85B /* WhiteDropDownArrow.psd */,
+			);
+			path = WhiteDropDownArrow;
+			sourceTree = "<group>";
+		};
+		0125EC561A1878B20034F85B /* WhitePlusButton */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC571A1878B20034F85B /* WhitePlusButton.png */,
+				0125EC581A1878B20034F85B /* WhitePlusButton.psd */,
+			);
+			path = WhitePlusButton;
+			sourceTree = "<group>";
+		};
+		0125EC591A1878B20034F85B /* WhiteTextFieldBox */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC5A1A1878B20034F85B /* WhiteTextFieldBox.png */,
+				0125EC5B1A1878B20034F85B /* WhiteTextFieldBox.psd */,
+			);
+			path = WhiteTextFieldBox;
+			sourceTree = "<group>";
+		};
+		0125EC811A187CF50034F85B /* Edit Restaurant Page */ = {
+			isa = PBXGroup;
+			children = (
+				0125EC821A187D140034F85B /* EditRestaurant.h */,
+				0125EC831A187D140034F85B /* EditRestaurant.m */,
+			);
+			name = "Edit Restaurant Page";
+			sourceTree = "<group>";
+		};
 		AB4A7EFD1A131950000D2EB4 /* Menu Guide Page */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +1331,8 @@
 		ABBEE5BA1A130BE800B3AA1C /* FBButlerIpad */ = {
 			isa = PBXGroup;
 			children = (
+				0125EA2D1A15B4FC0034F85B /* Employee Images */,
+				0125EA2C1A15B4E30034F85B /* Employee Side */,
 				ABBEE5F01A130FD600B3AA1C /* Customer Images */,
 				ABBEE5E91A130D6000B3AA1C /* Customer Side */,
 				ABBEE5C31A130BE800B3AA1C /* AppDelegate.h */,
@@ -403,7 +1459,6 @@
 				ABCBAD5B1A134E8200FA9401 /* HomeNavButton */,
 				ABCBAD5E1A134E8200FA9401 /* Images */,
 				ABCBAD661A134E8200FA9401 /* ItemNames */,
-				ABCBAD7D1A134E8200FA9401 /* NavBarBackground */,
 				ABCBAD801A134E8200FA9401 /* NavBarTitle */,
 				ABCBAD831A134E8200FA9401 /* ReviewStars2 */,
 				ABCBAD861A134E8200FA9401 /* ReviewStars3 */,
@@ -498,15 +1553,6 @@
 				ABCBAD761A134E8200FA9401 /* ItemName_BlankTab_Orange.psd */,
 			);
 			path = ItemNameBlankTabOrange;
-			sourceTree = "<group>";
-		};
-		ABCBAD7D1A134E8200FA9401 /* NavBarBackground */ = {
-			isa = PBXGroup;
-			children = (
-				ABCBAD7E1A134E8200FA9401 /* NavBarBackground.png */,
-				ABCBAD7F1A134E8200FA9401 /* NavBarBackground.psd */,
-			);
-			path = NavBarBackground;
 			sourceTree = "<group>";
 		};
 		ABCBAD801A134E8200FA9401 /* NavBarTitle */ = {
@@ -662,80 +1708,216 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0125EB4E1A18686B0034F85B /* EditMenuItemBanner.jpg in Resources */,
+				0125EAA61A1740350034F85B /* add item button.psd in Resources */,
+				0125EB481A185CA20034F85B /* WhiteBackButton.psd in Resources */,
+				0125EC101A1878A60034F85B /* BackgroundOverlay.psd in Resources */,
 				ABBEE6061A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide.png in Resources */,
+				0125EC641A1878B20034F85B /* CancelNavButton.png in Resources */,
+				0125EC671A1878B20034F85B /* CategoryDropDownButton.psd in Resources */,
 				ABCBADB61A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.png in Resources */,
+				0125EAB61A1740350034F85B /* logout button.psd in Resources */,
+				0125EC751A1878B20034F85B /* NavBarBackground.png in Resources */,
+				0125EB301A185CA20034F85B /* AllergyDropDownButton.png in Resources */,
+				0125EC601A1878B20034F85B /* BoxLineDivider.png in Resources */,
+				0125EAA71A1740350034F85B /* add-item-button.png in Resources */,
 				ABCBADAA1A134E8200FA9401 /* MusselsAlForno2.jpg in Resources */,
-				ABCBADC51A134E8200FA9401 /* NavBarBackground.psd in Resources */,
 				ABCBADC31A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd in Resources */,
 				ABCBADCE1A134E8200FA9401 /* ReviewStars_5.png in Resources */,
+				0125EAF41A185C700034F85B /* LineDivider.psd in Resources */,
 				ABCBADDE1A134E8200FA9401 /* PastaTab_Orange.png in Resources */,
+				0125EB491A185CA20034F85B /* WhiteDropDownArrow.png in Resources */,
 				ABCBADA41A134E8200FA9401 /* DivideDots.psd in Resources */,
 				ABCBADAE1A134E8200FA9401 /* WildMushroomTart.jpg in Resources */,
+				0125EABF1A1740D20034F85B /* EditInventoryBanner.jpg in Resources */,
 				ABCBADBB1A134E8200FA9401 /* ItemName_BlankTab_Beige.psd in Resources */,
+				0125EAAE1A1740350034F85B /* slider green.psd in Resources */,
 				ABCBADD41A134E8200FA9401 /* BeverageTab_Beige.png in Resources */,
 				ABBEE6081A13103F00B3AA1C /* NavBarBackground.png in Resources */,
 				ABCBADCA1A134E8200FA9401 /* ReviewStars_3.png in Resources */,
 				ABCBADD21A134E8200FA9401 /* AppetizerTab_Orange.png in Resources */,
 				ABCBADD91A134E8200FA9401 /* EntreeTab_Beige.psd in Resources */,
+				0125EB331A185CA20034F85B /* BackgroundOverlay.psd in Resources */,
+				0125EB421A185CA20034F85B /* InventoryNavButton.psd in Resources */,
+				0125EC761A1878B20034F85B /* NavBarBackground.psd in Resources */,
+				0125EC0F1A1878A60034F85B /* BackgroundOverlay.png in Resources */,
+				0125EC801A1878B20034F85B /* WhiteTextFieldBox.psd in Resources */,
+				0125EC691A1878B20034F85B /* EditMenuInventoryTitle.png in Resources */,
+				0125EAB81A1740350034F85B /* nav bar.psd in Resources */,
+				0125EAB11A1740350034F85B /* home-button.png in Resources */,
+				0125EAF61A185C700034F85B /* slider-green.png in Resources */,
+				0125EC221A1878A60034F85B /* WhiteBackButton.psd in Resources */,
+				0125EAF31A185C700034F85B /* LineDivider.png in Resources */,
 				ABCBADBC1A134E8200FA9401 /* ItemName_BlankTab_Orange.png in Resources */,
+				0125EC771A1878B20034F85B /* SaveButton.png in Resources */,
+				0125EB341A185CA20034F85B /* BlackPlusButton.png in Resources */,
+				0125EAA81A1740350034F85B /* list alphabet divide.psd in Resources */,
+				0125EC201A1878A60034F85B /* SaveButton.psd in Resources */,
 				ABCBADA51A134E8200FA9401 /* GrayOutMenuItem.png in Resources */,
+				0125EAF91A185C700034F85B /* item list space.psd in Resources */,
 				ABCBADCD1A134E8200FA9401 /* ReviewStars_4.psd in Resources */,
+				0125EB001A185C700034F85B /* nav-bar.png in Resources */,
+				0125EAEF1A185C700034F85B /* list alphabet divide.psd in Resources */,
+				0125EAB71A1740350034F85B /* logout-button.png in Resources */,
+				0125EAAC1A1740350034F85B /* LineDivider.png in Resources */,
+				0125EB391A185CA20034F85B /* CancelButton.psd in Resources */,
 				ABCBADB41A134E8200FA9401 /* ItemName_OystersRocke_Orange.png in Resources */,
 				ABCBADD51A134E8200FA9401 /* BeverageTab_Beige.psd in Resources */,
 				ABCBADC01A134E8200FA9401 /* ItemNames_MusselsForno_Beige.png in Resources */,
+				0125EC7E1A1878B20034F85B /* WhitePlusButton.psd in Resources */,
+				0125EC1F1A1878A60034F85B /* SaveButton.png in Resources */,
+				0125EC5D1A1878B20034F85B /* BackgroundOverlay.psd in Resources */,
+				0125EB371A185CA20034F85B /* BoxLineDivider.psd in Resources */,
+				0125EAEE1A185C700034F85B /* add-item-button.png in Resources */,
+				0125EC1B1A1878A60034F85B /* HomeNavButton.png in Resources */,
+				0125EB461A185CA20034F85B /* SaveButton.psd in Resources */,
+				0125EAB41A1740350034F85B /* item list space.psd in Resources */,
+				0125EB471A185CA20034F85B /* WhiteBackButton.png in Resources */,
 				ABCBADE01A134E8200FA9401 /* WhiteBackButton.png in Resources */,
+				0125EC5C1A1878B20034F85B /* BackgroundOverlay.png in Resources */,
+				0125EC181A1878A60034F85B /* EditRestaurantImage.jpg in Resources */,
 				ABCBADBA1A134E8200FA9401 /* ItemName_BlankTab_Beige.png in Resources */,
 				ABCBADD81A134E8200FA9401 /* EntreeTab_Beige.png in Resources */,
 				ABCBADCF1A134E8200FA9401 /* ReviewStars_5.psd in Resources */,
+				0125EB401A185CA20034F85B /* EditInventoryImage.jpg in Resources */,
+				0125EC681A1878B20034F85B /* DropDownMenuColorCode.png in Resources */,
 				ABBEE6021A13103F00B3AA1C /* GuestSideHomeImage.jpg in Resources */,
+				0125EC141A1878A60034F85B /* CancelButton.psd in Resources */,
+				0125EB021A185C700034F85B /* slider-red.png in Resources */,
+				0125EB3D1A185CA20034F85B /* EditIngredientInventory.png in Resources */,
+				0125EB3C1A185CA20034F85B /* DropDownMenuColorCode.png in Resources */,
+				0125EAAB1A1740350034F85B /* alphabet-slider.png in Resources */,
+				0125EC1A1A1878A60034F85B /* EditRestaurantTitle.psd in Resources */,
+				0125EAAD1A1740350034F85B /* LineDivider.psd in Resources */,
+				0125EAFD1A185C700034F85B /* menu inventory title.psd in Resources */,
+				0125EB4C1A185CA20034F85B /* WhiteTextFieldBox.psd in Resources */,
 				ABCBADD01A134E8200FA9401 /* AppetizerTab_Beige.png in Resources */,
 				ABCBADAF1A134E8200FA9401 /* WineBraisedOctopus.jpg in Resources */,
+				0125EC611A1878B20034F85B /* BoxLineDivider.psd in Resources */,
 				ABBEE6041A13103F00B3AA1C /* JWMarriottLogo.psd in Resources */,
+				0125EB321A185CA20034F85B /* BackgroundOverlay.png in Resources */,
 				ABCBADB11A134E8200FA9401 /* ItemName_MusselForno_Orange.psd in Resources */,
 				ABCBADCB1A134E8200FA9401 /* ReviewStars_3.psd in Resources */,
+				0125EC741A1878B20034F85B /* LargeWhiteTextBoxField.psd in Resources */,
+				0125EC661A1878B20034F85B /* CategoryDropDownButton.png in Resources */,
 				ABCBADA31A134E8200FA9401 /* DivideDots.png in Resources */,
 				ABCBADD11A134E8200FA9401 /* AppetizerTab_Beige.psd in Resources */,
+				0125EB311A185CA20034F85B /* AllergyDropDownButton.psd in Resources */,
 				ABCBADB51A134E8200FA9401 /* ItemName_OystersRocke_Orange.psd in Resources */,
+				0125EAA91A1740350034F85B /* list-alphabet divide.png in Resources */,
+				0125EB041A185C700034F85B /* WhiteBackButton.psd in Resources */,
+				0125EAFB1A185C700034F85B /* logout button.psd in Resources */,
 				ABCBADB01A134E8200FA9401 /* ItemName_MusselForno_Orange.png in Resources */,
+				0125EC631A1878B20034F85B /* CancelButton.psd in Resources */,
+				0125EB381A185CA20034F85B /* CancelButton.png in Resources */,
+				0125EB451A185CA20034F85B /* SaveButton.png in Resources */,
+				0125EAB51A1740350034F85B /* item-list-space.png in Resources */,
+				0125EB3A1A185CA20034F85B /* CancelNavButton.png in Resources */,
+				0125EB411A185CA20034F85B /* InventoryNavButton.png in Resources */,
+				0125EB441A185CA20034F85B /* NavBarBackground.psd in Resources */,
 				ABCBADC71A134E8200FA9401 /* NavBar_Primo.psd in Resources */,
+				0125EAF51A185C700034F85B /* slider green.psd in Resources */,
 				ABBEE60A1A13103F00B3AA1C /* Page1_RestaurantButton.png in Resources */,
+				0125EC6C1A1878B20034F85B /* EditMenuItemImage.jpg in Resources */,
+				0125EAAF1A1740350034F85B /* slider-green.png in Resources */,
+				0125EC6B1A1878B20034F85B /* EditMenuItemBanner.jpg in Resources */,
 				ABCBADDA1A134E8200FA9401 /* EntreeTab_Orange.png in Resources */,
+				0125EC111A1878A60034F85B /* BoxLineDivider.png in Resources */,
+				0125EAAA1A1740350034F85B /* alphabet slider.psd in Resources */,
 				ABCBADB21A134E8200FA9401 /* ItemName_OystersRocke_Beige.png in Resources */,
 				ABCBADB81A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.png in Resources */,
 				ABBEE5CD1A130BE800B3AA1C /* Images.xcassets in Resources */,
+				0125EB4B1A185CA20034F85B /* WhiteTextFieldBox.png in Resources */,
 				ABCBADA81A134E8200FA9401 /* HomeNavButton.psd in Resources */,
+				0125EABA1A1740350034F85B /* slider red.psd in Resources */,
+				0125EC731A1878B20034F85B /* LargeWhiteTextBoxField.png in Resources */,
+				0125EB3F1A185CA20034F85B /* EditInventoryBanner.jpg in Resources */,
+				0125EC6F1A1878B20034F85B /* IngredientDropDownButton.png in Resources */,
+				0125EC651A1878B20034F85B /* CancelNavButton.psd in Resources */,
 				ABBEE5BF1A130BE800B3AA1C /* InfoPlist.strings in Resources */,
 				ABCBADC21A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png in Resources */,
 				ABCBADD61A134E8200FA9401 /* BeverageTab_Orange.png in Resources */,
+				0125EAFA1A185C700034F85B /* item-list-space.png in Resources */,
+				0125EC7D1A1878B20034F85B /* WhitePlusButton.png in Resources */,
+				0125EC231A1878A60034F85B /* WhiteTextFieldBox.png in Resources */,
+				0125EC6D1A1878B20034F85B /* ImageButton.png in Resources */,
 				ABCBADBF1A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.psd in Resources */,
+				0125EAB21A1740350034F85B /* ingredient inventory title.psd in Resources */,
 				ABCBADD31A134E8200FA9401 /* AppetizerTab_Orange.psd in Resources */,
+				0125EB031A185C700034F85B /* WhiteBackButton.png in Resources */,
+				0125EC1C1A1878A60034F85B /* HomeNavButton.psd in Resources */,
 				ABBEE6071A13103F00B3AA1C /* NavBar_J.W.png in Resources */,
 				ABCBADDB1A134E8200FA9401 /* EntreeTab_Orange.psd in Resources */,
 				ABCBADA91A134E8200FA9401 /* AntipastiMisti.jpg in Resources */,
+				0125EB3E1A185CA20034F85B /* EditIngredientInventory.psd in Resources */,
 				ABCBADCC1A134E8200FA9401 /* ReviewStars_4.png in Resources */,
 				ABCBADC91A134E8200FA9401 /* ReviewStars_2.psd in Resources */,
+				0125EABB1A1740350034F85B /* slider-red.png in Resources */,
 				ABCBADC11A134E8200FA9401 /* ItemNames_MusselsForno_Beige.psd in Resources */,
+				0125EC5F1A1878B20034F85B /* BlackPlusButton.psd in Resources */,
+				0125EB591A1876530034F85B /* menu-inventory-title.png in Resources */,
+				0125EB351A185CA20034F85B /* BlackPlusButton.psd in Resources */,
+				0125EC241A1878A60034F85B /* WhiteTextFieldBox.psd in Resources */,
+				0125EABC1A1740350034F85B /* WhiteBackButton.png in Resources */,
 				ABCBADBE1A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.png in Resources */,
+				0125EAF81A185C700034F85B /* home-button.png in Resources */,
+				0125EAFC1A185C700034F85B /* logout-button.png in Resources */,
+				0125EC781A1878B20034F85B /* SaveButton.psd in Resources */,
 				ABBEE6031A13103F00B3AA1C /* JWMarriottLogo.png in Resources */,
+				0125EAF11A185C700034F85B /* alphabet slider.psd in Resources */,
+				0125EAED1A185C700034F85B /* add item button.psd in Resources */,
+				0125EC7C1A1878B20034F85B /* WhiteDropDownArrow.psd in Resources */,
 				ABCBADC61A134E8200FA9401 /* NavBar_Primo.png in Resources */,
 				ABBEE5C81A130BE800B3AA1C /* Main.storyboard in Resources */,
 				ABCBADAC1A134E8200FA9401 /* PrimoLettuces.jpg in Resources */,
 				ABCBADC81A134E8200FA9401 /* ReviewStars_2.png in Resources */,
 				ABCBADAB1A134E8200FA9401 /* OystersRockefeller.jpg in Resources */,
+				0125EC151A1878A60034F85B /* CancelNavButton.png in Resources */,
+				0125EC711A1878B20034F85B /* InventoryNavButton.png in Resources */,
+				0125EC211A1878A60034F85B /* WhiteBackButton.png in Resources */,
+				0125EC121A1878A60034F85B /* BoxLineDivider.psd in Resources */,
+				0125EB361A185CA20034F85B /* BoxLineDivider.png in Resources */,
+				0125EC191A1878A60034F85B /* EditRestaurantTitle.png in Resources */,
 				ABCBADDF1A134E8200FA9401 /* PastaTab_Orange.psd in Resources */,
+				0125EAF71A185C700034F85B /* home button.psd in Resources */,
+				0125EC7F1A1878B20034F85B /* WhiteTextFieldBox.png in Resources */,
 				ABCBADDD1A134E8200FA9401 /* PastaTab_Beige.psd in Resources */,
-				ABCBADC41A134E8200FA9401 /* NavBarBackground.png in Resources */,
 				ABCBADB31A134E8200FA9401 /* ItemName_OystersRocke_Beige.psd in Resources */,
 				ABCBADB71A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.psd in Resources */,
+				0125EC7B1A1878B20034F85B /* WhiteDropDownArrow.png in Resources */,
 				ABCBADBD1A134E8200FA9401 /* ItemName_BlankTab_Orange.psd in Resources */,
+				0125EAB01A1740350034F85B /* home button.psd in Resources */,
+				0125EC701A1878B20034F85B /* IngredientDropDownButton.psd in Resources */,
 				ABCBADA61A134E8200FA9401 /* GrayOutMenuItem.psd in Resources */,
+				0125EC621A1878B20034F85B /* CancelButton.png in Resources */,
+				0125EB4A1A185CA20034F85B /* WhiteDropDownArrow.psd in Resources */,
+				0125EAB91A1740350034F85B /* nav-bar.png in Resources */,
 				ABCBADDC1A134E8200FA9401 /* PastaTab_Beige.png in Resources */,
+				0125EC791A1878B20034F85B /* WhiteBackButton.png in Resources */,
+				0125EC1D1A1878A60034F85B /* NavBarBackground.png in Resources */,
+				0125EC161A1878A60034F85B /* CancelNavButton.psd in Resources */,
+				0125EC6A1A1878B20034F85B /* EditMenuInventoryTitle.psd in Resources */,
+				0125EC1E1A1878A60034F85B /* NavBarBackground.psd in Resources */,
+				0125EC721A1878B20034F85B /* InventoryNavButton.psd in Resources */,
+				0125EB011A185C700034F85B /* slider red.psd in Resources */,
+				0125EAFF1A185C700034F85B /* nav bar.psd in Resources */,
+				0125EAC31A17442A0034F85B /* ingredient-inventory-title.png in Resources */,
 				ABCBADB91A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.psd in Resources */,
 				ABCBADAD1A134E8200FA9401 /* WagyuBeefTartare.jpg in Resources */,
 				ABCBADE11A134E8200FA9401 /* WhiteBackButton.psd in Resources */,
+				0125EC131A1878A60034F85B /* CancelButton.png in Resources */,
 				ABCBADA71A134E8200FA9401 /* HomeNavButton.png in Resources */,
 				ABCBADD71A134E8200FA9401 /* BeverageTab_Orange.psd in Resources */,
+				0125EC7A1A1878B20034F85B /* WhiteBackButton.psd in Resources */,
+				0125EB3B1A185CA20034F85B /* CancelNavButton.psd in Resources */,
+				0125EABD1A1740350034F85B /* WhiteBackButton.psd in Resources */,
 				ABBEE6051A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide in Resources */,
+				0125EC171A1878A60034F85B /* EditRestaurantBanner.jpg in Resources */,
+				0125EC6E1A1878B20034F85B /* ImageButton.psd in Resources */,
+				0125EAF21A185C700034F85B /* alphabet-slider.png in Resources */,
+				0125EAF01A185C700034F85B /* list-alphabet divide.png in Resources */,
+				0125EB431A185CA20034F85B /* NavBarBackground.png in Resources */,
+				0125EC5E1A1878B20034F85B /* BlackPlusButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,10 +1939,16 @@
 				ABBEE6141A1315A000B3AA1C /* Login.m in Sources */,
 				ABBEE6171A13166F00B3AA1C /* MenuGuide.m in Sources */,
 				ABCBAD4F1A13352800FA9401 /* CustomCellMenuGuide.m in Sources */,
+				0125EA451A15B7CD0034F85B /* Menu Butler.m in Sources */,
+				0125EB571A1874C30034F85B /* EditMenu.m in Sources */,
+				0125EC841A187D140034F85B /* EditRestaurant.m in Sources */,
+				0125EB531A1872440034F85B /* Menu.m in Sources */,
+				0125EAC71A18598E0034F85B /* Inventory.m in Sources */,
 				ABCBADE41A13A4EB00FA9401 /* ItemCell.m in Sources */,
 				ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */,
 				ABBEE5C11A130BE800B3AA1C /* main.m in Sources */,
 				ABCBAD521A134BB600FA9401 /* MenuView.m in Sources */,
+				0125EA7F1A1732560034F85B /* EditInventory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -890,7 +2078,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBButlerIpad/FBButlerIpad-Prefix.pch";
 				INFOPLIST_FILE = "FBButlerIpad/FBButlerIpad-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -904,7 +2092,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBButlerIpad/FBButlerIpad-Prefix.pch";
 				INFOPLIST_FILE = "FBButlerIpad/FBButlerIpad-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

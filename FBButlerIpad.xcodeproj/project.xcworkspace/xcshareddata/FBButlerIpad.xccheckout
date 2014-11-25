@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>13819E53-4D50-4566-BB51-9F2E568A74A7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FBButlerIpad</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B988BBDC-6B11-4E55-AFEA-98FB65521762</key>
+		<string>https://github.com/CS4153-Blue-Team/FBButlerIpad.git</string>
+		<key>E31A475C-28B0-4817-903A-C755C7B16B04</key>
+		<string>https://github.com/CS4153-Blue-Team/FBButlerIpad.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FBButlerIpad.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B988BBDC-6B11-4E55-AFEA-98FB65521762</key>
+		<string>../../FBButlerIpad</string>
+		<key>E31A475C-28B0-4817-903A-C755C7B16B04</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CS4153-Blue-Team/FBButlerIpad.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E31A475C-28B0-4817-903A-C755C7B16B04</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E31A475C-28B0-4817-903A-C755C7B16B04</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FBButlerIpad</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B988BBDC-6B11-4E55-AFEA-98FB65521762</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FBButlerIpad</string>
+		</dict>
+	</array>
+</dict>
+</plist>
