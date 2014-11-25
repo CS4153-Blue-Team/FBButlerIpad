@@ -112,7 +112,6 @@
             button.backgroundColor = [MenuGuide hexColor:@"EFE5DB"];
         }
         
-        button.titleLabel.font = [UIFont fontWithName:@"Times-Bold" size:10];
         button.titleLabel.font = [UIFont systemFontOfSize:22.0f];
         button.frame = CGRectMake(startpoint, 64.0, buttonwidth, 62.0);
         [self.view addSubview:button];
