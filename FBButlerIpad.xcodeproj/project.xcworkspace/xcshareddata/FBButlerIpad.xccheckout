@@ -10,43 +10,31 @@
 	<string>FBButlerIpad</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B988BBDC-6B11-4E55-AFEA-98FB65521762</key>
-		<string>https://github.com/CS4153-Blue-Team/FBButlerIpad.git</string>
-		<key>E31A475C-28B0-4817-903A-C755C7B16B04</key>
-		<string>https://github.com/CS4153-Blue-Team/FBButlerIpad.git</string>
+		<key>DE8A6BD96F83C1D60AA8E48F114A5134A436E60B</key>
+		<string>https://github.com/CS4153-Blue-Team/FBButlerIpad</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FBButlerIpad.xcodeproj/project.xcworkspace</string>
+	<string>FBButlerIpad.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B988BBDC-6B11-4E55-AFEA-98FB65521762</key>
-		<string>../../FBButlerIpad</string>
-		<key>E31A475C-28B0-4817-903A-C755C7B16B04</key>
+		<key>DE8A6BD96F83C1D60AA8E48F114A5134A436E60B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/CS4153-Blue-Team/FBButlerIpad.git</string>
+	<string>https://github.com/CS4153-Blue-Team/FBButlerIpad</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E31A475C-28B0-4817-903A-C755C7B16B04</string>
+	<string>DE8A6BD96F83C1D60AA8E48F114A5134A436E60B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E31A475C-28B0-4817-903A-C755C7B16B04</string>
+			<string>DE8A6BD96F83C1D60AA8E48F114A5134A436E60B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>FBButlerIpad</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B988BBDC-6B11-4E55-AFEA-98FB65521762</string>
-			<key>IDESourceControlWCCName</key>
-			<string>FBButlerIpad</string>
+			<string>employee</string>
 		</dict>
 	</array>
 </dict>

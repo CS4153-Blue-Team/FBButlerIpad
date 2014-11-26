@@ -18,6 +18,7 @@
     Hotel* hotel = [[Hotel alloc]init];
     hotel.name = @"THE HOTEL";
     hotel.internalId = 802;
+    hotel.image = [UIImage imageNamed:@"NavBar_J.W.png"];
     return hotel;
 }
 

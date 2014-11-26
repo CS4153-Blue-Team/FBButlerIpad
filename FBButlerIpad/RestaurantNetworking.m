@@ -25,13 +25,16 @@
     restaurant.internalId= 100;
     restaurant.name = @"Restaurant 1";
     restaurant.hotel = hotel;
-    restaurant.buttonImage = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
+    //restaurant.buttonImage = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
+    restaurant.type = @"Type 1";
+    restaurant.hours = @"1-4";
     [restaurants addObject:restaurant];
     
     restaurant2.internalId = 101;
-    restaurant.name = @"Restaurant 2";
+    restaurant2.name = @"Restaurant 2";
     restaurant2.hotel = hotel;
-    restaurant2.buttonImage = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
+    restaurant2.type = @"Type of 2";
+    restaurant2.hours = @"2-5";
     [restaurants addObject: restaurant2];
     NSLog(@"Restaurant objects: %i",[restaurants count]);
     return [NSArray arrayWithArray:restaurants];

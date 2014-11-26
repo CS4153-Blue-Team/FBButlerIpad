@@ -14,9 +14,8 @@
 @property int internalId;
 @property NSString* name;
 @property Hotel* hotel;
-@property UIImage* buttonImage;
 @property UIImage* adImage;
-@property NSString* description;
-
+@property NSString* type;
+@property NSString* hours;
 
 @end
