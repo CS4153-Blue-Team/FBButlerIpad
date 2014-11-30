@@ -8,6 +8,7 @@
 
 #import "EditInventory.h"
 
+
 @interface EditInventory ()
 
 @end
@@ -27,8 +28,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    self.navigationItem.title = @"Edit Ingredient";
 
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"EditIngredientInventory.png"]];
     
 }
 
@@ -43,6 +45,17 @@
 - (IBAction)tapCancelButton:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"saveSegue"])
+    {
+        self.ingredient = self.name.text;
+        self.ingredient = [self.ingredient capitalizedString];
+    } 
+}
+
+
 
 
 @end

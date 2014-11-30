@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MenuGuide.h"
+#import "LoginPage.h"
 
 @implementation AppDelegate
 

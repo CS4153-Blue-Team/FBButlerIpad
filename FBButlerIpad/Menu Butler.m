@@ -31,7 +31,7 @@
 {
     [super viewDidLoad];
 	// Load an image for the title on the navigation bar.
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"butler-employee-home-title.png"]];
+    self.navigationItem.title = @"J.W. Marriott Menu Butler";
     
     self.editInventory.alpha = .8;
     self.editMenu.alpha = .8;

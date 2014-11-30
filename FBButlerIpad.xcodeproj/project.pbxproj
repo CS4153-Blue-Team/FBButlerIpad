@@ -151,6 +151,12 @@
 		0125EC7F1A1878B20034F85B /* WhiteTextFieldBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC5A1A1878B20034F85B /* WhiteTextFieldBox.png */; };
 		0125EC801A1878B20034F85B /* WhiteTextFieldBox.psd in Resources */ = {isa = PBXBuildFile; fileRef = 0125EC5B1A1878B20034F85B /* WhiteTextFieldBox.psd */; };
 		0125EC841A187D140034F85B /* EditRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125EC831A187D140034F85B /* EditRestaurant.m */; };
+		01C85BC81A268C1300D68CE9 /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C85BC71A268C1300D68CE9 /* LoginPage.m */; };
+		01C85BCB1A268E1F00D68CE9 /* login_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C85BCA1A268E1F00D68CE9 /* login_banner.png */; };
+		01C85BCD1A268E3C00D68CE9 /* login_blur_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C85BCC1A268E3B00D68CE9 /* login_blur_bg.png */; };
+		01C85BCF1A268E5600D68CE9 /* login_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C85BCE1A268E5600D68CE9 /* login_button.png */; };
+		01C85BD41A26A59100D68CE9 /* RestaurantPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C85BD31A26A59100D68CE9 /* RestaurantPage.m */; };
+		01C85BD71A2977CB00D68CE9 /* InventoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C85BD61A2977CB00D68CE9 /* InventoryCell.m */; };
 		ABBEE5B51A130BE800B3AA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B41A130BE800B3AA1C /* Foundation.framework */; };
 		ABBEE5B71A130BE800B3AA1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */; };
 		ABBEE5B91A130BE800B3AA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B81A130BE800B3AA1C /* UIKit.framework */; };
@@ -401,6 +407,15 @@
 		0125EC5B1A1878B20034F85B /* WhiteTextFieldBox.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteTextFieldBox.psd; sourceTree = "<group>"; };
 		0125EC821A187D140034F85B /* EditRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditRestaurant.h; sourceTree = "<group>"; };
 		0125EC831A187D140034F85B /* EditRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditRestaurant.m; sourceTree = "<group>"; };
+		01C85BC61A268C1300D68CE9 /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
+		01C85BC71A268C1300D68CE9 /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
+		01C85BCA1A268E1F00D68CE9 /* login_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_banner.png; sourceTree = "<group>"; };
+		01C85BCC1A268E3B00D68CE9 /* login_blur_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_blur_bg.png; sourceTree = "<group>"; };
+		01C85BCE1A268E5600D68CE9 /* login_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_button.png; sourceTree = "<group>"; };
+		01C85BD21A26A59100D68CE9 /* RestaurantPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantPage.h; sourceTree = "<group>"; };
+		01C85BD31A26A59100D68CE9 /* RestaurantPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantPage.m; sourceTree = "<group>"; };
+		01C85BD51A2977CB00D68CE9 /* InventoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryCell.h; sourceTree = "<group>"; };
+		01C85BD61A2977CB00D68CE9 /* InventoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryCell.m; sourceTree = "<group>"; };
 		ABBEE5B11A130BE800B3AA1C /* FBButlerIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBButlerIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBEE5B41A130BE800B3AA1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -526,6 +541,8 @@
 		0125EA2C1A15B4E30034F85B /* Employee Side */ = {
 			isa = PBXGroup;
 			children = (
+				01C85BD11A26A0A900D68CE9 /* Restaurant Page */,
+				01C85BC51A268BEF00D68CE9 /* Login Page */,
 				0125EC811A187CF50034F85B /* Edit Restaurant Page */,
 				0125EB541A1874A80034F85B /* Edit Menu Page */,
 				0125EB501A1869490034F85B /* Menu Page */,
@@ -539,6 +556,8 @@
 		0125EA2D1A15B4FC0034F85B /* Employee Images */ = {
 			isa = PBXGroup;
 			children = (
+				01C85BD01A269EFC00D68CE9 /* Restaurant Page */,
+				01C85BC91A268D1300D68CE9 /* LoginPage */,
 				0125EB4D1A18686B0034F85B /* EditMenuItemBanner.jpg */,
 				0125EC251A1878B20034F85B /* Page9 */,
 				0125EBEE1A1878A60034F85B /* Page8 */,
@@ -700,6 +719,8 @@
 			children = (
 				0125EAC51A18598E0034F85B /* Inventory.h */,
 				0125EAC61A18598E0034F85B /* Inventory.m */,
+				01C85BD51A2977CB00D68CE9 /* InventoryCell.h */,
+				01C85BD61A2977CB00D68CE9 /* InventoryCell.m */,
 			);
 			name = "Inventory Page";
 			sourceTree = "<group>";
@@ -1287,6 +1308,41 @@
 			name = "Edit Restaurant Page";
 			sourceTree = "<group>";
 		};
+		01C85BC51A268BEF00D68CE9 /* Login Page */ = {
+			isa = PBXGroup;
+			children = (
+				01C85BC61A268C1300D68CE9 /* LoginPage.h */,
+				01C85BC71A268C1300D68CE9 /* LoginPage.m */,
+			);
+			name = "Login Page";
+			sourceTree = "<group>";
+		};
+		01C85BC91A268D1300D68CE9 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				01C85BCE1A268E5600D68CE9 /* login_button.png */,
+				01C85BCC1A268E3B00D68CE9 /* login_blur_bg.png */,
+				01C85BCA1A268E1F00D68CE9 /* login_banner.png */,
+			);
+			name = LoginPage;
+			sourceTree = "<group>";
+		};
+		01C85BD01A269EFC00D68CE9 /* Restaurant Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Restaurant Page";
+			sourceTree = "<group>";
+		};
+		01C85BD11A26A0A900D68CE9 /* Restaurant Page */ = {
+			isa = PBXGroup;
+			children = (
+				01C85BD21A26A59100D68CE9 /* RestaurantPage.h */,
+				01C85BD31A26A59100D68CE9 /* RestaurantPage.m */,
+			);
+			name = "Restaurant Page";
+			sourceTree = "<group>";
+		};
 		AB4A7EFD1A131950000D2EB4 /* Menu Guide Page */ = {
 			isa = PBXGroup;
 			children = (
@@ -1837,6 +1893,7 @@
 				ABBEE5BF1A130BE800B3AA1C /* InfoPlist.strings in Resources */,
 				ABCBADC21A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png in Resources */,
 				ABCBADD61A134E8200FA9401 /* BeverageTab_Orange.png in Resources */,
+				01C85BCB1A268E1F00D68CE9 /* login_banner.png in Resources */,
 				0125EAFA1A185C700034F85B /* item-list-space.png in Resources */,
 				0125EC7D1A1878B20034F85B /* WhitePlusButton.png in Resources */,
 				0125EC231A1878A60034F85B /* WhiteTextFieldBox.png in Resources */,
@@ -1873,9 +1930,11 @@
 				ABCBADC81A134E8200FA9401 /* ReviewStars_2.png in Resources */,
 				ABCBADAB1A134E8200FA9401 /* OystersRockefeller.jpg in Resources */,
 				0125EC151A1878A60034F85B /* CancelNavButton.png in Resources */,
+				01C85BCF1A268E5600D68CE9 /* login_button.png in Resources */,
 				0125EC711A1878B20034F85B /* InventoryNavButton.png in Resources */,
 				0125EC211A1878A60034F85B /* WhiteBackButton.png in Resources */,
 				0125EC121A1878A60034F85B /* BoxLineDivider.psd in Resources */,
+				01C85BCD1A268E3C00D68CE9 /* login_blur_bg.png in Resources */,
 				0125EB361A185CA20034F85B /* BoxLineDivider.png in Resources */,
 				0125EC191A1878A60034F85B /* EditRestaurantTitle.png in Resources */,
 				ABCBADDF1A134E8200FA9401 /* PastaTab_Orange.psd in Resources */,
@@ -1940,10 +1999,13 @@
 				ABBEE6171A13166F00B3AA1C /* MenuGuide.m in Sources */,
 				ABCBAD4F1A13352800FA9401 /* CustomCellMenuGuide.m in Sources */,
 				0125EA451A15B7CD0034F85B /* Menu Butler.m in Sources */,
+				01C85BD41A26A59100D68CE9 /* RestaurantPage.m in Sources */,
 				0125EB571A1874C30034F85B /* EditMenu.m in Sources */,
 				0125EC841A187D140034F85B /* EditRestaurant.m in Sources */,
 				0125EB531A1872440034F85B /* Menu.m in Sources */,
+				01C85BD71A2977CB00D68CE9 /* InventoryCell.m in Sources */,
 				0125EAC71A18598E0034F85B /* Inventory.m in Sources */,
+				01C85BC81A268C1300D68CE9 /* LoginPage.m in Sources */,
 				ABCBADE41A13A4EB00FA9401 /* ItemCell.m in Sources */,
 				ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */,
 				ABBEE5C11A130BE800B3AA1C /* main.m in Sources */,

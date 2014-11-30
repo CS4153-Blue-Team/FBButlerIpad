@@ -46,19 +46,19 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="6 p - 10 p, Thu - Su" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="VQ9-Fn-Kgh">
                                 <rect key="frame" x="201" y="413" width="366" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="italian" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="gmE-IG-7JY">
                                 <rect key="frame" x="201" y="367" width="366" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Primo" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="BJS-Z2-MSr">
                                 <rect key="frame" x="201" y="321" width="366" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
@@ -317,7 +317,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VAu-pG-0ny" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-356" y="-4"/>
+            <point key="canvasLocation" x="-2102" y="20"/>
         </scene>
         <!--Login-->
         <scene sceneID="V1S-rS-fBo">
@@ -357,12 +357,193 @@
                     <navigationItem key="navigationItem" id="icS-XF-CkL"/>
                     <connections>
                         <segue destination="UiE-qT-04A" kind="push" identifier="login-menuguide" id="2rT-yn-uvY"/>
-                        <segue destination="bHW-59-GrW" kind="push" identifier="login-menubutler" id="wE1-Am-jTM"/>
+                        <segue destination="erq-YE-kjo" kind="push" identifier="login-loginEmployee" id="ixd-U9-EPX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wNA-ce-CcQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="563" y="5"/>
+            <point key="canvasLocation" x="-1189" y="20"/>
+        </scene>
+        <!--Login Page-->
+        <scene sceneID="Rva-T3-aLz">
+            <objects>
+                <viewController id="erq-YE-kjo" customClass="LoginPage" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AFH-vk-erW"/>
+                        <viewControllerLayoutGuide type="bottom" id="zri-qo-QHb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tzv-8n-LmX">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_blur_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="c3Z-Df-2yK">
+                                <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Name" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="thl-bo-u5A">
+                                <rect key="frame" x="10" y="30" width="360" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="gIE-oC-Yr8"/>
+                                    <constraint firstAttribute="height" constant="45" id="zBA-ho-Wc0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_banner.png" translatesAutoresizingMaskIntoConstraints="NO" id="k8O-xI-BND">
+                                <rect key="frame" x="0.0" y="63" width="768" height="210"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Username" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wxn-MK-KfM">
+                                <rect key="frame" x="204" y="339" width="360" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="2Wd-zS-8Z2"/>
+                                    <constraint firstAttribute="width" constant="360" id="I6u-gI-K11"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="iXz-Og-oBj">
+                                <rect key="frame" x="204" y="383" width="360" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="bLN-9c-SKw"/>
+                                    <constraint firstAttribute="height" constant="45" id="qle-p1-Dco"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PfC-VM-0Ar">
+                                <rect key="frame" x="204" y="461" width="360" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="login_button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapLogin:" destination="erq-YE-kjo" eventType="touchUpInside" id="ZO6-Yf-VI5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UIh-JK-Nfh">
+                        <barButtonItem key="backBarButtonItem" title="Login" id="Pqu-9k-g0A"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="loginButton" destination="PfC-VM-0Ar" id="zVr-dj-eZn"/>
+                        <outlet property="passwordField" destination="iXz-Og-oBj" id="nvE-HW-68f"/>
+                        <outlet property="usernameField" destination="Wxn-MK-KfM" id="dmE-wX-gYr"/>
+                        <segue destination="u1I-4A-lCv" kind="push" identifier="login-restaurants" id="v4n-wR-7RF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hoy-kg-3iF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-207" y="20"/>
+        </scene>
+        <!--Restaurant Page-->
+        <scene sceneID="Nnv-d8-6Ng">
+            <objects>
+                <viewController id="u1I-4A-lCv" customClass="RestaurantPage" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UCi-Hm-2dK"/>
+                        <viewControllerLayoutGuide type="bottom" id="wJV-mJ-Eyt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qop-xT-gOA">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditRestaurantBanner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4FP-3v-SZw">
+                                <rect key="frame" x="0.0" y="57" width="768" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditRestaurantImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2nO-b4-m6x">
+                                <rect key="frame" x="0.0" y="267" width="768" height="757"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3T-g6-wIf">
+                                <rect key="frame" x="243" y="363" width="283" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66274511810000003" green="0.13333334029999999" blue="0.16078431900000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="Primo">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="primoTap:" destination="u1I-4A-lCv" eventType="touchUpInside" id="3JE-cP-4FC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUS-e9-o6Q">
+                                <rect key="frame" x="243" y="461" width="283" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66274511810000003" green="0.13333334029999999" blue="0.16078431900000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="Cintron">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cintronTap:" destination="u1I-4A-lCv" eventType="touchUpInside" id="Ldw-pS-Xt6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjd-no-i1X">
+                                <rect key="frame" x="243" y="559" width="283" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66274511810000003" green="0.13333334029999999" blue="0.16078431900000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="Sushi Bar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sushiTap:" destination="u1I-4A-lCv" eventType="touchUpInside" id="kw6-1L-i3F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxQ-qq-XPs">
+                                <rect key="frame" x="243" y="657" width="283" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66274511810000003" green="0.13333334029999999" blue="0.16078431900000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="Quench">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="quenchTap:" destination="u1I-4A-lCv" eventType="touchUpInside" id="9Bs-9M-LNd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZo-1x-rXv">
+                                <rect key="frame" x="243" y="755" width="283" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66274511810000003" green="0.13333334029999999" blue="0.16078431900000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="Cafe Bodega">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bodegaTap:" destination="u1I-4A-lCv" eventType="touchUpInside" id="RcY-Yk-TLh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2y0-Sn-Cza">
+                                <rect key="frame" x="243" y="853" width="283" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66274511810000003" green="0.13333334029999999" blue="0.16078431900000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                <state key="normal" title="Golden Palace">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="palaceTap:" destination="u1I-4A-lCv" eventType="touchUpInside" id="uop-o8-FIq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kva-hG-4PD"/>
+                    <connections>
+                        <segue destination="bHW-59-GrW" kind="push" identifier="restaurant-menubutler" id="p5H-9H-ogL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7QG-2E-aYi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="703" y="20"/>
         </scene>
         <!--Menu Butler-->
         <scene sceneID="07Z-2v-7i5">
@@ -437,7 +618,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TeT-Yl-D5W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1639" y="5"/>
+            <point key="canvasLocation" x="1639" y="20"/>
         </scene>
         <!--Menu-->
         <scene sceneID="IAd-cj-6KA">
@@ -470,6 +651,25 @@
                                 <rect key="frame" x="-2" y="268" width="773" height="756"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="InventoryCell" id="lbj-Az-sA1">
+                                        <rect key="frame" x="0.0" y="22" width="773" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lbj-Az-sA1" id="TNY-6P-8ju">
+                                            <rect key="frame" x="0.0" y="0.0" width="773" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pnd-D1-nPc">
+                                                    <rect key="frame" x="20" y="11" width="469" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -514,13 +714,13 @@
                                 <rect key="frame" x="-5" y="268" width="778" height="764"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="line" placeholder="Description" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Vf-Uc-cSR">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="line" placeholder="Description" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Vf-Uc-cSR">
                                 <rect key="frame" x="201" y="538" width="360" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="132" id="gQk-JJ-3JL"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Price" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hhl-L7-w8F">
@@ -529,7 +729,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="IxA-8A-FYG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Name" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="GAQ-y4-JTx">
@@ -539,17 +739,17 @@
                                     <constraint firstAttribute="width" constant="360" id="J1f-OS-LL6"/>
                                     <constraint firstAttribute="height" constant="45" id="tNa-J3-zh6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLJ-Cw-AR7">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLJ-Cw-AR7">
                                 <rect key="frame" x="201" y="959" width="360" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="SaveButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="V3f-0r-Ons">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="V3f-0r-Ons">
                                 <rect key="frame" x="201" y="705" width="360" height="210"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -565,14 +765,15 @@
                                 </prototypes>
                                 <sections/>
                             </tableView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="5VQ-ev-bVc">
-                                <rect key="frame" x="201" y="421" width="360" height="83"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Image" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="vEp-G8-a6B">
+                                <rect key="frame" x="201" y="415" width="360" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="lvy-1t-czf"/>
+                                    <constraint firstAttribute="height" constant="45" id="MAO-w5-4aj"/>
                                 </constraints>
-                            </tableView>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -580,21 +781,15 @@
                             <constraint firstItem="ZLJ-Cw-AR7" firstAttribute="top" secondItem="V3f-0r-Ons" secondAttribute="bottom" constant="44" id="9Qm-xf-qhI"/>
                             <constraint firstAttribute="bottom" secondItem="ZLJ-Cw-AR7" secondAttribute="bottom" constant="20" symbolic="YES" id="Alz-hj-JsY"/>
                             <constraint firstItem="hh4-7V-1Wa" firstAttribute="leading" secondItem="bzc-Zv-gaG" secondAttribute="leading" id="Gyv-nY-miC"/>
-                            <constraint firstItem="2Vf-Uc-cSR" firstAttribute="trailing" secondItem="5VQ-ev-bVc" secondAttribute="trailing" id="HPZ-T6-Z9M"/>
                             <constraint firstItem="hh4-7V-1Wa" firstAttribute="top" secondItem="bzc-Zv-gaG" secondAttribute="top" constant="59" id="KBO-3x-KGt"/>
-                            <constraint firstItem="2Vf-Uc-cSR" firstAttribute="leading" secondItem="5VQ-ev-bVc" secondAttribute="leading" id="N9b-77-Qej"/>
                             <constraint firstItem="eeg-6f-xfT" firstAttribute="leading" secondItem="bzc-Zv-gaG" secondAttribute="leading" constant="-5" id="Rgj-kQ-6EI"/>
                             <constraint firstAttribute="bottom" secondItem="eeg-6f-xfT" secondAttribute="bottom" constant="-8" id="Su7-mq-LwE"/>
                             <constraint firstItem="Hhl-L7-w8F" firstAttribute="top" secondItem="GAQ-y4-JTx" secondAttribute="bottom" constant="1" id="TFc-mH-1K6"/>
                             <constraint firstItem="ZLJ-Cw-AR7" firstAttribute="leading" secondItem="V3f-0r-Ons" secondAttribute="leading" id="VGz-a3-YUM"/>
-                            <constraint firstItem="5VQ-ev-bVc" firstAttribute="top" secondItem="Hhl-L7-w8F" secondAttribute="bottom" constant="8" symbolic="YES" id="Xc1-xe-Syp"/>
                             <constraint firstItem="eeg-6f-xfT" firstAttribute="top" secondItem="vgl-fJ-QzE" secondAttribute="bottom" constant="204" id="aMh-k0-NEV"/>
                             <constraint firstItem="eeg-6f-xfT" firstAttribute="centerX" secondItem="hh4-7V-1Wa" secondAttribute="centerX" id="dPp-yX-dRL"/>
-                            <constraint firstItem="2Vf-Uc-cSR" firstAttribute="top" secondItem="5VQ-ev-bVc" secondAttribute="bottom" constant="34" id="fBc-tm-bB8"/>
                             <constraint firstItem="GAQ-y4-JTx" firstAttribute="top" secondItem="hh4-7V-1Wa" secondAttribute="bottom" constant="53" id="gUJ-nl-hPy"/>
                             <constraint firstItem="2Vf-Uc-cSR" firstAttribute="trailing" secondItem="V3f-0r-Ons" secondAttribute="trailing" id="lZQ-zD-uao"/>
-                            <constraint firstItem="Hhl-L7-w8F" firstAttribute="leading" secondItem="5VQ-ev-bVc" secondAttribute="leading" id="mFq-Hk-4GL"/>
-                            <constraint firstItem="Hhl-L7-w8F" firstAttribute="trailing" secondItem="5VQ-ev-bVc" secondAttribute="trailing" id="o3R-yo-iH8"/>
                             <constraint firstItem="GAQ-y4-JTx" firstAttribute="leading" secondItem="Hhl-L7-w8F" secondAttribute="leading" id="oPJ-ZQ-qAc"/>
                             <constraint firstItem="V3f-0r-Ons" firstAttribute="top" secondItem="2Vf-Uc-cSR" secondAttribute="bottom" constant="35" id="opt-6p-gnV"/>
                             <constraint firstItem="2Vf-Uc-cSR" firstAttribute="leading" secondItem="V3f-0r-Ons" secondAttribute="leading" id="r3x-bj-uxZ"/>
@@ -627,11 +822,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="xQf-IQ-xr2">
-                                <rect key="frame" x="-5" y="268" width="773" height="756"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditInventoryBanner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FQi-gE-23w">
                                 <rect key="frame" x="0.0" y="59" width="768" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -646,6 +836,36 @@
                                     <action selector="tapAddItem:" destination="cvX-6e-qMJ" eventType="touchUpInside" id="U4S-A4-dLe"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="yXU-Pz-8tN">
+                                <rect key="frame" x="0.0" y="277" width="768" height="747"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cells" id="Ji9-ag-x1H" customClass="InventoryCell">
+                                        <rect key="frame" x="0.0" y="22" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ji9-ag-x1H" id="IsB-yr-WFQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgb-kz-UXT">
+                                                    <rect key="frame" x="66" y="11" width="682" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellName" destination="Xgb-kz-UXT" id="eiM-dq-z6c"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="cvX-6e-qMJ" id="hmW-WA-NKv"/>
+                                    <outlet property="delegate" destination="cvX-6e-qMJ" id="8PN-0M-SEg"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -660,6 +880,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="tableView" destination="yXU-Pz-8tN" id="rLw-ro-USp"/>
                         <segue destination="6eE-8Y-dhx" kind="push" identifier="inventory-edit" id="u7u-n9-rMm"/>
                     </connections>
                 </viewController>
@@ -688,26 +909,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Name" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="aQw-kR-byl">
-                                <rect key="frame" x="218" y="497" width="366" height="45"/>
+                                <rect key="frame" x="201" y="496" width="366" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omx-vj-4BX">
-                                <rect key="frame" x="192" y="589" width="420" height="45"/>
+                                <rect key="frame" x="174" y="589" width="420" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="SaveButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="FX7-Mq-cHY" kind="unwind" identifier="saveSegue" unwindAction="save:" id="Vz7-54-z3K"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFY-bz-BHD">
-                                <rect key="frame" x="192" y="698" width="420" height="45"/>
+                                <rect key="frame" x="174" y="696" width="420" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="CancelButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="tapCancelButton:" destination="6eE-8Y-dhx" eventType="touchUpInside" id="s59-ci-pcx"/>
+                                    <segue destination="FX7-Mq-cHY" kind="unwind" identifier="cancelSegue" unwindAction="cancel:" id="ev6-dH-STA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -721,8 +946,12 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="name" destination="aQw-kR-byl" id="VCf-0f-Pf9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zlz-sN-QVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="FX7-Mq-cHY" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3631" y="-1268"/>
         </scene>
@@ -746,6 +975,9 @@
         <image name="edit-menu-button.png" width="1026" height="306"/>
         <image name="edit-restaurant-button.png" width="1026" height="306"/>
         <image name="employee-home.jpg" width="3201" height="4270"/>
+        <image name="login_banner.png" width="3201" height="1116"/>
+        <image name="login_blur_bg.png" width="3201" height="4270"/>
+        <image name="login_button.png" width="1511" height="185"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

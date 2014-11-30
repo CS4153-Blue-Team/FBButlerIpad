@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Inventory.h"
+#import "InventoryCell.h"
 
 @interface EditInventory : UIViewController
+
+@property (nonatomic, strong) NSString *ingredient;
+
+@property (weak, nonatomic) IBOutlet UITextField *name;
+
 
 @end

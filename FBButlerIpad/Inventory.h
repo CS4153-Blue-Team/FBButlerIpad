@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InventoryCell.h"
+#import "EditInventory.h"
 
-@interface Inventory : UIViewController
+@interface Inventory : UIViewController <UITableViewDataSource,UITableViewDelegate>
+
+@property (weak, nonatomic) NSString *name;
+
+@property (strong, nonatomic) NSArray *sectionTitles;
+@property (strong, nonatomic) NSMutableDictionary *tblDict;
+@property (strong, nonatomic) NSArray *indexTitles;
 
 @end

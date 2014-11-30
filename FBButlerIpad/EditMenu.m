@@ -27,7 +27,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"EditMenuInventoryTitle.png"]];
+    self.navigationItem.title = @"Edit Menu Item";
 }
 
 - (void)didReceiveMemoryWarning

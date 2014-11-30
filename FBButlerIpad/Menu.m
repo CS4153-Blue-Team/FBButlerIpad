@@ -10,6 +10,7 @@
 
 @interface Menu ()
 
+
 @end
 
 @implementation Menu
@@ -27,7 +28,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"menu-inventory-title.png"]];
+    self.navigationItem.title = @"Menu Item Inventory";
+	
 }
 
 - (void)didReceiveMemoryWarning
