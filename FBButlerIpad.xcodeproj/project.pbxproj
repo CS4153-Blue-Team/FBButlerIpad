@@ -94,6 +94,7 @@
 		ABCBADE01A134E8200FA9401 /* WhiteBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBADA11A134E8200FA9401 /* WhiteBackButton.png */; };
 		ABCBADE11A134E8200FA9401 /* WhiteBackButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBADA21A134E8200FA9401 /* WhiteBackButton.psd */; };
 		ABCBADE41A13A4EB00FA9401 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBADE31A13A4EB00FA9401 /* ItemCell.m */; };
+		ABED2C2B1A2BE10A00947B47 /* ReviewSectionImage.png in Resources */ = {isa = PBXBuildFile; fileRef = ABED2C2A1A2BE10A00947B47 /* ReviewSectionImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,6 +204,7 @@
 		ABCBADA21A134E8200FA9401 /* WhiteBackButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteBackButton.psd; sourceTree = "<group>"; };
 		ABCBADE21A13A4EB00FA9401 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
 		ABCBADE31A13A4EB00FA9401 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		ABED2C2A1A2BE10A00947B47 /* ReviewSectionImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReviewSectionImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,6 +338,7 @@
 		ABBEE5F31A13103F00B3AA1C /* Page1 */ = {
 			isa = PBXGroup;
 			children = (
+				ABED2C2A1A2BE10A00947B47 /* ReviewSectionImage.png */,
 				ABBEE5F41A13103F00B3AA1C /* GuestSideHomeImage.jpg */,
 				ABBEE5F51A13103F00B3AA1C /* JWMarriottLogo */,
 				ABBEE5F81A13103F00B3AA1C /* NavBar */,
@@ -669,6 +672,7 @@
 				ABCBADD51A134E8200FA9401 /* BeverageTab_Beige.psd in Resources */,
 				ABCBADC01A134E8200FA9401 /* ItemNames_MusselsForno_Beige.png in Resources */,
 				ABCBADE01A134E8200FA9401 /* WhiteBackButton.png in Resources */,
+				ABED2C2B1A2BE10A00947B47 /* ReviewSectionImage.png in Resources */,
 				ABCBADBA1A134E8200FA9401 /* ItemName_BlankTab_Beige.png in Resources */,
 				ABCBADD81A134E8200FA9401 /* EntreeTab_Beige.png in Resources */,
 				ABCBADCF1A134E8200FA9401 /* ReviewStars_5.psd in Resources */,
