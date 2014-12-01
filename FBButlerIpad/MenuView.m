@@ -100,6 +100,7 @@
          forControlEvents:UIControlEventTouchUpInside];
         
         
+        
         [button setTitle:[categories objectAtIndex:i] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         
@@ -112,7 +113,11 @@
             button.backgroundColor = [MenuGuide hexColor:@"EFE5DB"];
         }
         
-        button.titleLabel.font = [UIFont systemFontOfSize:22.0f];
+        button.titleLabel.font = [UIFont fontWithName:@"Minion Pro-Regular" size:23];
+        button.titleLabel.font = [UIFont systemFontOfSize:23.0f];
+
+
+        
         button.frame = CGRectMake(startpoint, 64.0, buttonwidth, 62.0);
         [self.view addSubview:button];
         startpoint+=buttonwidth;
