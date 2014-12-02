@@ -35,7 +35,6 @@
 		ABCBADA31A134E8200FA9401 /* DivideDots.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD561A134E8200FA9401 /* DivideDots.png */; };
 		ABCBADA41A134E8200FA9401 /* DivideDots.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD571A134E8200FA9401 /* DivideDots.psd */; };
 		ABCBADA51A134E8200FA9401 /* GrayOutMenuItem.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD591A134E8200FA9401 /* GrayOutMenuItem.png */; };
-		ABCBADA61A134E8200FA9401 /* GrayOutMenuItem.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD5A1A134E8200FA9401 /* GrayOutMenuItem.psd */; };
 		ABCBADA71A134E8200FA9401 /* HomeNavButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD5C1A134E8200FA9401 /* HomeNavButton.png */; };
 		ABCBADA81A134E8200FA9401 /* HomeNavButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD5D1A134E8200FA9401 /* HomeNavButton.psd */; };
 		ABCBADA91A134E8200FA9401 /* AntipastiMisti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABCBAD5F1A134E8200FA9401 /* AntipastiMisti.jpg */; };
@@ -144,7 +143,6 @@
 		ABCBAD561A134E8200FA9401 /* DivideDots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DivideDots.png; sourceTree = "<group>"; };
 		ABCBAD571A134E8200FA9401 /* DivideDots.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = DivideDots.psd; sourceTree = "<group>"; };
 		ABCBAD591A134E8200FA9401 /* GrayOutMenuItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrayOutMenuItem.png; sourceTree = "<group>"; };
-		ABCBAD5A1A134E8200FA9401 /* GrayOutMenuItem.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = GrayOutMenuItem.psd; sourceTree = "<group>"; };
 		ABCBAD5C1A134E8200FA9401 /* HomeNavButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeNavButton.png; sourceTree = "<group>"; };
 		ABCBAD5D1A134E8200FA9401 /* HomeNavButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = HomeNavButton.psd; sourceTree = "<group>"; };
 		ABCBAD5F1A134E8200FA9401 /* AntipastiMisti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AntipastiMisti.jpg; sourceTree = "<group>"; };
@@ -427,7 +425,6 @@
 			isa = PBXGroup;
 			children = (
 				ABCBAD591A134E8200FA9401 /* GrayOutMenuItem.png */,
-				ABCBAD5A1A134E8200FA9401 /* GrayOutMenuItem.psd */,
 			);
 			path = GrayOutMenuItem;
 			sourceTree = "<group>";
@@ -716,7 +713,6 @@
 				ABCBADB31A134E8200FA9401 /* ItemName_OystersRocke_Beige.psd in Resources */,
 				ABCBADB71A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.psd in Resources */,
 				ABCBADBD1A134E8200FA9401 /* ItemName_BlankTab_Orange.psd in Resources */,
-				ABCBADA61A134E8200FA9401 /* GrayOutMenuItem.psd in Resources */,
 				ABCBADDC1A134E8200FA9401 /* PastaTab_Beige.png in Resources */,
 				ABCBADB91A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.psd in Resources */,
 				ABCBADAD1A134E8200FA9401 /* WagyuBeefTartare.jpg in Resources */,
