@@ -9,6 +9,11 @@
 #import "MenuView.h"
 #import "MenuGuide.h"
 #import "ItemCell.h"
+#import "FoodCategory.h"
+#import "MenuItem.h"
+#import "MenuItemNetworking.h"
+#import "FoodCategoryNetworking.h"
+
 
 @interface MenuView ()
 
@@ -16,8 +21,13 @@
 @property (strong,nonatomic) NSMutableArray *buttonList;
 
 //Properties for Table View on the left side
-@property (strong,nonatomic) NSMutableArray *imageList;
-@property (strong,nonatomic) NSMutableArray *nameList;
+/*@property (strong,nonatomic) NSMutableArray *imageList;
+@property (strong,nonatomic) NSMutableArray *nameList;*/
+
+@property NSArray *categories;
+@property FoodCategory *selectedCategory;
+@property NSDictionary *menuItems; //Maps NAMES category objects to NSArrays of menu items
+
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (assign) int selectedRow;
 
@@ -46,13 +56,23 @@
 {
     [super viewDidLoad];
     // Set restaurant name
-    self.navigationItem.title = self.getRestaurant;
+    self.navigationItem.title = self.restaurant.name;
+    
+    self.categories = [FoodCategoryNetworking fakeGetAllCategoriesFor:self.restaurant withDelay:1 withFailure:false];
+    
+    self.selectedCategory = self.categories[0];
+    
+    self.menuItems = [MenuItemNetworking fakeGetMenuItemsFor:self.categories withDelay:1 withFailure:false];
+    
+    //TODO: FAilure...
     
     //Create category buttons
     [self createButton];
     
+    
+    
     //Following arrays are for testing purpose
-    self.imageList = [NSMutableArray arrayWithObjects:
+    /*self.imageList = [NSMutableArray arrayWithObjects:
                      [UIImage imageNamed:@"AntipastiMisti.jpg"],
                      [UIImage imageNamed:@"MusselsAlForno2.jpg"],
                      [UIImage imageNamed:@"OystersRockefeller.jpg"],
@@ -69,10 +89,11 @@
                      @"Wagyu Beef Tartare",
                      @"Wild Mushroom Tart",
                      @"Wine Braised Octopus",
-                     nil];
+                     nil];*/
     
     [self initiateData];
     [self.tableView reloadData];
+    [self.tableView.delegate tableView:self.tableView didSelectRowAtIndexPath:0]; //Hacky way to get stuff to initially load
 }
 
 
@@ -82,13 +103,13 @@
     
     //Number of Category of a Restaurant
     //Subject to be changed accordingly
-    int numberOfCategories = 4;
+    int numberOfCategories = [self.categories count];
     float startpoint = 0.0f;
     self.buttonList = [[NSMutableArray alloc] init];
     
     //Type of Category of a Restaurant
     //Subject to be changed accordingly
-    NSArray *categories = [NSArray arrayWithObjects:@"Appetizers", @"Pastas", @"Entrees",@"Drinks",nil];
+    //NSArray *categories = [NSArray arrayWithObjects:@"Appetizers", @"Pastas", @"Entrees",@"Drinks",nil];
     
     
     for(int i=0;i<numberOfCategories;i++){
@@ -130,11 +151,22 @@
 //Call an action when a button is tapped
 -(void) tapButton:(UIButton*)sender{
     //Reset font and background color of all buttons
+    for (FoodCategory* category in self.categories)
+    {
+        if ([category.name isEqualToString:sender.titleLabel.text])
+        {
+            NSLog(@"The selected category's name is: %@",category.name);
+            self.selectedCategory = category;
+            break;
+        }
+    }
     [self resetButton];
     //Change font and background color of the selected button
     [sender setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     //Set orange color on the selected botton
     sender.backgroundColor = [MenuGuide hexColor:@"E04E26"];
+    [self.tableView reloadData];
+    [self.tableView.delegate tableView:self.tableView didSelectRowAtIndexPath:0]; //HACKY WAY of making the description on the right update to first element of new table 
 }
 
 
@@ -163,9 +195,8 @@
 }
 
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {    // Return the number of rows in the section.
-    
-    return [self.imageList count];
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {    // Return the number of rows in the section.    
+    return [[self.menuItems objectForKey:self.selectedCategory.name] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -179,10 +210,12 @@
         cell = [nib objectAtIndex:0];
     }
     
+    MenuItem* relevantItem = [[self.menuItems objectForKey:self.selectedCategory.name] objectAtIndex:indexPath.row];
     
     // Config cell
     // Add identation on left on food name tag
-    cell.itemName.text =  [NSString stringWithFormat:@"%@%@", @"   ",self.nameList[indexPath.row]];
+    
+    cell.itemName.text =  [NSString stringWithFormat:@"%@%@", @"   ",relevantItem.name];
    
     
     //Set background color for a selected cell
@@ -213,15 +246,29 @@
     [self.tableView reloadData];
     
     //Set the name of food on the right panel
-    self.theName.text = self.nameList[indexPath.row];
+    MenuItem* relevantItem = (MenuItem*)((NSArray*)[self.menuItems objectForKey:self.selectedCategory.name]) [indexPath.row];
+    [self setMenuItem:relevantItem];
+    }
+
+-(void) setMenuItem:(MenuItem*) item
+{
+    self.theName.text = (item).name;
     self.theName.textColor = [MenuGuide hexColor:@"AB2025"];
+    
+    self.theComment = [[UIImageView alloc] initWithImage:item.reviewImage];
+    //WHAT TO DO WITH "THE CONTENT"?????
+    
+    
+    self.theDescription.text =  item.description;
+    self.thePrice.text = item.price;
+    //WHAT TO DO WITH "THE RATING"?
 
 }
 
 // Initiate Data on the first loading
 -(void) initiateData{
     //Get the first name of food on the first category
-    self.theName.text = self.nameList[0];
+    self.theName.text = ((FoodCategory*)((NSArray*)[self.menuItems objectForKey:self.selectedCategory.name])[0]).name;
     self.theName.textColor = [MenuGuide hexColor:@"AB2025"];
     
     

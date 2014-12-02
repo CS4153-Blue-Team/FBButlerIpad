@@ -9,12 +9,19 @@
 #import "MenuGuide.h"
 #import "MenuView.h"
 #import "CustomCellMenuGuide.h"
+#import "Restaurant.h"
+#import "Hotel.h"
+#import "HotelNetworking.h"
+#import "RestaurantNetworking.h"
 
 @interface MenuGuide ()
 
-@property (strong,nonatomic) NSMutableArray *name;//Restaurant's name
+/*@property (strong,nonatomic) NSMutableArray *name;//Restaurant's name
 @property (strong,nonatomic) NSMutableArray *type;//Restaurant's type
-@property (strong,nonatomic) NSMutableArray *hour;//Restaurant's hours
+@property (strong,nonatomic) NSMutableArray *hour;//Restaurant's hours*/
+
+@property NSMutableArray *restaurants;
+@property Hotel* hotel;
 
 //Used to get a restaurant's name from a selected cell
 @property (strong,nonatomic) NSIndexPath *index;
@@ -31,6 +38,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        
         // Custom initialization
     }
     return self;
@@ -38,18 +46,79 @@
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
     //Load a image for the title on navigatin bar
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"NavBar_J.W.png"]];
+    [self setLoading:true]; //show activity indicator
+    
+    
+    //This asynchronously loads restaurant over network.
+    id restaurantLoad =^
+    {
+        self.restaurants = [NSMutableArray arrayWithArray:[RestaurantNetworking fakeGetAllRestForHotel:self.hotel withDelay:(1) withFail:(true)]];
+        
+        //Updates UI based on network request.
+        //This is because all UI code must run on the main threads
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (self.restaurants == nil || self.restaurants.count ==0)
+            {
+                UIAlertView *errorMessage = [[UIAlertView alloc]initWithTitle:@"Network Error"
+                                                                      message:@"Error retrieving restaurants from network"
+                                                                     delegate:nil
+                                                            cancelButtonTitle:@"OK" otherButtonTitles: nil];
+                [self setLoading:false];
+                [errorMessage show];
+            }
+            NSLog(@"HERE RESTAURANTS IS: %@",self.restaurants);
+        
+            [self.tableView reloadData];
+            NSLog(@"HERE RESTAURANTS IS: %@",self.restaurants);
+            [self setLoading:false];
+            [self.activityIndicator setNeedsDisplay];
 
+        });
+    };
+    
+    //asynch block to load hotel.
+    id hotelLoad = ^{
+      self.hotel = [HotelNetworking fakeGetHotelWithDelay:1 requestFailed:false];
+        //updates ui b/c all ui updates must take place on main thread
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (self.hotel == nil)
+            {
+                UIAlertView *errorMessage = [[UIAlertView alloc]initWithTitle:@"Network Error"
+                                                                      message:@"Error retrieving hotels from network"
+                                                                     delegate:nil
+                                                            cancelButtonTitle:@"OK" otherButtonTitles: nil];
+                [self setLoading:false];
+                [errorMessage show];
+            }
+            else
+            {
+                dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), restaurantLoad);
+                self.navigationItem.titleView = [[UIImageView alloc] initWithImage:self.hotel.image];
+                [self.navigationItem.titleView setNeedsDisplay];
+            }
+            
+
+        });
+    };
+    
+    
+    
+    //starts hotel networking code
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), hotelLoad);
+    
+    
     
 
-    [self setupList];
+    //[self setupList];
 }
+
 
 -(void) setupList{
     //Following arrays are for testing purpose
-    self.name = [NSMutableArray arrayWithObjects:
+    /*self.name = [NSMutableArray arrayWithObjects:
                      @"Primo",
                      @"Cintron",
                      @"Sushi Bar",
@@ -72,7 +141,7 @@
                  @"6p-10p,Daily",
                  @"11a-10p,Daily",
                  @"8a-8p, Daily",
-                 nil];
+                 nil];*/
 }
 
 - (void)didReceiveMemoryWarning
@@ -92,10 +161,17 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return [self.name count];
+    NSLog(@"Row in section called, returning %i",[self.restaurants count]);
+    return [self.restaurants count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    NSLog(@"Requesting path %i",indexPath.row);
+    
+    Restaurant* restaurant = (Restaurant*)self.restaurants[indexPath.row];
+    
+    NSLog(@"The name of the current restaurant is %@",restaurant.name);
     
     //Make use of custom cells
     CustomCellMenuGuide *cell = (CustomCellMenuGuide *)[tableView dequeueReusableCellWithIdentifier:@"Cells"];
@@ -111,9 +187,9 @@
     cell.backgroundColor = [UIColor clearColor];
     
     //Assign restaurant's name, type, and business hours
-    cell.cellName.text =  self.name[indexPath.row];
-    cell.cellType.text = self.type[indexPath.row];
-    cell.cellHour.text = self.hour[indexPath.row];
+    cell.cellName.text =  restaurant.name;
+    cell.cellType.text = restaurant.type;
+    cell.cellHour.text = restaurant.hours;
     
     //Get a default image for display purpose
     cell.cellImage.image = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
@@ -162,7 +238,7 @@
 {
     if([segue.identifier isEqualToString:@"menuguide-menuview"]){
         MenuView *sub = segue.destinationViewController;
-        sub.getRestaurant = self.name[self.index.row];
+        sub.restaurant = self.restaurants[self.index.row];
     }
 }
 

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6206F57F1A2D6103003B6744 /* ServerSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6206F57E1A2D6103003B6744 /* ServerSettings.m */; };
+		6270E5881A1CF13B007FED3A /* FoodCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E5851A1CF13B007FED3A /* FoodCategory.m */; };
+		6270E5891A1CF13B007FED3A /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E5871A1CF13B007FED3A /* Hotel.m */; };
+		6270E58C1A1CF157007FED3A /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E58B1A1CF157007FED3A /* Ingredient.m */; };
+		6270E58F1A1CF161007FED3A /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E58E1A1CF161007FED3A /* MenuItem.m */; };
+		6270E5941A1CF1C4007FED3A /* FoodCategoryNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E5911A1CF1C4007FED3A /* FoodCategoryNetworking.m */; };
+		6270E5951A1CF1C4007FED3A /* HotelNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E5931A1CF1C4007FED3A /* HotelNetworking.m */; };
+		6270E5981A1CF1DE007FED3A /* MenuItemNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E5971A1CF1DE007FED3A /* MenuItemNetworking.m */; };
+		6270E59B1A1CF1E9007FED3A /* RestaurantNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E59A1A1CF1E9007FED3A /* RestaurantNetworking.m */; };
+		6270E59E1A1CF25B007FED3A /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E59D1A1CF25B007FED3A /* Restaurant.m */; };
 		ABBEE5B51A130BE800B3AA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B41A130BE800B3AA1C /* Foundation.framework */; };
 		ABBEE5B71A130BE800B3AA1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */; };
 		ABBEE5B91A130BE800B3AA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B81A130BE800B3AA1C /* UIKit.framework */; };
@@ -107,6 +117,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6206F57D1A2D6103003B6744 /* ServerSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerSettings.h; sourceTree = "<group>"; };
+		6206F57E1A2D6103003B6744 /* ServerSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerSettings.m; sourceTree = "<group>"; };
+		6270E5841A1CF13B007FED3A /* FoodCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategory.h; sourceTree = "<group>"; };
+		6270E5851A1CF13B007FED3A /* FoodCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategory.m; sourceTree = "<group>"; };
+		6270E5861A1CF13B007FED3A /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
+		6270E5871A1CF13B007FED3A /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotel.m; sourceTree = "<group>"; };
+		6270E58A1A1CF157007FED3A /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		6270E58B1A1CF157007FED3A /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
+		6270E58D1A1CF161007FED3A /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		6270E58E1A1CF161007FED3A /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		6270E5901A1CF1C4007FED3A /* FoodCategoryNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategoryNetworking.h; sourceTree = "<group>"; };
+		6270E5911A1CF1C4007FED3A /* FoodCategoryNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategoryNetworking.m; sourceTree = "<group>"; };
+		6270E5921A1CF1C4007FED3A /* HotelNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelNetworking.h; sourceTree = "<group>"; };
+		6270E5931A1CF1C4007FED3A /* HotelNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelNetworking.m; sourceTree = "<group>"; };
+		6270E5961A1CF1DE007FED3A /* MenuItemNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemNetworking.h; sourceTree = "<group>"; };
+		6270E5971A1CF1DE007FED3A /* MenuItemNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemNetworking.m; sourceTree = "<group>"; };
+		6270E5991A1CF1E9007FED3A /* RestaurantNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantNetworking.h; sourceTree = "<group>"; };
+		6270E59A1A1CF1E9007FED3A /* RestaurantNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantNetworking.m; sourceTree = "<group>"; };
+		6270E59C1A1CF25B007FED3A /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		6270E59D1A1CF25B007FED3A /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
 		ABBEE5B11A130BE800B3AA1C /* FBButlerIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBButlerIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBEE5B41A130BE800B3AA1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -229,6 +259,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6270E5821A1CF0E1007FED3A /* Network Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6270E5991A1CF1E9007FED3A /* RestaurantNetworking.h */,
+				6270E59A1A1CF1E9007FED3A /* RestaurantNetworking.m */,
+				6270E5961A1CF1DE007FED3A /* MenuItemNetworking.h */,
+				6270E5971A1CF1DE007FED3A /* MenuItemNetworking.m */,
+				6270E5901A1CF1C4007FED3A /* FoodCategoryNetworking.h */,
+				6270E5911A1CF1C4007FED3A /* FoodCategoryNetworking.m */,
+				6270E5921A1CF1C4007FED3A /* HotelNetworking.h */,
+				6270E5931A1CF1C4007FED3A /* HotelNetworking.m */,
+			);
+			name = "Network Classes";
+			sourceTree = "<group>";
+		};
+		6270E5831A1CF0F4007FED3A /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6270E59C1A1CF25B007FED3A /* Restaurant.h */,
+				6270E59D1A1CF25B007FED3A /* Restaurant.m */,
+				6270E58D1A1CF161007FED3A /* MenuItem.h */,
+				6270E58E1A1CF161007FED3A /* MenuItem.m */,
+				6270E58A1A1CF157007FED3A /* Ingredient.h */,
+				6270E58B1A1CF157007FED3A /* Ingredient.m */,
+				6270E5841A1CF13B007FED3A /* FoodCategory.h */,
+				6270E5851A1CF13B007FED3A /* FoodCategory.m */,
+				6270E5861A1CF13B007FED3A /* Hotel.h */,
+				6270E5871A1CF13B007FED3A /* Hotel.m */,
+				6206F57D1A2D6103003B6744 /* ServerSettings.h */,
+				6206F57E1A2D6103003B6744 /* ServerSettings.m */,
+			);
+			name = "Base Classes";
+			sourceTree = "<group>";
+		};
 		AB4A7EFD1A131950000D2EB4 /* Menu Guide Page */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +337,8 @@
 		ABBEE5BA1A130BE800B3AA1C /* FBButlerIpad */ = {
 			isa = PBXGroup;
 			children = (
+				6270E5831A1CF0F4007FED3A /* Base Classes */,
+				6270E5821A1CF0E1007FED3A /* Network Classes */,
 				ABBEE5F01A130FD600B3AA1C /* Customer Images */,
 				ABBEE5E91A130D6000B3AA1C /* Customer Side */,
 				ABBEE5C31A130BE800B3AA1C /* AppDelegate.h */,
@@ -738,13 +804,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6270E59E1A1CF25B007FED3A /* Restaurant.m in Sources */,
+				6206F57F1A2D6103003B6744 /* ServerSettings.m in Sources */,
+				6270E5891A1CF13B007FED3A /* Hotel.m in Sources */,
+				6270E58F1A1CF161007FED3A /* MenuItem.m in Sources */,
 				ABBEE6141A1315A000B3AA1C /* Login.m in Sources */,
 				ABBEE6171A13166F00B3AA1C /* MenuGuide.m in Sources */,
 				ABCBAD4F1A13352800FA9401 /* CustomCellMenuGuide.m in Sources */,
+				6270E5941A1CF1C4007FED3A /* FoodCategoryNetworking.m in Sources */,
 				ABCBADE41A13A4EB00FA9401 /* ItemCell.m in Sources */,
 				ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */,
 				ABBEE5C11A130BE800B3AA1C /* main.m in Sources */,
+				6270E59B1A1CF1E9007FED3A /* RestaurantNetworking.m in Sources */,
 				ABCBAD521A134BB600FA9401 /* MenuView.m in Sources */,
+				6270E58C1A1CF157007FED3A /* Ingredient.m in Sources */,
+				6270E5981A1CF1DE007FED3A /* MenuItemNetworking.m in Sources */,
+				6270E5951A1CF1C4007FED3A /* HotelNetworking.m in Sources */,
+				6270E5881A1CF13B007FED3A /* FoodCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
