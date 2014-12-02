@@ -16,8 +16,6 @@
     //Set up color for Navigation Bar 1/1
     [[UINavigationBar appearance] setBarTintColor: [MenuGuide hexColor:@"AB2025"]];
     
-    
-    
     //Set up color for Back Button of Navigation Bar Step 1/1
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
@@ -25,7 +23,7 @@
     [[UINavigationBar appearance] setTitleTextAttributes: @{
                                                             NSForegroundColorAttributeName: [UIColor whiteColor],
                                                             
-                                                            NSFontAttributeName: [UIFont fontWithName:@"Helvetica" size:20.0f],
+                                                            NSFontAttributeName: [UIFont fontWithName:@"Avenir" size:23.0f],
                                                             
                                                             }];
     return YES;

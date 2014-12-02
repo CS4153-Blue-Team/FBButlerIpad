@@ -37,7 +37,8 @@
 @property (weak, nonatomic) IBOutlet UITextView *theDescription;//Food Desciption
 
 @property (weak, nonatomic) IBOutlet UILabel *thePrice;//Price
-@property (weak, nonatomic) IBOutlet UIImageView *theComment;//Comment
+
+@property (weak, nonatomic) IBOutlet UILabel *dollarSign;
 
 @end
 
@@ -57,11 +58,13 @@
     [super viewDidLoad];
     // Set restaurant name
     self.navigationItem.title = self.restaurant.name;
-    
+       
+    // Get all categories for a specific restaurant
     self.categories = [FoodCategoryNetworking fakeGetAllCategoriesFor:self.restaurant withDelay:1 withFailure:false];
     
     self.selectedCategory = self.categories[0];
     
+    // Gell all menu items for categories in a restaurant
     self.menuItems = [MenuItemNetworking fakeGetMenuItemsFor:self.categories withDelay:1 withFailure:false];
     
     //TODO: FAilure...
@@ -121,8 +124,9 @@
          forControlEvents:UIControlEventTouchUpInside];
         
         
-        
-        [button setTitle:[categories objectAtIndex:i] forState:UIControlStateNormal];
+        [button setTitle:((FoodCategory*)[self.categories objectAtIndex:i]).name forState:UIControlStateNormal];
+
+        //[button setTitle:[categories objectAtIndex:i] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         
         if(i==0){
@@ -134,7 +138,7 @@
             button.backgroundColor = [MenuGuide hexColor:@"EFE5DB"];
         }
         
-        button.titleLabel.font = [UIFont fontWithName:@"Minion Pro-Regular" size:23];
+        button.titleLabel.font = [UIFont fontWithName:@"Avenir-Book" size:23];
         button.titleLabel.font = [UIFont systemFontOfSize:23.0f];
 
 
@@ -161,10 +165,13 @@
         }
     }
     [self resetButton];
+    
     //Change font and background color of the selected button
     [sender setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     //Set orange color on the selected botton
     sender.backgroundColor = [MenuGuide hexColor:@"E04E26"];
+    
+    
     [self.tableView reloadData];
     [self.tableView.delegate tableView:self.tableView didSelectRowAtIndexPath:0]; //HACKY WAY of making the description on the right update to first element of new table 
 }
@@ -232,9 +239,17 @@
         cell.itemName.textColor= [UIColor blackColor];
     }
     //Set approriate image
-    cell.itemImage.image= self.imageList[indexPath.row];
+    cell.itemImage.image= relevantItem.picture;
+    cell.itemMask.image= [UIImage imageNamed:@"GrayOutMenuItem.png"];
+
+    //cell.itemImage.image= self.imageList[indexPath.row];
+    if([relevantItem.name  isEqualToString: @"Primo Lettuces"]){
     //Set mask for out of stock items
-    //cell.itemMask.image= [UIImage imageNamed:@"GrayOutMenuItem.png"];
+        cell.itemMask.hidden = NO;
+        
+    }else{
+        cell.itemMask.hidden = YES;
+    }
     
     return cell;
 }
@@ -245,22 +260,29 @@
     self.selectedRow = indexPath.row;
     [self.tableView reloadData];
     
-    //Set the name of food on the right panel
+    //Set info of food on the right panel
     MenuItem* relevantItem = (MenuItem*)((NSArray*)[self.menuItems objectForKey:self.selectedCategory.name]) [indexPath.row];
     [self setMenuItem:relevantItem];
     }
 
 -(void) setMenuItem:(MenuItem*) item
 {
-    self.theName.text = (item).name;
+    self.theName.text = item.name;
     self.theName.textColor = [MenuGuide hexColor:@"AB2025"];
+    self.theDescription.text = item.description;
     
-    self.theComment = [[UIImageView alloc] initWithImage:item.reviewImage];
-    //WHAT TO DO WITH "THE CONTENT"?????
+    if([item.name  isEqualToString: @"Primo Lettuces"]){
+        //Set mask for out of stock items
+        self.dollarSign.text = @"Out of Stock";
+        self.thePrice.hidden = YES;
+    }else{
+        self.dollarSign.text = @"$";
+        self.thePrice.hidden = NO;
+        self.thePrice.text = item.price;
+    }
     
     
-    self.theDescription.text =  item.description;
-    self.thePrice.text = item.price;
+    
     //WHAT TO DO WITH "THE RATING"?
 
 }
@@ -270,8 +292,6 @@
     //Get the first name of food on the first category
     self.theName.text = ((FoodCategory*)((NSArray*)[self.menuItems objectForKey:self.selectedCategory.name])[0]).name;
     self.theName.textColor = [MenuGuide hexColor:@"AB2025"];
-    
-    
 
 }
 /*

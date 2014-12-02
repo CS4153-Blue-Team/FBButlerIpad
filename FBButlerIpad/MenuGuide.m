@@ -55,7 +55,7 @@
     //This asynchronously loads restaurant over network.
     id restaurantLoad =^
     {
-        self.restaurants = [NSMutableArray arrayWithArray:[RestaurantNetworking fakeGetAllRestForHotel:self.hotel withDelay:(1) withFail:(true)]];
+        self.restaurants = [NSMutableArray arrayWithArray:[RestaurantNetworking fakeGetAllRestForHotel:self.hotel withDelay:(1) withFail:(false)]];
         
         //Updates UI based on network request.
         //This is because all UI code must run on the main threads
@@ -111,7 +111,7 @@
     
     
     
-
+   
     //[self setupList];
 }
 
@@ -194,6 +194,7 @@
     //Get a default image for display purpose
     cell.cellImage.image = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
     
+    
     return cell;
 }
 
@@ -230,6 +231,25 @@
                            green:((float) greenValue/ 255.0f)
                             blue:((float) blueValue / 255.0f)
                            alpha:1.0f];
+}
+
+///Does 2 things:
+// - Blocks ui input/ freezes screen
+// - Turns activity indicator on or off
+-(void) setLoading:(bool) loading
+{
+    NSLog(@"Loading is now: %i",loading);
+    NSLog(@"Current thread for setLoading: %@",[NSThread currentThread]);
+    if (loading)
+    {
+        [[UIApplication sharedApplication] beginIgnoringInteractionEvents];
+        [self.activityIndicator startAnimating];
+    }
+    else
+    {
+        [[UIApplication sharedApplication] endIgnoringInteractionEvents];
+        [self.activityIndicator stopAnimating];
+    }
 }
 
 #pragma mark - Navigation

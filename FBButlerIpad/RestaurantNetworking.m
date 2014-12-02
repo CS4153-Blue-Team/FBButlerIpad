@@ -22,22 +22,55 @@
     NSMutableArray* restaurants = [[NSMutableArray alloc] init];
     Restaurant* restaurant = [[Restaurant alloc] init];
     Restaurant* restaurant2 = [[Restaurant alloc] init];
+    Restaurant* restaurant3 = [[Restaurant alloc] init];
+    Restaurant* restaurant4 = [[Restaurant alloc] init];
+    Restaurant* restaurant5 = [[Restaurant alloc] init];
+    Restaurant* restaurant6 = [[Restaurant alloc] init];
     
     
     restaurant.internalId= 100;
-    restaurant.name = @"Restaurant 1";
+    restaurant.name = @"Primo";
     restaurant.hotel = hotel;
     //restaurant.buttonImage = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
-    restaurant.type = @"Type 1";
-    restaurant.hours = @"1-4";
+    restaurant.type = @"Italian";
+    restaurant.hours = @"6p-10p, Thu-Su";
     [restaurants addObject:restaurant];
     
     restaurant2.internalId = 101;
-    restaurant2.name = @"Restaurant 2";
+    restaurant2.name = @"Citron";
     restaurant2.hotel = hotel;
-    restaurant2.type = @"Type of 2";
-    restaurant2.hours = @"2-5";
+    restaurant2.type = @"American";
+    restaurant2.hours = @"8a-8p, Daily";
     [restaurants addObject: restaurant2];
+    
+    restaurant3.internalId = 102;
+    restaurant3.name = @"Sushi Bar";
+    restaurant3.hotel = hotel;
+    restaurant3.type = @"Japanese";
+    restaurant3.hours = @"6p-10p, Mon-Fri";
+    [restaurants addObject: restaurant3];
+    
+    restaurant4.internalId = 103;
+    restaurant4.name = @"Quench";
+    restaurant4.hotel = hotel;
+    restaurant4.type = @"Bar & Grill";
+    restaurant4.hours = @"6p-10p, Daily";
+    [restaurants addObject: restaurant4];
+    
+    restaurant5.internalId = 104;
+    restaurant5.name = @"Cafe Bodega";
+    restaurant5.hotel = hotel;
+    restaurant5.type = @"Sandwiches";
+    restaurant5.hours = @"8a-8p, Daily";
+    [restaurants addObject: restaurant5];
+    
+    restaurant6.internalId = 104;
+    restaurant6.name = @"Golden Palace";
+    restaurant6.hotel = hotel;
+    restaurant6.type = @"Chinese";
+    restaurant6.hours = @"8a-8p, Daily";
+    [restaurants addObject: restaurant6];
+    
     NSLog(@"Restaurant objects: %lu",(unsigned long)[restaurants count]);
     return [NSArray arrayWithArray:restaurants];
     

@@ -19,14 +19,22 @@
     
     FoodCategory* category1 = [[FoodCategory alloc ] init];
     FoodCategory* category2 = [[FoodCategory alloc ] init];
+    FoodCategory* category3 = [[FoodCategory alloc ] init];
+    FoodCategory* category4 = [[FoodCategory alloc ] init];
     
-    category1.name = @"Food category1";
+    category1.name = @"Appetizers";
     category1.restaurant = restaurant;
     
-    category2.name = @"Food category2";
+    category2.name = @"Pastas";
     category2.restaurant = restaurant;
     
-    return @[category1,category2];
+    category3.name = @"Entrees";
+    category3.restaurant = restaurant;
+    
+    category4.name = @"Drinks";
+    category4.restaurant = restaurant;
+    
+    return @[category1,category2,category3,category4];
 }
 
 +(FoodCategory*) fakeSaveCategory:(FoodCategory *)category withDelay:(double)seconds withFailure:(bool)failure
