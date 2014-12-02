@@ -12,6 +12,7 @@
 
 @implementation ItemCell
 @synthesize itemImage = _itemImage;
+@synthesize itemMask = _itemMask;
 @synthesize itemName = _itemName;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier

@@ -23,10 +23,10 @@
 
 //Properties for the right side
 @property (weak, nonatomic) IBOutlet UILabel *theName;//Food Name
-@property (weak, nonatomic) IBOutlet UILabel *theDescription;//Food's Description
+
+@property (weak, nonatomic) IBOutlet UITextView *theDescription;//Food Desciption
+
 @property (weak, nonatomic) IBOutlet UILabel *thePrice;//Price
-@property (weak, nonatomic) IBOutlet UILabel *theContent;//Food's ingredients
-@property (weak, nonatomic) IBOutlet UIImageView *theRating;//Star rating
 @property (weak, nonatomic) IBOutlet UIImageView *theComment;//Comment
 
 @end
@@ -200,6 +200,8 @@
     }
     //Set approriate image
     cell.itemImage.image= self.imageList[indexPath.row];
+    //Set mask for out of stock items
+    //cell.itemMask.image= [UIImage imageNamed:@"GrayOutMenuItem.png"];
     
     return cell;
 }

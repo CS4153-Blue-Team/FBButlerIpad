@@ -12,6 +12,7 @@
 @interface ItemCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *itemImage;//Food Image
+@property (weak, nonatomic) IBOutlet UIImageView *itemMask;
 
 @property (weak, nonatomic) IBOutlet UILabel *itemName;// Food Name Tag
 @end

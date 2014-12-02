@@ -118,8 +118,6 @@
     //Get a default image for display purpose
     cell.cellImage.image = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
     
-    
-    
     return cell;
 }
 
@@ -132,41 +130,31 @@
 //Set up a color based on hex values (form: #FFFFFF)
 +(UIColor*)hexColor:(NSString*)hex
 {
-    NSString *cString = [[hex stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
+    NSString *color = [[hex stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     
-    // String should be 6 or 8 characters
-    if ([cString length] < 6) return [UIColor grayColor];
-    
-    // strip 0X if it appears
-    if ([cString hasPrefix:@"0X"]) cString = [cString substringFromIndex:2];
-    
-    if ([cString length] != 6) return  [UIColor grayColor];
-    
-    // Separate into r, g, b substrings
+    // Separate into red, green, blue substrings
     NSRange range;
     range.location = 0;
     range.length = 2;
-    NSString *rString = [cString substringWithRange:range];
+    NSString *red = [color substringWithRange:range];
     
     range.location = 2;
-    NSString *gString = [cString substringWithRange:range];
+    NSString *green = [color substringWithRange:range];
     
     range.location = 4;
-    NSString *bString = [cString substringWithRange:range];
+    NSString *blue = [color substringWithRange:range];
     
     // Scan values
-    unsigned int r, g, b;
-    [[NSScanner scannerWithString:rString] scanHexInt:&r];
-    [[NSScanner scannerWithString:gString] scanHexInt:&g];
-    [[NSScanner scannerWithString:bString] scanHexInt:&b];
+    unsigned int redValue, greenValue, blueValue;
+    [[NSScanner scannerWithString:red] scanHexInt:&redValue];
+    [[NSScanner scannerWithString:green] scanHexInt:&greenValue];
+    [[NSScanner scannerWithString:blue] scanHexInt:&blueValue];
     
-    return [UIColor colorWithRed:((float) r / 255.0f)
-                           green:((float) g / 255.0f)
-                            blue:((float) b / 255.0f)
+    return [UIColor colorWithRed:((float) redValue / 255.0f)
+                           green:((float) greenValue/ 255.0f)
+                            blue:((float) blueValue / 255.0f)
                            alpha:1.0f];
 }
-
-
 
 #pragma mark - Navigation
 // Prepare for segue before moving to Menu View
