@@ -49,11 +49,16 @@
     
     [super viewDidLoad];
     //Load a image for the title on navigatin bar
-    [self setLoading:true];
+    [self setLoading:true]; //show activity indicator
     
+    
+    //This asynchronously loads restaurant over network.
     id restaurantLoad =^
     {
         self.restaurants = [NSMutableArray arrayWithArray:[RestaurantNetworking fakeGetAllRestForHotel:self.hotel withDelay:(1) withFail:(true)]];
+        
+        //Updates UI based on network request.
+        //This is because all UI code must run on the main threads
         dispatch_async(dispatch_get_main_queue(), ^{
             if (self.restaurants == nil || self.restaurants.count ==0)
             {
@@ -74,9 +79,10 @@
         });
     };
     
+    //asynch block to load hotel.
     id hotelLoad = ^{
       self.hotel = [HotelNetworking fakeGetHotelWithDelay:1 requestFailed:false];
-        
+        //updates ui b/c all ui updates must take place on main thread
         dispatch_async(dispatch_get_main_queue(), ^{
             if (self.hotel == nil)
             {
@@ -100,7 +106,7 @@
     
     
     
-    
+    //starts hotel networking code
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), hotelLoad);
     
     
@@ -235,6 +241,9 @@
                            alpha:1.0f];
 }
 
+///Does 2 things:
+// - Blocks ui input/ freezes screen
+// - Turns activity indicator on or off
 -(void) setLoading:(bool) loading
 {
     NSLog(@"Loading is now: %i",loading);
