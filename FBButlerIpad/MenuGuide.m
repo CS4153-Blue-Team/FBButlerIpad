@@ -55,7 +55,8 @@
     //This asynchronously loads restaurant over network.
     id restaurantLoad =^
     {
-        self.restaurants = [NSMutableArray arrayWithArray:[RestaurantNetworking fakeGetAllRestForHotel:self.hotel withDelay:(1) withFail:(false)]];
+        //self.restaurants = [NSMutableArray arrayWithArray:[RestaurantNetworking fakeGetAllRestForHotel:self.hotel withDelay:(1) withFail:(false)]];
+        self.restaurants = [NSMutableArray arrayWithArray:[RestaurantNetworking retAllRestForHotel:self.hotel]];
         
         //Updates UI based on network request.
         //This is because all UI code must run on the main threads
@@ -81,7 +82,8 @@
     
     //asynch block to load hotel.
     id hotelLoad = ^{
-      self.hotel = [HotelNetworking fakeGetHotelWithDelay:1 requestFailed:false];
+      //self.hotel = [HotelNetworking fakeGetHotelWithDelay:1 requestFailed:false];
+        self.hotel = [HotelNetworking retriveBaseHotel];
         //updates ui b/c all ui updates must take place on main thread
         dispatch_async(dispatch_get_main_queue(), ^{
             if (self.hotel == nil)
