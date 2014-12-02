@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6206F57F1A2D6103003B6744 /* ServerSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6206F57E1A2D6103003B6744 /* ServerSettings.m */; };
+		6206F5821A2D6240003B6744 /* IngredientNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6206F5811A2D6240003B6744 /* IngredientNetworking.m */; };
 		6270E5881A1CF13B007FED3A /* FoodCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E5851A1CF13B007FED3A /* FoodCategory.m */; };
 		6270E5891A1CF13B007FED3A /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E5871A1CF13B007FED3A /* Hotel.m */; };
 		6270E58C1A1CF157007FED3A /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E58B1A1CF157007FED3A /* Ingredient.m */; };
@@ -119,6 +120,8 @@
 /* Begin PBXFileReference section */
 		6206F57D1A2D6103003B6744 /* ServerSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerSettings.h; sourceTree = "<group>"; };
 		6206F57E1A2D6103003B6744 /* ServerSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerSettings.m; sourceTree = "<group>"; };
+		6206F5801A2D6240003B6744 /* IngredientNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientNetworking.h; sourceTree = "<group>"; };
+		6206F5811A2D6240003B6744 /* IngredientNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientNetworking.m; sourceTree = "<group>"; };
 		6270E5841A1CF13B007FED3A /* FoodCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategory.h; sourceTree = "<group>"; };
 		6270E5851A1CF13B007FED3A /* FoodCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategory.m; sourceTree = "<group>"; };
 		6270E5861A1CF13B007FED3A /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
@@ -270,6 +273,8 @@
 				6270E5911A1CF1C4007FED3A /* FoodCategoryNetworking.m */,
 				6270E5921A1CF1C4007FED3A /* HotelNetworking.h */,
 				6270E5931A1CF1C4007FED3A /* HotelNetworking.m */,
+				6206F5801A2D6240003B6744 /* IngredientNetworking.h */,
+				6206F5811A2D6240003B6744 /* IngredientNetworking.m */,
 			);
 			name = "Network Classes";
 			sourceTree = "<group>";
@@ -816,6 +821,7 @@
 				ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */,
 				ABBEE5C11A130BE800B3AA1C /* main.m in Sources */,
 				6270E59B1A1CF1E9007FED3A /* RestaurantNetworking.m in Sources */,
+				6206F5821A2D6240003B6744 /* IngredientNetworking.m in Sources */,
 				ABCBAD521A134BB600FA9401 /* MenuView.m in Sources */,
 				6270E58C1A1CF157007FED3A /* Ingredient.m in Sources */,
 				6270E5981A1CF1DE007FED3A /* MenuItemNetworking.m in Sources */,

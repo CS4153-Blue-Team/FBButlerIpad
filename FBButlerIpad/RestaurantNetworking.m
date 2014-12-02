@@ -91,13 +91,27 @@
                                          returningResponse:&response
                                                      error:&error];
     
+    if (error)
+    {
+        NSLog(@"Error retrieving restaurants: %@",error);
+    }
+    else
+    {
+        NSLog(@"NO ERROR");
+    }
+    
     NSArray *testJson = [NSJSONSerialization
                          JSONObjectWithData:data options:0
                          error:&error];
     
     if (testJson.count == 0)
     {
+        NSLog(@"NO RESTAURANTS!!");
         return nil;
+    }
+    else
+    {
+        NSLog(@"TEST JSON GREATER THAN 1");
     }
     
     return [RestaurantNetworking makeRestaurantsFromArray:testJson fromHotel:hotel];
