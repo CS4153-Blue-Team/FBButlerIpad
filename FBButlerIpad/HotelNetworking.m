@@ -7,6 +7,7 @@
 //
 
 #import "HotelNetworking.h"
+#import "ServerSettings.h"
 
 @implementation HotelNetworking
 
@@ -19,6 +20,7 @@
     hotel.name = @"THE HOTEL";
     hotel.internalId = 802;
     hotel.image = [UIImage imageNamed:@"NavBar_J.W.png"];
+    hotel.imageURL = [NSURL init];
     return hotel;
 }
 
@@ -46,7 +48,14 @@
 
 +(Hotel*) retriveBaseHotel
 {
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://cs.okstate.edu:8080/FBButlerBackendService/rest/hotel"]];
+
+    /*NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://cs.okstate.edu:8080/FBButlerBackendService/rest/hotel"]];*/
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[[ServerSettings address]
+                                                                               stringByAppendingString:@"hotel"]]];
+    
+    NSLog(@"A STRING: %@",[[ServerSettings address]
+          stringByAppendingString:@"hotel"]);
     
     NSURLResponse *response;
     
@@ -76,10 +85,37 @@
     if ([[hotelInfo objectForKey:@"pictureLocation"] class] != [NSNull class])
     {
         h.image = [HotelNetworking loadImageFromURL:[hotelInfo objectForKey:@"pictureLocation"]];
+        h.imageURL = [NSURL URLWithString:[hotelInfo objectForKey:@"pictureLocation"]];
     }
     NSLog(@"Hotel name: %@",h.name);
+    NSLog(@"The image url is %@",h.imageURL);
     return h;
-    
+}
+
++(NSDictionary*) makeDictFromHotel:(Hotel*) hotel
+{
+    NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
+    if (hotel.internalId !=0)
+    {
+        [dictionary setValue:[NSString stringWithFormat:@"%i",hotel.internalId]forKey:@"id"];
+        
+    }
+    [dictionary setValue:hotel.name forKey:@"name"];
+    NSLog(@"Problem = %@", hotel.imageURL);
+    [dictionary setValue:[hotel.imageURL absoluteString] forKey:@"pictureLocation"];
+         return dictionary;
+}
+         
++(NSString*) makeJSONFromHotel:(Hotel*) hotel
+{
+    NSDictionary *dictionary = [HotelNetworking makeDictFromHotel:hotel];
+    NSError* error;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dictionary options:0 error:&error];
+    if (!jsonData)
+    {
+        NSLog(@"Error making hotel json: %@",error);
+    }
+    return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
 }
 
 + (UIImage*) loadImageFromURL:(NSString*)urlStr

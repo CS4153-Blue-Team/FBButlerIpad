@@ -10,6 +10,7 @@
 #import "Restaurant.h"
 #import "FoodCategory.h"
 
+
 @interface FoodCategoryNetworking : NSObject
 
 
@@ -25,4 +26,8 @@
 
 //Returns true if category was successfully deleted, false otherwise
 +(bool) fakeDeleteCategory:(FoodCategory*) category withDelay:(double) seconds withFailure:(bool) failure;
+
++(NSArray*) retAllCategoriesFor:(Restaurant*) restaurant;
+
++(FoodCategory*) saveCategory:(FoodCategory*) category;
 @end

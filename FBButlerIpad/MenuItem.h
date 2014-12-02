@@ -16,8 +16,11 @@
 @property FoodCategory* category;
 @property NSString* description; //Synthesized in main class
 @property UIImage* picture;
+@property NSURL* pictureURL;
 @property NSString* price; //Intentionally making a string!
 @property UIImage* reviewImage;
 @property NSArray* ingredients;
+
+
 
 @end

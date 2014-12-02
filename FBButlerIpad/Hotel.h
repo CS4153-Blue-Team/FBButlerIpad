@@ -14,6 +14,7 @@
 @property int internalId;
 @property NSString* name;
 @property UIImage* image;
+@property NSURL *imageURL;
 
 
 @end

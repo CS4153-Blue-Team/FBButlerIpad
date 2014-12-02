@@ -14,6 +14,18 @@
 //Be able to react if this is empty!!
 //Returns a list of all restaurants for the hotel.
 //Returns nil if there is a failure
++(NSArray*) retAllRestForHotel:(Hotel*) hotel;
+
+//Returns the version of the restaurant saved. Is a pass by reference anyway. It would only be different if the
+//restaurant hadn't been saved yet and needed to be assigned an id by the database.
+//OR NIL if something goes wrong
++(Restaurant*) saveRestaurant:(Restaurant*) restaurant;
+
++(bool) deleteRestaurant:(Restaurant*) restaurant;
+
+//Be able to react if this is empty!!
+//Returns a list of all restaurants for the hotel.
+//Returns nil if there is a failure
 +(NSArray*) fakeGetAllRestForHotel:(Hotel*) hotel withDelay:(double) seconds withFail:(bool)failure;
 
 //Returns the version of the restaurant saved. Is a pass by reference anyway. It would only be different if the
@@ -24,5 +36,7 @@
 
 //Returns true if deletion succeeded, false otherwise
 +(bool) fakeDelRest:(Restaurant*) restaurant withDelay:(double) seconds withFail:(bool) failure;
+
+
 
 @end

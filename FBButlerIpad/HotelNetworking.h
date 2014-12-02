@@ -26,4 +26,14 @@
 
 //RETRIEVES ALL HOTELS OVER NETWORK, returns first one in list or nil if request failed.
 +(Hotel*) retriveBaseHotel;
+
+
+//NOT DOING ACTUAL SAVE/DELETE HOTEL
+
++ (Hotel*) makeHotelFromDict:(NSDictionary*) hotelInfo;
+
++(NSDictionary*) makeDictFromHotel:(Hotel*) hotel;
+
++(NSString*) makeJSONFromHotel:(Hotel*) hotel;
+
 @end

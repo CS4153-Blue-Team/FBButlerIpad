@@ -14,7 +14,7 @@
 @property int internalId;
 @property NSString* name;
 @property Hotel* hotel;
-@property UIImage* adImage;
+//@property UIImage* adImage; - NO RESTAURANT IMAGE??
 @property NSString* type;
 @property NSString* hours;
 

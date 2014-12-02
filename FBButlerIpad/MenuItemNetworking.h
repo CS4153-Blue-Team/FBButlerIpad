@@ -23,4 +23,8 @@
 //Returns true if menu item successfully deleted, false otherwise;
 +(bool) fakeDeleteMenuItem:(MenuItem*) item withDelay:(double) seconds withFailure:(bool) failure;
 
++(NSDictionary*) getMenuItemsFor:(NSArray*) categories;
+
+
++(MenuItem*) saveMenuItem:(MenuItem*) menuItem;
 @end
