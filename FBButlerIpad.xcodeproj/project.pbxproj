@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6206F57F1A2D6103003B6744 /* ServerSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6206F57E1A2D6103003B6744 /* ServerSettings.m */; };
 		6270E5881A1CF13B007FED3A /* FoodCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E5851A1CF13B007FED3A /* FoodCategory.m */; };
 		6270E5891A1CF13B007FED3A /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E5871A1CF13B007FED3A /* Hotel.m */; };
 		6270E58C1A1CF157007FED3A /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E58B1A1CF157007FED3A /* Ingredient.m */; };
@@ -116,6 +117,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6206F57D1A2D6103003B6744 /* ServerSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerSettings.h; sourceTree = "<group>"; };
+		6206F57E1A2D6103003B6744 /* ServerSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerSettings.m; sourceTree = "<group>"; };
 		6270E5841A1CF13B007FED3A /* FoodCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategory.h; sourceTree = "<group>"; };
 		6270E5851A1CF13B007FED3A /* FoodCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategory.m; sourceTree = "<group>"; };
 		6270E5861A1CF13B007FED3A /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
@@ -284,6 +287,8 @@
 				6270E5851A1CF13B007FED3A /* FoodCategory.m */,
 				6270E5861A1CF13B007FED3A /* Hotel.h */,
 				6270E5871A1CF13B007FED3A /* Hotel.m */,
+				6206F57D1A2D6103003B6744 /* ServerSettings.h */,
+				6206F57E1A2D6103003B6744 /* ServerSettings.m */,
 			);
 			name = "Base Classes";
 			sourceTree = "<group>";
@@ -800,6 +805,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6270E59E1A1CF25B007FED3A /* Restaurant.m in Sources */,
+				6206F57F1A2D6103003B6744 /* ServerSettings.m in Sources */,
 				6270E5891A1CF13B007FED3A /* Hotel.m in Sources */,
 				6270E58F1A1CF161007FED3A /* MenuItem.m in Sources */,
 				ABBEE6141A1315A000B3AA1C /* Login.m in Sources */,

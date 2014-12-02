@@ -20,7 +20,7 @@
     hotel.name = @"THE HOTEL";
     hotel.internalId = 802;
     hotel.image = [UIImage imageNamed:@"NavBar_J.W.png"];
-    hotel.imageURL = [NSURL init];
+    hotel.imageURL = [[NSURL alloc]init];
     return hotel;
 }
 
