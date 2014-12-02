@@ -157,6 +157,7 @@
 		01C85BCF1A268E5600D68CE9 /* login_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C85BCE1A268E5600D68CE9 /* login_button.png */; };
 		01C85BD41A26A59100D68CE9 /* RestaurantPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C85BD31A26A59100D68CE9 /* RestaurantPage.m */; };
 		01C85BD71A2977CB00D68CE9 /* InventoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C85BD61A2977CB00D68CE9 /* InventoryCell.m */; };
+		01C85BDA1A2C288300D68CE9 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C85BD91A2C288300D68CE9 /* MenuItem.m */; };
 		ABBEE5B51A130BE800B3AA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B41A130BE800B3AA1C /* Foundation.framework */; };
 		ABBEE5B71A130BE800B3AA1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */; };
 		ABBEE5B91A130BE800B3AA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B81A130BE800B3AA1C /* UIKit.framework */; };
@@ -416,6 +417,8 @@
 		01C85BD31A26A59100D68CE9 /* RestaurantPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantPage.m; sourceTree = "<group>"; };
 		01C85BD51A2977CB00D68CE9 /* InventoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryCell.h; sourceTree = "<group>"; };
 		01C85BD61A2977CB00D68CE9 /* InventoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryCell.m; sourceTree = "<group>"; };
+		01C85BD81A2C288300D68CE9 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		01C85BD91A2C288300D68CE9 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
 		ABBEE5B11A130BE800B3AA1C /* FBButlerIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBButlerIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBEE5B41A130BE800B3AA1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -997,6 +1000,8 @@
 			children = (
 				0125EB511A1872440034F85B /* Menu.h */,
 				0125EB521A1872440034F85B /* Menu.m */,
+				01C85BD81A2C288300D68CE9 /* MenuItem.h */,
+				01C85BD91A2C288300D68CE9 /* MenuItem.m */,
 			);
 			name = "Menu Page";
 			sourceTree = "<group>";
@@ -2011,6 +2016,7 @@
 				ABBEE5C11A130BE800B3AA1C /* main.m in Sources */,
 				ABCBAD521A134BB600FA9401 /* MenuView.m in Sources */,
 				0125EA7F1A1732560034F85B /* EditInventory.m in Sources */,
+				01C85BDA1A2C288300D68CE9 /* MenuItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

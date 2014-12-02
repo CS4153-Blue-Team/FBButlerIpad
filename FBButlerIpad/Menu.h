@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Menu : UIViewController
+@interface Menu : UIViewController <UITableViewDataSource,UITableViewDelegate>
+
+@property (strong, nonatomic) NSArray *sectionTitles;
+@property (strong, nonatomic) NSMutableDictionary *tblDict;
+@property (strong, nonatomic) NSArray *indexTitles;
 
 @end
