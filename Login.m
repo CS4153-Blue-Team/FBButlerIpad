@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,6 +47,8 @@
 - (IBAction)tapEmployee:(id)sender {
     [self performSegueWithIdentifier:@"login-login" sender:self];
 }
+
+
 
 
 
