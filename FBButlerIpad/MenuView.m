@@ -13,6 +13,7 @@
 #import "MenuItem.h"
 #import "MenuItemNetworking.h"
 #import "FoodCategoryNetworking.h"
+#import "Ingredient.h"
 
 
 @interface MenuView ()
@@ -207,9 +208,9 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {    // Return the number of rows in the section.
-    NSLog(@"Item before crash: %@",[[self.menuItems objectForKey:self.selectedCategory.name] class]);
-    NSArray* ourArray =[self.menuItems objectForKey:self.selectedCategory.name];
-    NSLog(@"Array count:%i",[ourArray count]);
+//    NSLog(@"Item before crash: %@",[[self.menuItems objectForKey:self.selectedCategory.name] class]);
+//    NSArray* ourArray =[self.menuItems objectForKey:self.selectedCategory.name];
+//    NSLog(@"Array count:%i",[ourArray count]);
     return [[self.menuItems objectForKey:self.selectedCategory.name] count];
 }
 
@@ -250,8 +251,8 @@
     cell.itemImage.image= relevantItem.picture;
     cell.itemMask.image= [UIImage imageNamed:@"GrayOutMenuItem.png"];
 
-    //cell.itemImage.image= self.imageList[indexPath.row];
-    if([relevantItem.name  isEqualToString: @"Primo Lettuces"]){
+    
+    if([self checkInstock: relevantItem] == NO){
     //Set mask for out of stock items
         cell.itemMask.hidden = NO;
         
@@ -260,6 +261,41 @@
     }
     
     return cell;
+}
+
+//Check in stock/ out of stock
+-(bool) checkInstock:(MenuItem*) item
+{
+    BOOL instock = YES;
+    //Get all ingredients for a specific menu item
+    NSArray* ingredients = [MenuItemNetworking retIngredientsFor:item];
+    
+    //Check if ingredient is in stock
+    for(int i=0;i<ingredients.count;i++){
+        Ingredient* ingre = ingredients[i];
+        if(ingre.inStock == NO){
+            instock = NO;
+            break;
+        }
+    }
+    return instock;
+}
+
+//Get out of stock ingredients
+-(NSMutableArray*) getOutofStock:(MenuItem*) item
+{
+    
+    NSArray* ingredients = [MenuItemNetworking retIngredientsFor:item];
+    NSMutableArray* outIngredients = [[NSMutableArray alloc]init];
+    
+    //Check if ingredient is in stock
+    for(int i=0;i<ingredients.count;i++){
+        Ingredient* ingre = ingredients[i];
+        if(ingre.inStock == NO){
+            [outIngredients addObject:(NSString*)ingre.name];
+        }
+    }
+    return outIngredients;
 }
 
 - (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
@@ -281,10 +317,24 @@
     self.theName.textColor = [MenuGuide hexColor:@"AB2025"];
     self.theDescription.text = item.description;
     
-    if([item.name  isEqualToString: @"Primo Lettuces"]){
+    //Display out of stock item
+    if([self checkInstock:item]== NO){
         //Set mask for out of stock items
-        self.dollarSign.text = @"Out of Stock";
         self.thePrice.hidden = YES;
+        
+        NSString* outofstock=@"";
+        NSMutableArray* array = [self getOutofStock:item];
+        for(int i=0;i<array.count;i++){
+            NSString* temp;
+            if(i==array.count-1)
+                temp = [NSString stringWithFormat:@" %@.",array[i]];
+            else
+                temp  = [NSString stringWithFormat:@" %@,",array[i]];
+
+            outofstock = [outofstock stringByAppendingString:temp];
+        }
+        self.dollarSign.text =[@"Out of Stock:" stringByAppendingString:outofstock];
+       
     }else{
         self.dollarSign.text = @"$";
         self.thePrice.hidden = NO;

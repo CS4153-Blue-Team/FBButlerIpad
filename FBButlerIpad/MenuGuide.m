@@ -218,7 +218,7 @@
                                                               message:msg
                                                              delegate:nil
                                                     cancelButtonTitle:@"OK" otherButtonTitles: nil];
-        [self setLoading:false];
+        
         [errorMessage show];
     
     }else{

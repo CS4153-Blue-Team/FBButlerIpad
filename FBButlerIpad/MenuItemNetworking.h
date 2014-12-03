@@ -25,6 +25,7 @@
 
 +(NSDictionary*) getMenuItemsFor:(NSArray*) categories;
 
++(NSArray*) retIngredientsFor:(MenuItem*) item;
 
 +(MenuItem*) saveMenuItem:(MenuItem*) menuItem;
 @end
