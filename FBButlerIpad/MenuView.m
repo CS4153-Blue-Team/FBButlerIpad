@@ -60,12 +60,19 @@
     self.navigationItem.title = self.restaurant.name;
        
     // Get all categories for a specific restaurant
-    self.categories = [FoodCategoryNetworking fakeGetAllCategoriesFor:self.restaurant withDelay:1 withFailure:false];
+    //self.categories = [FoodCategoryNetworking fakeGetAllCategoriesFor:self.restaurant withDelay:1 withFailure:false];
     
-    self.selectedCategory = self.categories[0];
+    self.categories = [FoodCategoryNetworking retAllCategoriesFor:self.restaurant];
+    
+    
+    self.selectedCategory = [self.categories objectAtIndex:0] ;
+    
     
     // Gell all menu items for categories in a restaurant
-    self.menuItems = [MenuItemNetworking fakeGetMenuItemsFor:self.categories withDelay:1 withFailure:false];
+    //self.menuItems = [MenuItemNetworking fakeGetMenuItemsFor:self.categories withDelay:1 withFailure:false];
+    
+    self.menuItems = [MenuItemNetworking getMenuItemsFor:self.categories];
+    
     
     //TODO: FAilure...
     
@@ -97,6 +104,7 @@
     [self initiateData];
     [self.tableView reloadData];
     [self.tableView.delegate tableView:self.tableView didSelectRowAtIndexPath:0]; //Hacky way to get stuff to initially load
+   
 }
 
 
@@ -110,10 +118,6 @@
     float startpoint = 0.0f;
     self.buttonList = [[NSMutableArray alloc] init];
     
-    //Type of Category of a Restaurant
-    //Subject to be changed accordingly
-    //NSArray *categories = [NSArray arrayWithObjects:@"Appetizers", @"Pastas", @"Entrees",@"Drinks",nil];
-    
     
     for(int i=0;i<numberOfCategories;i++){
         //Set up button by button: title, font, frame
@@ -123,7 +127,7 @@
                    action:@selector(tapButton:)
          forControlEvents:UIControlEventTouchUpInside];
         
-        
+        //Set title for buttons
         [button setTitle:((FoodCategory*)[self.categories objectAtIndex:i]).name forState:UIControlStateNormal];
 
         //[button setTitle:[categories objectAtIndex:i] forState:UIControlStateNormal];
@@ -202,9 +206,13 @@
 }
 
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {    // Return the number of rows in the section.    
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {    // Return the number of rows in the section.
+    NSLog(@"Item before crash: %@",[[self.menuItems objectForKey:self.selectedCategory.name] class]);
+    NSArray* ourArray =[self.menuItems objectForKey:self.selectedCategory.name];
+    NSLog(@"Array count:%i",[ourArray count]);
     return [[self.menuItems objectForKey:self.selectedCategory.name] count];
 }
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -265,6 +273,8 @@
     [self setMenuItem:relevantItem];
     }
 
+
+
 -(void) setMenuItem:(MenuItem*) item
 {
     self.theName.text = item.name;
@@ -280,11 +290,7 @@
         self.thePrice.hidden = NO;
         self.thePrice.text = item.price;
     }
-    
-    
-    
-    //WHAT TO DO WITH "THE RATING"?
-
+   
 }
 
 // Initiate Data on the first loading

@@ -104,7 +104,7 @@
             
 
         });
-    };
+    };//end hotel block
     
     
     

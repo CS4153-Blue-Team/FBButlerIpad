@@ -64,7 +64,7 @@
 +(NSArray*) retAllCategoriesFor:(Restaurant*) restaurant
 {
     ///restaurant/id
-NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@category/restaurant/%i",[ServerSettings address],restaurant.internalId]]];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@category/restaurant/%i",[ServerSettings address],restaurant.internalId]]];
     NSURLResponse *response;
     
     NSError *error;

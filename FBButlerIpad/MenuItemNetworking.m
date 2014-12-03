@@ -136,6 +136,7 @@
 +(NSDictionary*) getMenuItemsFor:(NSArray*) categories
 {
     NSMutableDictionary *returnDict = [[NSMutableDictionary alloc] init];
+    
     for (FoodCategory* category in categories)
     {
         NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@menuItem/category/%i",[ServerSettings address], category.internalId]]];
@@ -156,6 +157,7 @@
         NSArray* itemArray = [MenuItemNetworking itemFromArray:categoryItems withCategory:category];
         [returnDict setObject:itemArray forKey:category.name];
     }
+    
     return returnDict;
 }
 
@@ -176,12 +178,12 @@
     item.internalId = [[dict objectForKey:@"id"] intValue];
     item.name = [dict objectForKey:@"name"];
     item.description = [dict objectForKey:@"description"];
-    item.pictureURL = [dict objectForKey:@"pictureFile"];
-    //NOT DOING B/C NOTHING IS LIVE ON THE SERVER...
-    //item.picture = [UIImage imageWithData:[NSData dataWithContentsOfURL:item.pictureURL]];  //network request, might cause delay
+     
+    item.pictureURL = [NSURL URLWithString:[dict objectForKey:@"pictureFile"]];
+    item.picture = [UIImage imageWithData:[NSData dataWithContentsOfURL:item.pictureURL]];  //network request, might cause delay
     item.reviewImage = nil; //@"UNUSED?";
     item.category = category;
-    item.price = [dict objectForKey:@"price"];
+    item.price = [NSString stringWithFormat:@"%.02f",[[dict objectForKey:@"price"]doubleValue]];
     item.ingredients = [MenuItemNetworking retIngredientsFor:item];
     return item;
 }
