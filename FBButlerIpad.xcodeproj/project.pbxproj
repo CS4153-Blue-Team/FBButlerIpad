@@ -46,6 +46,37 @@
 		AB5F55421A2D915100C69317 /* PorciniPappardelleScallops.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5F553D1A2D915100C69317 /* PorciniPappardelleScallops.png */; };
 		AB5F55431A2D915100C69317 /* SalmonSpaghetti.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5F553E1A2D915100C69317 /* SalmonSpaghetti.png */; };
 		AB5F55441A2D915100C69317 /* SorrelLinguiniLambBolognaise.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5F553F1A2D915100C69317 /* SorrelLinguiniLambBolognaise.png */; };
+		ABB5C7071A2EAAE900D8603D /* EditInventory.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C6F81A2EAAE900D8603D /* EditInventory.m */; };
+		ABB5C7081A2EAAE900D8603D /* EditInventoryBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C6F91A2EAAE900D8603D /* EditInventoryBanner.jpg */; };
+		ABB5C7091A2EAAE900D8603D /* EditMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C6FB1A2EAAE900D8603D /* EditMenu.m */; };
+		ABB5C70A1A2EAAE900D8603D /* EditMenuItemBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C6FC1A2EAAE900D8603D /* EditMenuItemBanner.jpg */; };
+		ABB5C70B1A2EAAE900D8603D /* EditRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C6FE1A2EAAE900D8603D /* EditRestaurant.m */; };
+		ABB5C70C1A2EAAE900D8603D /* Inventory.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C7001A2EAAE900D8603D /* Inventory.m */; };
+		ABB5C70D1A2EAAE900D8603D /* InventoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C7021A2EAAE900D8603D /* InventoryCell.m */; };
+		ABB5C70E1A2EAAE900D8603D /* Menu Butler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C7041A2EAAE900D8603D /* Menu Butler.m */; };
+		ABB5C70F1A2EAAE900D8603D /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C7061A2EAAE900D8603D /* Menu.m */; };
+		ABB5C7121A2EAE3B00D8603D /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C7111A2EAE3B00D8603D /* LoginPage.m */; };
+		ABB5C7151A2EAE6B00D8603D /* RestaurantPage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C7141A2EAE6B00D8603D /* RestaurantPage.m */; };
+		ABB5C7351A2EAF6200D8603D /* butler employee home title.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7191A2EAF6200D8603D /* butler employee home title.psd */; };
+		ABB5C7361A2EAF6200D8603D /* butler-employee-home-title.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C71A1A2EAF6200D8603D /* butler-employee-home-title.png */; };
+		ABB5C7371A2EAF6200D8603D /* edit inventory button.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C71C1A2EAF6200D8603D /* edit inventory button.psd */; };
+		ABB5C7381A2EAF6200D8603D /* edit-inventory-button.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C71D1A2EAF6200D8603D /* edit-inventory-button.png */; };
+		ABB5C7391A2EAF6200D8603D /* edit menu button.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C71F1A2EAF6200D8603D /* edit menu button.psd */; };
+		ABB5C73A1A2EAF6200D8603D /* edit-menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7201A2EAF6200D8603D /* edit-menu-button.png */; };
+		ABB5C73B1A2EAF6200D8603D /* edit restaurant button.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7221A2EAF6200D8603D /* edit restaurant button.psd */; };
+		ABB5C73C1A2EAF6200D8603D /* edit-restaurant-button.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7231A2EAF6200D8603D /* edit-restaurant-button.png */; };
+		ABB5C73D1A2EAF6200D8603D /* employee home.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7241A2EAF6200D8603D /* employee home.psd */; };
+		ABB5C73E1A2EAF6200D8603D /* employee-home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7251A2EAF6200D8603D /* employee-home.jpg */; };
+		ABB5C73F1A2EAF6200D8603D /* home button.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7271A2EAF6200D8603D /* home button.psd */; };
+		ABB5C7401A2EAF6200D8603D /* home-button.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7281A2EAF6200D8603D /* home-button.png */; };
+		ABB5C7411A2EAF6200D8603D /* JWMarriottLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C72A1A2EAF6200D8603D /* JWMarriottLogo.png */; };
+		ABB5C7421A2EAF6200D8603D /* JWMarriottLogo.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C72B1A2EAF6200D8603D /* JWMarriottLogo.psd */; };
+		ABB5C7431A2EAF6200D8603D /* logout button.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C72D1A2EAF6200D8603D /* logout button.psd */; };
+		ABB5C7441A2EAF6200D8603D /* logout-button.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C72E1A2EAF6200D8603D /* logout-button.png */; };
+		ABB5C7451A2EAF6200D8603D /* nav bar.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7301A2EAF6200D8603D /* nav bar.psd */; };
+		ABB5C7461A2EAF6200D8603D /* nav-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7311A2EAF6200D8603D /* nav-bar.png */; };
+		ABB5C7471A2EAF6200D8603D /* WhiteBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7331A2EAF6200D8603D /* WhiteBackButton.png */; };
+		ABB5C7481A2EAF6200D8603D /* WhiteBackButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = ABB5C7341A2EAF6200D8603D /* WhiteBackButton.psd */; };
 		ABBEE5B51A130BE800B3AA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B41A130BE800B3AA1C /* Foundation.framework */; };
 		ABBEE5B71A130BE800B3AA1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */; };
 		ABBEE5B91A130BE800B3AA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBEE5B81A130BE800B3AA1C /* UIKit.framework */; };
@@ -196,6 +227,46 @@
 		AB5F553D1A2D915100C69317 /* PorciniPappardelleScallops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PorciniPappardelleScallops.png; sourceTree = "<group>"; };
 		AB5F553E1A2D915100C69317 /* SalmonSpaghetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SalmonSpaghetti.png; sourceTree = "<group>"; };
 		AB5F553F1A2D915100C69317 /* SorrelLinguiniLambBolognaise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SorrelLinguiniLambBolognaise.png; sourceTree = "<group>"; };
+		ABB5C6F71A2EAAE900D8603D /* EditInventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditInventory.h; sourceTree = "<group>"; };
+		ABB5C6F81A2EAAE900D8603D /* EditInventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditInventory.m; sourceTree = "<group>"; };
+		ABB5C6F91A2EAAE900D8603D /* EditInventoryBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EditInventoryBanner.jpg; sourceTree = "<group>"; };
+		ABB5C6FA1A2EAAE900D8603D /* EditMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMenu.h; sourceTree = "<group>"; };
+		ABB5C6FB1A2EAAE900D8603D /* EditMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMenu.m; sourceTree = "<group>"; };
+		ABB5C6FC1A2EAAE900D8603D /* EditMenuItemBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EditMenuItemBanner.jpg; sourceTree = "<group>"; };
+		ABB5C6FD1A2EAAE900D8603D /* EditRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditRestaurant.h; sourceTree = "<group>"; };
+		ABB5C6FE1A2EAAE900D8603D /* EditRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditRestaurant.m; sourceTree = "<group>"; };
+		ABB5C6FF1A2EAAE900D8603D /* Inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inventory.h; sourceTree = "<group>"; };
+		ABB5C7001A2EAAE900D8603D /* Inventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inventory.m; sourceTree = "<group>"; };
+		ABB5C7011A2EAAE900D8603D /* InventoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryCell.h; sourceTree = "<group>"; };
+		ABB5C7021A2EAAE900D8603D /* InventoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryCell.m; sourceTree = "<group>"; };
+		ABB5C7031A2EAAE900D8603D /* Menu Butler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Menu Butler.h"; sourceTree = "<group>"; };
+		ABB5C7041A2EAAE900D8603D /* Menu Butler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Menu Butler.m"; sourceTree = "<group>"; };
+		ABB5C7051A2EAAE900D8603D /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		ABB5C7061A2EAAE900D8603D /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		ABB5C7101A2EAE3B00D8603D /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
+		ABB5C7111A2EAE3B00D8603D /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
+		ABB5C7131A2EAE6B00D8603D /* RestaurantPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantPage.h; sourceTree = "<group>"; };
+		ABB5C7141A2EAE6B00D8603D /* RestaurantPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantPage.m; sourceTree = "<group>"; };
+		ABB5C7191A2EAF6200D8603D /* butler employee home title.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "butler employee home title.psd"; sourceTree = "<group>"; };
+		ABB5C71A1A2EAF6200D8603D /* butler-employee-home-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "butler-employee-home-title.png"; sourceTree = "<group>"; };
+		ABB5C71C1A2EAF6200D8603D /* edit inventory button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "edit inventory button.psd"; sourceTree = "<group>"; };
+		ABB5C71D1A2EAF6200D8603D /* edit-inventory-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-inventory-button.png"; sourceTree = "<group>"; };
+		ABB5C71F1A2EAF6200D8603D /* edit menu button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "edit menu button.psd"; sourceTree = "<group>"; };
+		ABB5C7201A2EAF6200D8603D /* edit-menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-menu-button.png"; sourceTree = "<group>"; };
+		ABB5C7221A2EAF6200D8603D /* edit restaurant button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "edit restaurant button.psd"; sourceTree = "<group>"; };
+		ABB5C7231A2EAF6200D8603D /* edit-restaurant-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-restaurant-button.png"; sourceTree = "<group>"; };
+		ABB5C7241A2EAF6200D8603D /* employee home.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "employee home.psd"; sourceTree = "<group>"; };
+		ABB5C7251A2EAF6200D8603D /* employee-home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "employee-home.jpg"; sourceTree = "<group>"; };
+		ABB5C7271A2EAF6200D8603D /* home button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "home button.psd"; sourceTree = "<group>"; };
+		ABB5C7281A2EAF6200D8603D /* home-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-button.png"; sourceTree = "<group>"; };
+		ABB5C72A1A2EAF6200D8603D /* JWMarriottLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JWMarriottLogo.png; sourceTree = "<group>"; };
+		ABB5C72B1A2EAF6200D8603D /* JWMarriottLogo.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = JWMarriottLogo.psd; sourceTree = "<group>"; };
+		ABB5C72D1A2EAF6200D8603D /* logout button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "logout button.psd"; sourceTree = "<group>"; };
+		ABB5C72E1A2EAF6200D8603D /* logout-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout-button.png"; sourceTree = "<group>"; };
+		ABB5C7301A2EAF6200D8603D /* nav bar.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nav bar.psd"; sourceTree = "<group>"; };
+		ABB5C7311A2EAF6200D8603D /* nav-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar.png"; sourceTree = "<group>"; };
+		ABB5C7331A2EAF6200D8603D /* WhiteBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteBackButton.png; sourceTree = "<group>"; };
+		ABB5C7341A2EAF6200D8603D /* WhiteBackButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhiteBackButton.psd; sourceTree = "<group>"; };
 		ABBEE5B11A130BE800B3AA1C /* FBButlerIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBButlerIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBEE5B41A130BE800B3AA1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABBEE5B61A130BE800B3AA1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -421,6 +492,140 @@
 			path = "Pasta PNGS";
 			sourceTree = "<group>";
 		};
+		ABB5C6F61A2EA8D400D8603D /* Employee Side */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C7101A2EAE3B00D8603D /* LoginPage.h */,
+				ABB5C7111A2EAE3B00D8603D /* LoginPage.m */,
+				ABB5C6F71A2EAAE900D8603D /* EditInventory.h */,
+				ABB5C6F81A2EAAE900D8603D /* EditInventory.m */,
+				ABB5C6F91A2EAAE900D8603D /* EditInventoryBanner.jpg */,
+				ABB5C6FA1A2EAAE900D8603D /* EditMenu.h */,
+				ABB5C6FB1A2EAAE900D8603D /* EditMenu.m */,
+				ABB5C6FC1A2EAAE900D8603D /* EditMenuItemBanner.jpg */,
+				ABB5C6FD1A2EAAE900D8603D /* EditRestaurant.h */,
+				ABB5C6FE1A2EAAE900D8603D /* EditRestaurant.m */,
+				ABB5C6FF1A2EAAE900D8603D /* Inventory.h */,
+				ABB5C7001A2EAAE900D8603D /* Inventory.m */,
+				ABB5C7011A2EAAE900D8603D /* InventoryCell.h */,
+				ABB5C7021A2EAAE900D8603D /* InventoryCell.m */,
+				ABB5C7031A2EAAE900D8603D /* Menu Butler.h */,
+				ABB5C7041A2EAAE900D8603D /* Menu Butler.m */,
+				ABB5C7051A2EAAE900D8603D /* Menu.h */,
+				ABB5C7061A2EAAE900D8603D /* Menu.m */,
+				ABB5C7131A2EAE6B00D8603D /* RestaurantPage.h */,
+				ABB5C7141A2EAE6B00D8603D /* RestaurantPage.m */,
+			);
+			name = "Employee Side";
+			sourceTree = "<group>";
+		};
+		ABB5C7161A2EAF5000D8603D /* Employee Images */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C7171A2EAF6200D8603D /* Page4 */,
+			);
+			name = "Employee Images";
+			sourceTree = "<group>";
+		};
+		ABB5C7171A2EAF6200D8603D /* Page4 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C7181A2EAF6200D8603D /* ButlerEmployeeHomeTitle */,
+				ABB5C71B1A2EAF6200D8603D /* EditInventoryButton */,
+				ABB5C71E1A2EAF6200D8603D /* EditMenuButton */,
+				ABB5C7211A2EAF6200D8603D /* EditRestaurantButton */,
+				ABB5C7241A2EAF6200D8603D /* employee home.psd */,
+				ABB5C7251A2EAF6200D8603D /* employee-home.jpg */,
+				ABB5C7261A2EAF6200D8603D /* HomeButton */,
+				ABB5C7291A2EAF6200D8603D /* JWMarriottLogo */,
+				ABB5C72C1A2EAF6200D8603D /* LogoutButton */,
+				ABB5C72F1A2EAF6200D8603D /* NavBar */,
+				ABB5C7321A2EAF6200D8603D /* WhiteBackButton */,
+			);
+			path = Page4;
+			sourceTree = "<group>";
+		};
+		ABB5C7181A2EAF6200D8603D /* ButlerEmployeeHomeTitle */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C7191A2EAF6200D8603D /* butler employee home title.psd */,
+				ABB5C71A1A2EAF6200D8603D /* butler-employee-home-title.png */,
+			);
+			path = ButlerEmployeeHomeTitle;
+			sourceTree = "<group>";
+		};
+		ABB5C71B1A2EAF6200D8603D /* EditInventoryButton */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C71C1A2EAF6200D8603D /* edit inventory button.psd */,
+				ABB5C71D1A2EAF6200D8603D /* edit-inventory-button.png */,
+			);
+			path = EditInventoryButton;
+			sourceTree = "<group>";
+		};
+		ABB5C71E1A2EAF6200D8603D /* EditMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C71F1A2EAF6200D8603D /* edit menu button.psd */,
+				ABB5C7201A2EAF6200D8603D /* edit-menu-button.png */,
+			);
+			path = EditMenuButton;
+			sourceTree = "<group>";
+		};
+		ABB5C7211A2EAF6200D8603D /* EditRestaurantButton */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C7221A2EAF6200D8603D /* edit restaurant button.psd */,
+				ABB5C7231A2EAF6200D8603D /* edit-restaurant-button.png */,
+			);
+			path = EditRestaurantButton;
+			sourceTree = "<group>";
+		};
+		ABB5C7261A2EAF6200D8603D /* HomeButton */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C7271A2EAF6200D8603D /* home button.psd */,
+				ABB5C7281A2EAF6200D8603D /* home-button.png */,
+			);
+			path = HomeButton;
+			sourceTree = "<group>";
+		};
+		ABB5C7291A2EAF6200D8603D /* JWMarriottLogo */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C72A1A2EAF6200D8603D /* JWMarriottLogo.png */,
+				ABB5C72B1A2EAF6200D8603D /* JWMarriottLogo.psd */,
+			);
+			path = JWMarriottLogo;
+			sourceTree = "<group>";
+		};
+		ABB5C72C1A2EAF6200D8603D /* LogoutButton */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C72D1A2EAF6200D8603D /* logout button.psd */,
+				ABB5C72E1A2EAF6200D8603D /* logout-button.png */,
+			);
+			path = LogoutButton;
+			sourceTree = "<group>";
+		};
+		ABB5C72F1A2EAF6200D8603D /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C7301A2EAF6200D8603D /* nav bar.psd */,
+				ABB5C7311A2EAF6200D8603D /* nav-bar.png */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		ABB5C7321A2EAF6200D8603D /* WhiteBackButton */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5C7331A2EAF6200D8603D /* WhiteBackButton.png */,
+				ABB5C7341A2EAF6200D8603D /* WhiteBackButton.psd */,
+			);
+			path = WhiteBackButton;
+			sourceTree = "<group>";
+		};
 		ABBEE5A81A130BE800B3AA1C = {
 			isa = PBXGroup;
 			children = (
@@ -454,6 +659,8 @@
 		ABBEE5BA1A130BE800B3AA1C /* FBButlerIpad */ = {
 			isa = PBXGroup;
 			children = (
+				ABB5C7161A2EAF5000D8603D /* Employee Images */,
+				ABB5C6F61A2EA8D400D8603D /* Employee Side */,
 				6270E5831A1CF0F4007FED3A /* Base Classes */,
 				6270E5821A1CF0E1007FED3A /* Network Classes */,
 				ABBEE5F01A130FD600B3AA1C /* Customer Images */,
@@ -837,19 +1044,27 @@
 			files = (
 				AB5F55441A2D915100C69317 /* SorrelLinguiniLambBolognaise.png in Resources */,
 				ABBEE6061A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide.png in Resources */,
+				ABB5C7381A2EAF6200D8603D /* edit-inventory-button.png in Resources */,
 				ABCBADB61A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.png in Resources */,
 				AB5F55401A2D915100C69317 /* BraisedLocalRabbit.png in Resources */,
 				ABCBADAA1A134E8200FA9401 /* MusselsAlForno2.jpg in Resources */,
 				ABCBADC31A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd in Resources */,
+				ABB5C7441A2EAF6200D8603D /* logout-button.png in Resources */,
+				ABB5C73F1A2EAF6200D8603D /* home button.psd in Resources */,
 				AB5F55251A2D913100C69317 /* Negroni.png in Resources */,
 				AB5F55241A2D913100C69317 /* LaVieEnRose.png in Resources */,
 				AB5F55231A2D913100C69317 /* ItalianGreyhound.png in Resources */,
+				ABB5C73C1A2EAF6200D8603D /* edit-restaurant-button.png in Resources */,
 				AB5F55361A2D914200C69317 /* HudsonValleyFoiGras.png in Resources */,
 				ABCBADCE1A134E8200FA9401 /* ReviewStars_5.png in Resources */,
+				ABB5C7401A2EAF6200D8603D /* home-button.png in Resources */,
+				ABB5C7391A2EAF6200D8603D /* edit menu button.psd in Resources */,
 				AB5F55371A2D914200C69317 /* PanRoastedHalibut.png in Resources */,
 				AB5F55341A2D914200C69317 /* GrilledPrimeNewYorkStrip.png in Resources */,
+				ABB5C7431A2EAF6200D8603D /* logout button.psd in Resources */,
 				AB5F55351A2D914200C69317 /* HouseAgedDuckBreast.png in Resources */,
 				ABCBADDE1A134E8200FA9401 /* PastaTab_Orange.png in Resources */,
+				ABB5C73B1A2EAF6200D8603D /* edit restaurant button.psd in Resources */,
 				ABCBADA41A134E8200FA9401 /* DivideDots.psd in Resources */,
 				ABCBADAE1A134E8200FA9401 /* WildMushroomTart.jpg in Resources */,
 				ABCBADBB1A134E8200FA9401 /* ItemName_BlankTab_Beige.psd in Resources */,
@@ -860,9 +1075,12 @@
 				ABCBADD21A134E8200FA9401 /* AppetizerTab_Orange.png in Resources */,
 				ABCBADD91A134E8200FA9401 /* EntreeTab_Beige.psd in Resources */,
 				ABCBADBC1A134E8200FA9401 /* ItemName_BlankTab_Orange.png in Resources */,
+				ABB5C7411A2EAF6200D8603D /* JWMarriottLogo.png in Resources */,
 				AB5F55261A2D913100C69317 /* PeachBellini.png in Resources */,
+				ABB5C7351A2EAF6200D8603D /* butler employee home title.psd in Resources */,
 				ABCBADA51A134E8200FA9401 /* GrayOutMenuItem.png in Resources */,
 				ABCBADCD1A134E8200FA9401 /* ReviewStars_4.psd in Resources */,
+				ABB5C7481A2EAF6200D8603D /* WhiteBackButton.psd in Resources */,
 				ABCBADB41A134E8200FA9401 /* ItemName_OystersRocke_Orange.png in Resources */,
 				ABCBADD51A134E8200FA9401 /* BeverageTab_Beige.psd in Resources */,
 				AB5F55121A2D911F00C69317 /* MusselsAlForno2.png in Resources */,
@@ -878,13 +1096,17 @@
 				ABCBADD01A134E8200FA9401 /* AppetizerTab_Beige.png in Resources */,
 				AB5F55171A2D911F00C69317 /* WineBraisedOctopus.png in Resources */,
 				ABCBADAF1A134E8200FA9401 /* WineBraisedOctopus.jpg in Resources */,
+				ABB5C7461A2EAF6200D8603D /* nav-bar.png in Resources */,
 				ABBEE6041A13103F00B3AA1C /* JWMarriottLogo.psd in Resources */,
 				AB5F55321A2D914200C69317 /* CoqAuVin.png in Resources */,
 				AB5F55391A2D914200C69317 /* PorkScaloppine.png in Resources */,
 				ABCBADB11A134E8200FA9401 /* ItemName_MusselForno_Orange.psd in Resources */,
+				ABB5C7081A2EAAE900D8603D /* EditInventoryBanner.jpg in Resources */,
+				ABB5C7361A2EAF6200D8603D /* butler-employee-home-title.png in Resources */,
 				ABCBADCB1A134E8200FA9401 /* ReviewStars_3.psd in Resources */,
 				ABCBADA31A134E8200FA9401 /* DivideDots.png in Resources */,
 				ABCBADD11A134E8200FA9401 /* AppetizerTab_Beige.psd in Resources */,
+				ABB5C7471A2EAF6200D8603D /* WhiteBackButton.png in Resources */,
 				AB5F55421A2D915100C69317 /* PorciniPappardelleScallops.png in Resources */,
 				ABCBADB51A134E8200FA9401 /* ItemName_OystersRocke_Orange.psd in Resources */,
 				AB5F55221A2D913100C69317 /* DirtyGoose.png in Resources */,
@@ -894,21 +1116,26 @@
 				AB5F55211A2D913100C69317 /* CapariSoda.png in Resources */,
 				ABCBADDA1A134E8200FA9401 /* EntreeTab_Orange.png in Resources */,
 				ABCBADB21A134E8200FA9401 /* ItemName_OystersRocke_Beige.png in Resources */,
+				ABB5C7451A2EAF6200D8603D /* nav bar.psd in Resources */,
 				AB5F55331A2D914200C69317 /* GoldenTilefish.png in Resources */,
 				AB5F55151A2D911F00C69317 /* WagyuBeefTartare.png in Resources */,
+				ABB5C7421A2EAF6200D8603D /* JWMarriottLogo.psd in Resources */,
 				ABCBADB81A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.png in Resources */,
 				ABBEE5CD1A130BE800B3AA1C /* Images.xcassets in Resources */,
+				ABB5C73E1A2EAF6200D8603D /* employee-home.jpg in Resources */,
 				ABCBADA81A134E8200FA9401 /* HomeNavButton.psd in Resources */,
 				ABBEE5BF1A130BE800B3AA1C /* InfoPlist.strings in Resources */,
 				ABCBADC21A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png in Resources */,
 				ABCBADD61A134E8200FA9401 /* BeverageTab_Orange.png in Resources */,
 				AB5F55161A2D911F00C69317 /* WildMushroomTart.png in Resources */,
+				ABB5C70A1A2EAAE900D8603D /* EditMenuItemBanner.jpg in Resources */,
 				ABCBADBF1A134E8200FA9401 /* ItemNames_AntipastiMisti_Orange.psd in Resources */,
 				ABCBADD31A134E8200FA9401 /* AppetizerTab_Orange.psd in Resources */,
 				ABBEE6071A13103F00B3AA1C /* NavBar_J.W.png in Resources */,
 				ABCBADDB1A134E8200FA9401 /* EntreeTab_Orange.psd in Resources */,
 				AB5F55411A2D915100C69317 /* ChickenRicottaRavioli.png in Resources */,
 				AB5F55131A2D911F00C69317 /* OystersRockefeller.png in Resources */,
+				ABB5C73D1A2EAF6200D8603D /* employee home.psd in Resources */,
 				ABCBADA91A134E8200FA9401 /* AntipastiMisti.jpg in Resources */,
 				ABCBADCC1A134E8200FA9401 /* ReviewStars_4.png in Resources */,
 				ABCBADC91A134E8200FA9401 /* ReviewStars_2.psd in Resources */,
@@ -925,6 +1152,7 @@
 				ABCBADDD1A134E8200FA9401 /* PastaTab_Beige.psd in Resources */,
 				ABCBADB31A134E8200FA9401 /* ItemName_OystersRocke_Beige.psd in Resources */,
 				ABCBADB71A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.psd in Resources */,
+				ABB5C7371A2EAF6200D8603D /* edit inventory button.psd in Resources */,
 				ABCBADBD1A134E8200FA9401 /* ItemName_BlankTab_Orange.psd in Resources */,
 				ABCBADDC1A134E8200FA9401 /* PastaTab_Beige.png in Resources */,
 				ABCBADB91A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.psd in Resources */,
@@ -932,6 +1160,7 @@
 				ABCBADE11A134E8200FA9401 /* WhiteBackButton.psd in Resources */,
 				ABCBADA71A134E8200FA9401 /* HomeNavButton.png in Resources */,
 				ABCBADD71A134E8200FA9401 /* BeverageTab_Orange.psd in Resources */,
+				ABB5C73A1A2EAF6200D8603D /* edit-menu-button.png in Resources */,
 				ABBEE6051A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide in Resources */,
 				AB5F55381A2D914200C69317 /* PanSearedStripedBass.png in Resources */,
 				AB5F55281A2D913100C69317 /* SummerRain.png in Resources */,
@@ -955,18 +1184,27 @@
 			files = (
 				6270E59E1A1CF25B007FED3A /* Restaurant.m in Sources */,
 				6206F57F1A2D6103003B6744 /* ServerSettings.m in Sources */,
+				ABB5C70D1A2EAAE900D8603D /* InventoryCell.m in Sources */,
 				6270E5891A1CF13B007FED3A /* Hotel.m in Sources */,
 				6270E58F1A1CF161007FED3A /* MenuItem.m in Sources */,
 				ABBEE6141A1315A000B3AA1C /* Login.m in Sources */,
 				ABBEE6171A13166F00B3AA1C /* MenuGuide.m in Sources */,
+				ABB5C70B1A2EAAE900D8603D /* EditRestaurant.m in Sources */,
 				ABCBAD4F1A13352800FA9401 /* CustomCellMenuGuide.m in Sources */,
 				6270E5941A1CF1C4007FED3A /* FoodCategoryNetworking.m in Sources */,
+				ABB5C70F1A2EAAE900D8603D /* Menu.m in Sources */,
+				ABB5C7091A2EAAE900D8603D /* EditMenu.m in Sources */,
 				ABCBADE41A13A4EB00FA9401 /* ItemCell.m in Sources */,
 				ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */,
 				ABBEE5C11A130BE800B3AA1C /* main.m in Sources */,
 				6270E59B1A1CF1E9007FED3A /* RestaurantNetworking.m in Sources */,
+				ABB5C70C1A2EAAE900D8603D /* Inventory.m in Sources */,
 				6206F5821A2D6240003B6744 /* IngredientNetworking.m in Sources */,
+				ABB5C7121A2EAE3B00D8603D /* LoginPage.m in Sources */,
+				ABB5C7151A2EAE6B00D8603D /* RestaurantPage.m in Sources */,
 				ABCBAD521A134BB600FA9401 /* MenuView.m in Sources */,
+				ABB5C7071A2EAAE900D8603D /* EditInventory.m in Sources */,
+				ABB5C70E1A2EAAE900D8603D /* Menu Butler.m in Sources */,
 				6270E58C1A1CF157007FED3A /* Ingredient.m in Sources */,
 				6270E5981A1CF1DE007FED3A /* MenuItemNetworking.m in Sources */,
 				6270E5951A1CF1C4007FED3A /* HotelNetworking.m in Sources */,

@@ -42,4 +42,10 @@
     [self performSegueWithIdentifier:@"login-menuguide" sender:self];
 }
 
+- (IBAction)tapEmployee:(id)sender {
+    [self performSegueWithIdentifier:@"login-login" sender:self];
+}
+
+
+
 @end
