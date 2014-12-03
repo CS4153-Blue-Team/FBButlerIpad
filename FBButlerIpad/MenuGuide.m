@@ -13,6 +13,8 @@
 #import "Hotel.h"
 #import "HotelNetworking.h"
 #import "RestaurantNetworking.h"
+#import "FoodCategoryNetworking.h"
+
 
 @interface MenuGuide ()
 
@@ -27,6 +29,10 @@
 @property (strong,nonatomic) NSIndexPath *index;
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+//To check if a restaurant has any menu
+@property NSArray *categories;
+
 
 
 
@@ -202,8 +208,23 @@
 
 //Perform a segue when a restaurant is selected
 - (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
-    self.index = indexPath;
-    [self performSegueWithIdentifier:@"menuguide-menuview" sender:self];
+     Restaurant* restaurant = (Restaurant*)self.restaurants[indexPath.row];
+    NSString *msg = [NSString stringWithFormat:@"Menu of %@ is not available at this moment.", restaurant.name];
+    self.categories = [FoodCategoryNetworking retAllCategoriesFor:restaurant];
+    
+    //Diplay error if there is no menu
+    if(self.categories.count == 0){
+        UIAlertView *errorMessage = [[UIAlertView alloc]initWithTitle:@"No Menu"
+                                                              message:msg
+                                                             delegate:nil
+                                                    cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [self setLoading:false];
+        [errorMessage show];
+    
+    }else{
+        //Go to selected restaurant's menu
+        [self performSegueWithIdentifier:@"menuguide-menuview" sender:self];
+    }
 }
 
 //Set up a color based on hex values (form: #FFFFFF)
