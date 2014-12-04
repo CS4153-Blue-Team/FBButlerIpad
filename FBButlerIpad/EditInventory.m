@@ -31,7 +31,7 @@
     //comment test
     self.navigationItem.title = @"Edit Ingredient";
     self.name.text = self.ingredient;
-
+    //This is a test
     
 }
 
