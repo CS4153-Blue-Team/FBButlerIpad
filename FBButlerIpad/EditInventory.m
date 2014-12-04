@@ -28,7 +28,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
+    //comment test
     self.navigationItem.title = @"Edit Ingredient";
     self.name.text = self.ingredient;
 
