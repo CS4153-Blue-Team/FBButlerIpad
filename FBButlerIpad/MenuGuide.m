@@ -47,6 +47,9 @@
     [super viewDidLoad];
     //Load a image for the title on navigatin bar
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"NavBar_J.W.png"]];
+    
+    //Set title to be matched with the design
+    self.navigationItem.title = @"Home";
 
     [self setLoading:true]; //show activity indicator
     
