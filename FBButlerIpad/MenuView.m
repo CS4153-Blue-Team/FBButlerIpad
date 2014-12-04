@@ -21,24 +21,16 @@
 //Property for Buttons on Top
 @property (strong,nonatomic) NSMutableArray *buttonList;
 
-//Properties for Table View on the left side
-/*@property (strong,nonatomic) NSMutableArray *imageList;
-@property (strong,nonatomic) NSMutableArray *nameList;*/
-
 @property NSArray *categories;
 @property FoodCategory *selectedCategory;
 @property NSDictionary *menuItems; //Maps NAMES category objects to NSArrays of menu items
-
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (assign) int selectedRow;
 
-//Properties for the right side
+//Properties for the right panel of the menu
 @property (weak, nonatomic) IBOutlet UILabel *theName;//Food Name
-
 @property (weak, nonatomic) IBOutlet UITextView *theDescription;//Food Desciption
-
 @property (weak, nonatomic) IBOutlet UILabel *thePrice;//Price
-
 @property (weak, nonatomic) IBOutlet UILabel *dollarSign;
 
 @end
@@ -57,51 +49,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Set restaurant name
+    // Set restaurant name on navigation title bar
     self.navigationItem.title = self.restaurant.name;
-       
-    // Get all categories for a specific restaurant
-    //self.categories = [FoodCategoryNetworking fakeGetAllCategoriesFor:self.restaurant withDelay:1 withFailure:false];
     
+    //Get all category of menu item in a restaurant
     self.categories = [FoodCategoryNetworking retAllCategoriesFor:self.restaurant];
     
-    
+    //Select the first category at initial load
     self.selectedCategory = [self.categories objectAtIndex:0] ;
     
-    
     // Gell all menu items for categories in a restaurant
-    //self.menuItems = [MenuItemNetworking fakeGetMenuItemsFor:self.categories withDelay:1 withFailure:false];
-    
     self.menuItems = [MenuItemNetworking getMenuItemsFor:self.categories];
-    
-    
-    //TODO: FAilure...
     
     //Create category buttons
     [self createButton];
     
-    
-    
-    //Following arrays are for testing purpose
-    /*self.imageList = [NSMutableArray arrayWithObjects:
-                     [UIImage imageNamed:@"AntipastiMisti.jpg"],
-                     [UIImage imageNamed:@"MusselsAlForno2.jpg"],
-                     [UIImage imageNamed:@"OystersRockefeller.jpg"],
-                     [UIImage imageNamed:@"PrimoLettuces.jpg"],
-                     [UIImage imageNamed:@"WagyuBeefTartare.jpg"],
-                     [UIImage imageNamed:@"WildMushroomTart.jpg"],
-                     [UIImage imageNamed:@"WineBraisedOctopus.jpg"],
-                     nil];
-    self.nameList = [NSMutableArray arrayWithObjects:
-                     @"Antipasti Misti",
-                     @"Mussels AlForno",
-                     @"Oysters Rockefeller",
-                     @"Primo Lettuces",
-                     @"Wagyu Beef Tartare",
-                     @"Wild Mushroom Tart",
-                     @"Wine Braised Octopus",
-                     nil];*/
-    
+    //Initial load
     [self initiateData];
     [self.tableView reloadData];
     [self.tableView.delegate tableView:self.tableView didSelectRowAtIndexPath:0]; //Hacky way to get stuff to initially load
@@ -143,11 +106,9 @@
             button.backgroundColor = [MenuGuide hexColor:@"EFE5DB"];
         }
         
+        //Set attributes for buttons
         button.titleLabel.font = [UIFont fontWithName:@"Avenir-Book" size:23];
         button.titleLabel.font = [UIFont systemFontOfSize:23.0f];
-
-
-        
         button.frame = CGRectMake(startpoint, 64.0, buttonwidth, 62.0);
         [self.view addSubview:button];
         startpoint+=buttonwidth;
@@ -207,16 +168,13 @@
 }
 
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {    // Return the number of rows in the section.
-//    NSLog(@"Item before crash: %@",[[self.menuItems objectForKey:self.selectedCategory.name] class]);
-//    NSArray* ourArray =[self.menuItems objectForKey:self.selectedCategory.name];
-//    NSLog(@"Array count:%i",[ourArray count]);
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    // Return the number of rows in the section.
     return [[self.menuItems objectForKey:self.selectedCategory.name] count];
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
     
     ItemCell *cell = (ItemCell *)[tableView dequeueReusableCellWithIdentifier:@"imageCells"];
     
@@ -229,10 +187,9 @@
     MenuItem* relevantItem = [[self.menuItems objectForKey:self.selectedCategory.name] objectAtIndex:indexPath.row];
     
     // Config cell
-    // Add identation on left on food name tag
     
+    // Add identation on left on food name tag
     cell.itemName.text =  [NSString stringWithFormat:@"%@%@", @"   ",relevantItem.name];
-   
     
     //Set background color for a selected cell
     if (indexPath.row == self.selectedRow){
@@ -284,7 +241,6 @@
 //Get out of stock ingredients
 -(NSMutableArray*) getOutofStock:(MenuItem*) item
 {
-    
     NSArray* ingredients = [MenuItemNetworking retIngredientsFor:item];
     NSMutableArray* outIngredients = [[NSMutableArray alloc]init];
     
@@ -310,7 +266,7 @@
     }
 
 
-
+// Display appropriate information for each menu item
 -(void) setMenuItem:(MenuItem*) item
 {
     self.theName.text = item.name;
@@ -350,15 +306,4 @@
     self.theName.textColor = [MenuGuide hexColor:@"AB2025"];
 
 }
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

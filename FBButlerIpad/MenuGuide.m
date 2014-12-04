@@ -18,23 +18,14 @@
 
 @interface MenuGuide ()
 
-/*@property (strong,nonatomic) NSMutableArray *name;//Restaurant's name
-@property (strong,nonatomic) NSMutableArray *type;//Restaurant's type
-@property (strong,nonatomic) NSMutableArray *hour;//Restaurant's hours*/
-
 @property NSMutableArray *restaurants;
 @property Hotel* hotel;
 
 //Used to get a restaurant's name from a selected cell
 @property (strong,nonatomic) NSIndexPath *index;
-
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-
 //To check if a restaurant has any menu
 @property NSArray *categories;
-
-
-
 
 @end
 
@@ -55,13 +46,14 @@
     
     [super viewDidLoad];
     //Load a image for the title on navigatin bar
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"NavBar_J.W.png"]];
+
     [self setLoading:true]; //show activity indicator
     
     
     //This asynchronously loads restaurant over network.
     id restaurantLoad =^
     {
-        //self.restaurants = [NSMutableArray arrayWithArray:[RestaurantNetworking fakeGetAllRestForHotel:self.hotel withDelay:(1) withFail:(false)]];
         self.restaurants = [NSMutableArray arrayWithArray:[RestaurantNetworking retAllRestForHotel:self.hotel]];
         
         //Updates UI based on network request.
@@ -76,10 +68,9 @@
                 [self setLoading:false];
                 [errorMessage show];
             }
-            NSLog(@"HERE RESTAURANTS IS: %@",self.restaurants);
+            
         
             [self.tableView reloadData];
-            NSLog(@"HERE RESTAURANTS IS: %@",self.restaurants);
             [self setLoading:false];
             [self.activityIndicator setNeedsDisplay];
 
@@ -88,7 +79,6 @@
     
     //asynch block to load hotel.
     id hotelLoad = ^{
-      //self.hotel = [HotelNetworking fakeGetHotelWithDelay:1 requestFailed:false];
         self.hotel = [HotelNetworking retriveBaseHotel];
         //updates ui b/c all ui updates must take place on main thread
         dispatch_async(dispatch_get_main_queue(), ^{
@@ -104,53 +94,17 @@
             else
             {
                 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), restaurantLoad);
-                self.navigationItem.titleView = [[UIImageView alloc] initWithImage:self.hotel.image];
-                [self.navigationItem.titleView setNeedsDisplay];
             }
             
 
         });
     };//end hotel block
     
-    
-    
     //starts hotel networking code
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), hotelLoad);
-    
-    
-    
    
-    //[self setupList];
 }
 
-
--(void) setupList{
-    //Following arrays are for testing purpose
-    /*self.name = [NSMutableArray arrayWithObjects:
-                     @"Primo",
-                     @"Cintron",
-                     @"Sushi Bar",
-                     @"Quench",
-                     @"Cafe Bodega",
-                     @"Golden Palace",
-                     nil];
-    self.type = [NSMutableArray arrayWithObjects:
-                 @"Italian",
-                 @"American",
-                 @"Japanese",
-                 @"Bar and Grill",
-                 @"Sandwiches",
-                 @"Chinese",
-                 nil];
-    self.hour = [NSMutableArray arrayWithObjects:
-                 @"6p-10,Th-Sun",
-                 @"8a-8p, Daily",
-                 @"6p-10p,Mo-Fr",
-                 @"6p-10p,Daily",
-                 @"11a-10p,Daily",
-                 @"8a-8p, Daily",
-                 nil];*/
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -169,7 +123,6 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    NSLog(@"Row in section called, returning %i",[self.restaurants count]);
     return [self.restaurants count];
 }
 
@@ -202,7 +155,6 @@
     //Get a default image for display purpose
     cell.cellImage.image = [UIImage imageNamed:@"Page1_RestaurantButton.png"];
     
-    
     return cell;
 }
 
@@ -210,21 +162,38 @@
 - (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
      Restaurant* restaurant = (Restaurant*)self.restaurants[indexPath.row];
     NSString *msg = [NSString stringWithFormat:@"Menu of %@ is not available at this moment.", restaurant.name];
-    self.categories = [FoodCategoryNetworking retAllCategoriesFor:restaurant];
     
-    //Diplay error if there is no menu
-    if(self.categories.count == 0){
-        UIAlertView *errorMessage = [[UIAlertView alloc]initWithTitle:@"No Menu"
-                                                              message:msg
-                                                             delegate:nil
-                                                    cancelButtonTitle:@"OK" otherButtonTitles: nil];
+    //Start the network indicator when a restaurant is selected
+    [self setLoading:true];
+    //This asynchronously loads category of a restaurant over network.
+    id categoryLoad = ^{
+        self.categories = [FoodCategoryNetworking retAllCategoriesFor:restaurant];
         
-        [errorMessage show];
-    
-    }else{
-        //Go to selected restaurant's menu
-        [self performSegueWithIdentifier:@"menuguide-menuview" sender:self];
-    }
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self setLoading:false];
+            [self.activityIndicator setNeedsDisplay];
+            self.categories = [FoodCategoryNetworking retAllCategoriesFor:restaurant];
+            if (self.categories == nil || self.categories.count ==0)
+            {
+                UIAlertView *errorMessage = [[UIAlertView alloc]initWithTitle:@"No Menu"
+                                                                      message:msg
+                                                                     delegate:nil
+                                                            cancelButtonTitle:@"OK" otherButtonTitles: nil];
+                
+                [errorMessage show];
+            }else{
+                //Go to selected restaurant's menu
+                [self performSegueWithIdentifier:@"menuguide-menuview" sender:self];
+            }
+            //End network indicator
+            [self setLoading:false];
+            [self.activityIndicator setNeedsDisplay];
+            
+            
+        });//end dispatch_async
+    };//end categoryLoad
+    //Start the category block
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), categoryLoad);
 }
 
 //Set up a color based on hex values (form: #FFFFFF)
@@ -261,8 +230,6 @@
 // - Turns activity indicator on or off
 -(void) setLoading:(bool) loading
 {
-    NSLog(@"Loading is now: %i",loading);
-    NSLog(@"Current thread for setLoading: %@",[NSThread currentThread]);
     if (loading)
     {
         [[UIApplication sharedApplication] beginIgnoringInteractionEvents];
