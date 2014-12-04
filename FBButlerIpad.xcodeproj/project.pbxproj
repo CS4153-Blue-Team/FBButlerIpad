@@ -7,8 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017D89F81A2F024A00C8D92D /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D89F71A2F024A00C8D92D /* MenuCell.m */; };
+		017D89FB1A2FB2B400C8D92D /* IngredientNetworking-2.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D89FA1A2FB2B400C8D92D /* IngredientNetworking-2.m */; };
+		017D89FE1A2FE0D500C8D92D /* MenuIngredientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D89FD1A2FE0D500C8D92D /* MenuIngredientCell.m */; };
+		017D8A011A2FE0E900C8D92D /* MenuCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D8A001A2FE0E900C8D92D /* MenuCategoryCell.m */; };
+		017D8A1A1A2FFC8900C8D92D /* add item button.psd in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A091A2FFC8900C8D92D /* add item button.psd */; };
+		017D8A1B1A2FFC8900C8D92D /* add-item-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A0A1A2FFC8900C8D92D /* add-item-button.png */; };
+		017D8A1C1A2FFC8900C8D92D /* list alphabet divide.psd in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A0C1A2FFC8900C8D92D /* list alphabet divide.psd */; };
+		017D8A1D1A2FFC8900C8D92D /* list-alphabet divide.png in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A0D1A2FFC8900C8D92D /* list-alphabet divide.png */; };
+		017D8A1E1A2FFC8900C8D92D /* alphabet slider.psd in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A0F1A2FFC8900C8D92D /* alphabet slider.psd */; };
+		017D8A1F1A2FFC8900C8D92D /* alphabet-slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A101A2FFC8900C8D92D /* alphabet-slider.png */; };
+		017D8A201A2FFC8900C8D92D /* ingredient inventory title.psd in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A121A2FFC8900C8D92D /* ingredient inventory title.psd */; };
+		017D8A211A2FFC8900C8D92D /* ingredient-inventory-title.png in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A131A2FFC8900C8D92D /* ingredient-inventory-title.png */; };
+		017D8A221A2FFC8900C8D92D /* item list space.psd in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A151A2FFC8900C8D92D /* item list space.psd */; };
+		017D8A231A2FFC8900C8D92D /* item-list-space.png in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A161A2FFC8900C8D92D /* item-list-space.png */; };
+		017D8A241A2FFC8900C8D92D /* nav bar.psd in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A181A2FFC8900C8D92D /* nav bar.psd */; };
+		017D8A251A2FFC8900C8D92D /* nav-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 017D8A191A2FFC8900C8D92D /* nav-bar.png */; };
+		017D8D051A2FFED900C8D92D /* IngredientNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D8D041A2FFED900C8D92D /* IngredientNetworking.m */; };
+		01D7CFD91A2EC9BA00E34CE2 /* RestaurantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D7CFD81A2EC9BA00E34CE2 /* RestaurantCell.m */; };
 		6206F57F1A2D6103003B6744 /* ServerSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6206F57E1A2D6103003B6744 /* ServerSettings.m */; };
-		6206F5821A2D6240003B6744 /* IngredientNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6206F5811A2D6240003B6744 /* IngredientNetworking.m */; };
 		6270E5881A1CF13B007FED3A /* FoodCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E5851A1CF13B007FED3A /* FoodCategory.m */; };
 		6270E5891A1CF13B007FED3A /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E5871A1CF13B007FED3A /* Hotel.m */; };
 		6270E58C1A1CF157007FED3A /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270E58B1A1CF157007FED3A /* Ingredient.m */; };
@@ -177,10 +194,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017D89F61A2F024A00C8D92D /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		017D89F71A2F024A00C8D92D /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		017D89F91A2FB2B400C8D92D /* IngredientNetworking-2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IngredientNetworking-2.h"; sourceTree = "<group>"; };
+		017D89FA1A2FB2B400C8D92D /* IngredientNetworking-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IngredientNetworking-2.m"; sourceTree = "<group>"; };
+		017D89FC1A2FE0D500C8D92D /* MenuIngredientCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuIngredientCell.h; sourceTree = "<group>"; };
+		017D89FD1A2FE0D500C8D92D /* MenuIngredientCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuIngredientCell.m; sourceTree = "<group>"; };
+		017D89FF1A2FE0E900C8D92D /* MenuCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCategoryCell.h; sourceTree = "<group>"; };
+		017D8A001A2FE0E900C8D92D /* MenuCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCategoryCell.m; sourceTree = "<group>"; };
+		017D8A091A2FFC8900C8D92D /* add item button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "add item button.psd"; sourceTree = "<group>"; };
+		017D8A0A1A2FFC8900C8D92D /* add-item-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-item-button.png"; sourceTree = "<group>"; };
+		017D8A0C1A2FFC8900C8D92D /* list alphabet divide.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "list alphabet divide.psd"; sourceTree = "<group>"; };
+		017D8A0D1A2FFC8900C8D92D /* list-alphabet divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-alphabet divide.png"; sourceTree = "<group>"; };
+		017D8A0F1A2FFC8900C8D92D /* alphabet slider.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alphabet slider.psd"; sourceTree = "<group>"; };
+		017D8A101A2FFC8900C8D92D /* alphabet-slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alphabet-slider.png"; sourceTree = "<group>"; };
+		017D8A121A2FFC8900C8D92D /* ingredient inventory title.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ingredient inventory title.psd"; sourceTree = "<group>"; };
+		017D8A131A2FFC8900C8D92D /* ingredient-inventory-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ingredient-inventory-title.png"; sourceTree = "<group>"; };
+		017D8A151A2FFC8900C8D92D /* item list space.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "item list space.psd"; sourceTree = "<group>"; };
+		017D8A161A2FFC8900C8D92D /* item-list-space.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item-list-space.png"; sourceTree = "<group>"; };
+		017D8A181A2FFC8900C8D92D /* nav bar.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nav bar.psd"; sourceTree = "<group>"; };
+		017D8A191A2FFC8900C8D92D /* nav-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar.png"; sourceTree = "<group>"; };
+		017D8D031A2FFED900C8D92D /* IngredientNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientNetworking.h; sourceTree = "<group>"; };
+		017D8D041A2FFED900C8D92D /* IngredientNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientNetworking.m; sourceTree = "<group>"; };
+		01D7CFD71A2EC9BA00E34CE2 /* RestaurantCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantCell.h; sourceTree = "<group>"; };
+		01D7CFD81A2EC9BA00E34CE2 /* RestaurantCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantCell.m; sourceTree = "<group>"; };
 		6206F57D1A2D6103003B6744 /* ServerSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerSettings.h; sourceTree = "<group>"; };
 		6206F57E1A2D6103003B6744 /* ServerSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerSettings.m; sourceTree = "<group>"; };
-		6206F5801A2D6240003B6744 /* IngredientNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientNetworking.h; sourceTree = "<group>"; };
-		6206F5811A2D6240003B6744 /* IngredientNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientNetworking.m; sourceTree = "<group>"; };
 		6270E5841A1CF13B007FED3A /* FoodCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategory.h; sourceTree = "<group>"; };
 		6270E5851A1CF13B007FED3A /* FoodCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategory.m; sourceTree = "<group>"; };
 		6270E5861A1CF13B007FED3A /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
@@ -389,9 +428,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017D8A021A2FFC2300C8D92D /* Page5 */ = {
+			isa = PBXGroup;
+			children = (
+				017D8A081A2FFC8900C8D92D /* AddItemButton */,
+				017D8A0B1A2FFC8900C8D92D /* AlphabetLetterDivider */,
+				017D8A0E1A2FFC8900C8D92D /* AlphabetSlider */,
+				017D8A111A2FFC8900C8D92D /* IngredientInventoryTitle */,
+				017D8A141A2FFC8900C8D92D /* ItemListSpacing */,
+				017D8A171A2FFC8900C8D92D /* NavBar */,
+			);
+			name = Page5;
+			sourceTree = "<group>";
+		};
+		017D8A031A2FFC3000C8D92D /* Page6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Page6;
+			sourceTree = "<group>";
+		};
+		017D8A041A2FFC3800C8D92D /* Page7 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Page7;
+			sourceTree = "<group>";
+		};
+		017D8A061A2FFC5A00C8D92D /* Page8 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Page8;
+			sourceTree = "<group>";
+		};
+		017D8A071A2FFC6300C8D92D /* Page9 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Page9;
+			sourceTree = "<group>";
+		};
+		017D8A081A2FFC8900C8D92D /* AddItemButton */ = {
+			isa = PBXGroup;
+			children = (
+				017D8A091A2FFC8900C8D92D /* add item button.psd */,
+				017D8A0A1A2FFC8900C8D92D /* add-item-button.png */,
+			);
+			path = AddItemButton;
+			sourceTree = "<group>";
+		};
+		017D8A0B1A2FFC8900C8D92D /* AlphabetLetterDivider */ = {
+			isa = PBXGroup;
+			children = (
+				017D8A0C1A2FFC8900C8D92D /* list alphabet divide.psd */,
+				017D8A0D1A2FFC8900C8D92D /* list-alphabet divide.png */,
+			);
+			path = AlphabetLetterDivider;
+			sourceTree = "<group>";
+		};
+		017D8A0E1A2FFC8900C8D92D /* AlphabetSlider */ = {
+			isa = PBXGroup;
+			children = (
+				017D8A0F1A2FFC8900C8D92D /* alphabet slider.psd */,
+				017D8A101A2FFC8900C8D92D /* alphabet-slider.png */,
+			);
+			path = AlphabetSlider;
+			sourceTree = "<group>";
+		};
+		017D8A111A2FFC8900C8D92D /* IngredientInventoryTitle */ = {
+			isa = PBXGroup;
+			children = (
+				017D8A121A2FFC8900C8D92D /* ingredient inventory title.psd */,
+				017D8A131A2FFC8900C8D92D /* ingredient-inventory-title.png */,
+			);
+			path = IngredientInventoryTitle;
+			sourceTree = "<group>";
+		};
+		017D8A141A2FFC8900C8D92D /* ItemListSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				017D8A151A2FFC8900C8D92D /* item list space.psd */,
+				017D8A161A2FFC8900C8D92D /* item-list-space.png */,
+			);
+			path = ItemListSpacing;
+			sourceTree = "<group>";
+		};
+		017D8A171A2FFC8900C8D92D /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				017D8A181A2FFC8900C8D92D /* nav bar.psd */,
+				017D8A191A2FFC8900C8D92D /* nav-bar.png */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
 		6270E5821A1CF0E1007FED3A /* Network Classes */ = {
 			isa = PBXGroup;
 			children = (
+				017D8D031A2FFED900C8D92D /* IngredientNetworking.h */,
+				017D8D041A2FFED900C8D92D /* IngredientNetworking.m */,
+				017D89F91A2FB2B400C8D92D /* IngredientNetworking-2.h */,
+				017D89FA1A2FB2B400C8D92D /* IngredientNetworking-2.m */,
 				6270E5991A1CF1E9007FED3A /* RestaurantNetworking.h */,
 				6270E59A1A1CF1E9007FED3A /* RestaurantNetworking.m */,
 				6270E5961A1CF1DE007FED3A /* MenuItemNetworking.h */,
@@ -400,8 +538,6 @@
 				6270E5911A1CF1C4007FED3A /* FoodCategoryNetworking.m */,
 				6270E5921A1CF1C4007FED3A /* HotelNetworking.h */,
 				6270E5931A1CF1C4007FED3A /* HotelNetworking.m */,
-				6206F5801A2D6240003B6744 /* IngredientNetworking.h */,
-				6206F5811A2D6240003B6744 /* IngredientNetworking.m */,
 			);
 			name = "Network Classes";
 			sourceTree = "<group>";
@@ -515,6 +651,14 @@
 				ABB5C7061A2EAAE900D8603D /* Menu.m */,
 				ABB5C7131A2EAE6B00D8603D /* RestaurantPage.h */,
 				ABB5C7141A2EAE6B00D8603D /* RestaurantPage.m */,
+				01D7CFD71A2EC9BA00E34CE2 /* RestaurantCell.h */,
+				01D7CFD81A2EC9BA00E34CE2 /* RestaurantCell.m */,
+				017D89F61A2F024A00C8D92D /* MenuCell.h */,
+				017D89F71A2F024A00C8D92D /* MenuCell.m */,
+				017D89FC1A2FE0D500C8D92D /* MenuIngredientCell.h */,
+				017D89FD1A2FE0D500C8D92D /* MenuIngredientCell.m */,
+				017D89FF1A2FE0E900C8D92D /* MenuCategoryCell.h */,
+				017D8A001A2FE0E900C8D92D /* MenuCategoryCell.m */,
 			);
 			name = "Employee Side";
 			sourceTree = "<group>";
@@ -522,6 +666,11 @@
 		ABB5C7161A2EAF5000D8603D /* Employee Images */ = {
 			isa = PBXGroup;
 			children = (
+				017D8A071A2FFC6300C8D92D /* Page9 */,
+				017D8A061A2FFC5A00C8D92D /* Page8 */,
+				017D8A041A2FFC3800C8D92D /* Page7 */,
+				017D8A031A2FFC3000C8D92D /* Page6 */,
+				017D8A021A2FFC2300C8D92D /* Page5 */,
 				ABB5C7171A2EAF6200D8603D /* Page4 */,
 			);
 			name = "Employee Images";
@@ -1042,12 +1191,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017D8A1B1A2FFC8900C8D92D /* add-item-button.png in Resources */,
 				AB5F55441A2D915100C69317 /* SorrelLinguiniLambBolognaise.png in Resources */,
 				ABBEE6061A13103F00B3AA1C /* NavBar_J.W.MarriottMenuGuide.png in Resources */,
 				ABB5C7381A2EAF6200D8603D /* edit-inventory-button.png in Resources */,
 				ABCBADB61A134E8200FA9401 /* ItemName_PrimoLettuce_Beige.png in Resources */,
 				AB5F55401A2D915100C69317 /* BraisedLocalRabbit.png in Resources */,
 				ABCBADAA1A134E8200FA9401 /* MusselsAlForno2.jpg in Resources */,
+				017D8A221A2FFC8900C8D92D /* item list space.psd in Resources */,
 				ABCBADC31A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.psd in Resources */,
 				ABB5C7441A2EAF6200D8603D /* logout-button.png in Resources */,
 				ABB5C73F1A2EAF6200D8603D /* home button.psd in Resources */,
@@ -1057,6 +1208,7 @@
 				ABB5C73C1A2EAF6200D8603D /* edit-restaurant-button.png in Resources */,
 				AB5F55361A2D914200C69317 /* HudsonValleyFoiGras.png in Resources */,
 				ABCBADCE1A134E8200FA9401 /* ReviewStars_5.png in Resources */,
+				017D8A251A2FFC8900C8D92D /* nav-bar.png in Resources */,
 				ABB5C7401A2EAF6200D8603D /* home-button.png in Resources */,
 				ABB5C7391A2EAF6200D8603D /* edit menu button.psd in Resources */,
 				AB5F55371A2D914200C69317 /* PanRoastedHalibut.png in Resources */,
@@ -1065,6 +1217,7 @@
 				AB5F55351A2D914200C69317 /* HouseAgedDuckBreast.png in Resources */,
 				ABCBADDE1A134E8200FA9401 /* PastaTab_Orange.png in Resources */,
 				ABB5C73B1A2EAF6200D8603D /* edit restaurant button.psd in Resources */,
+				017D8A201A2FFC8900C8D92D /* ingredient inventory title.psd in Resources */,
 				ABCBADA41A134E8200FA9401 /* DivideDots.psd in Resources */,
 				ABCBADAE1A134E8200FA9401 /* WildMushroomTart.jpg in Resources */,
 				ABCBADBB1A134E8200FA9401 /* ItemName_BlankTab_Beige.psd in Resources */,
@@ -1078,6 +1231,7 @@
 				ABB5C7411A2EAF6200D8603D /* JWMarriottLogo.png in Resources */,
 				AB5F55261A2D913100C69317 /* PeachBellini.png in Resources */,
 				ABB5C7351A2EAF6200D8603D /* butler employee home title.psd in Resources */,
+				017D8A1A1A2FFC8900C8D92D /* add item button.psd in Resources */,
 				ABCBADA51A134E8200FA9401 /* GrayOutMenuItem.png in Resources */,
 				ABCBADCD1A134E8200FA9401 /* ReviewStars_4.psd in Resources */,
 				ABB5C7481A2EAF6200D8603D /* WhiteBackButton.psd in Resources */,
@@ -1112,18 +1266,23 @@
 				AB5F55221A2D913100C69317 /* DirtyGoose.png in Resources */,
 				ABCBADB01A134E8200FA9401 /* ItemName_MusselForno_Orange.png in Resources */,
 				ABCBADC71A134E8200FA9401 /* NavBar_Primo.psd in Resources */,
+				017D8A1D1A2FFC8900C8D92D /* list-alphabet divide.png in Resources */,
+				017D8A231A2FFC8900C8D92D /* item-list-space.png in Resources */,
 				ABBEE60A1A13103F00B3AA1C /* Page1_RestaurantButton.png in Resources */,
 				AB5F55211A2D913100C69317 /* CapariSoda.png in Resources */,
+				017D8A241A2FFC8900C8D92D /* nav bar.psd in Resources */,
 				ABCBADDA1A134E8200FA9401 /* EntreeTab_Orange.png in Resources */,
 				ABCBADB21A134E8200FA9401 /* ItemName_OystersRocke_Beige.png in Resources */,
 				ABB5C7451A2EAF6200D8603D /* nav bar.psd in Resources */,
 				AB5F55331A2D914200C69317 /* GoldenTilefish.png in Resources */,
+				017D8A211A2FFC8900C8D92D /* ingredient-inventory-title.png in Resources */,
 				AB5F55151A2D911F00C69317 /* WagyuBeefTartare.png in Resources */,
 				ABB5C7421A2EAF6200D8603D /* JWMarriottLogo.psd in Resources */,
 				ABCBADB81A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.png in Resources */,
 				ABBEE5CD1A130BE800B3AA1C /* Images.xcassets in Resources */,
 				ABB5C73E1A2EAF6200D8603D /* employee-home.jpg in Resources */,
 				ABCBADA81A134E8200FA9401 /* HomeNavButton.psd in Resources */,
+				017D8A1E1A2FFC8900C8D92D /* alphabet slider.psd in Resources */,
 				ABBEE5BF1A130BE800B3AA1C /* InfoPlist.strings in Resources */,
 				ABCBADC21A134E8200FA9401 /* Page2_ItemName_AntipastiMisti_Beige.png in Resources */,
 				ABCBADD61A134E8200FA9401 /* BeverageTab_Orange.png in Resources */,
@@ -1156,6 +1315,8 @@
 				ABCBADBD1A134E8200FA9401 /* ItemName_BlankTab_Orange.psd in Resources */,
 				ABCBADDC1A134E8200FA9401 /* PastaTab_Beige.png in Resources */,
 				ABCBADB91A134E8200FA9401 /* ItemName_PrimoLettuce_Orange.psd in Resources */,
+				017D8A1C1A2FFC8900C8D92D /* list alphabet divide.psd in Resources */,
+				017D8A1F1A2FFC8900C8D92D /* alphabet-slider.png in Resources */,
 				ABCBADAD1A134E8200FA9401 /* WagyuBeefTartare.jpg in Resources */,
 				ABCBADE11A134E8200FA9401 /* WhiteBackButton.psd in Resources */,
 				ABCBADA71A134E8200FA9401 /* HomeNavButton.png in Resources */,
@@ -1184,12 +1345,15 @@
 			files = (
 				6270E59E1A1CF25B007FED3A /* Restaurant.m in Sources */,
 				6206F57F1A2D6103003B6744 /* ServerSettings.m in Sources */,
+				017D8D051A2FFED900C8D92D /* IngredientNetworking.m in Sources */,
 				ABB5C70D1A2EAAE900D8603D /* InventoryCell.m in Sources */,
 				6270E5891A1CF13B007FED3A /* Hotel.m in Sources */,
 				6270E58F1A1CF161007FED3A /* MenuItem.m in Sources */,
 				ABBEE6141A1315A000B3AA1C /* Login.m in Sources */,
 				ABBEE6171A13166F00B3AA1C /* MenuGuide.m in Sources */,
+				017D89FE1A2FE0D500C8D92D /* MenuIngredientCell.m in Sources */,
 				ABB5C70B1A2EAAE900D8603D /* EditRestaurant.m in Sources */,
+				017D8A011A2FE0E900C8D92D /* MenuCategoryCell.m in Sources */,
 				ABCBAD4F1A13352800FA9401 /* CustomCellMenuGuide.m in Sources */,
 				6270E5941A1CF1C4007FED3A /* FoodCategoryNetworking.m in Sources */,
 				ABB5C70F1A2EAAE900D8603D /* Menu.m in Sources */,
@@ -1198,10 +1362,12 @@
 				ABBEE5C51A130BE800B3AA1C /* AppDelegate.m in Sources */,
 				ABBEE5C11A130BE800B3AA1C /* main.m in Sources */,
 				6270E59B1A1CF1E9007FED3A /* RestaurantNetworking.m in Sources */,
+				01D7CFD91A2EC9BA00E34CE2 /* RestaurantCell.m in Sources */,
 				ABB5C70C1A2EAAE900D8603D /* Inventory.m in Sources */,
-				6206F5821A2D6240003B6744 /* IngredientNetworking.m in Sources */,
+				017D89FB1A2FB2B400C8D92D /* IngredientNetworking-2.m in Sources */,
 				ABB5C7121A2EAE3B00D8603D /* LoginPage.m in Sources */,
 				ABB5C7151A2EAE6B00D8603D /* RestaurantPage.m in Sources */,
+				017D89F81A2F024A00C8D92D /* MenuCell.m in Sources */,
 				ABCBAD521A134BB600FA9401 /* MenuView.m in Sources */,
 				ABB5C7071A2EAAE900D8603D /* EditInventory.m in Sources */,
 				ABB5C70E1A2EAAE900D8603D /* Menu Butler.m in Sources */,
