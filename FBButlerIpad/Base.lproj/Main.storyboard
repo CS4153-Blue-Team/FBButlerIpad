@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="uge-zy-ocS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="uge-zy-ocS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--Menu Guide-->
@@ -138,7 +139,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JUM-tf-Cif">
-                                                    <rect key="frame" x="0.0" y="0.5" width="384" height="179"/>
+                                                    <rect key="frame" x="0.0" y="1" width="384" height="179"/>
                                                 </imageView>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NH4-xu-uor">
                                                     <rect key="frame" x="0.0" y="137" width="384" height="43"/>
@@ -156,7 +157,6 @@
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gy0-xn-SqJ">
                                                     <rect key="frame" x="0.0" y="0.0" width="384" height="137"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -174,7 +174,6 @@
                             </tableView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4f-XH-R0n">
                                 <rect key="frame" x="405" y="133" width="349" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Name">
                                         <attributes>
@@ -188,7 +187,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="343" translatesAutoresizingMaskIntoConstraints="NO" id="vBL-Yd-yB8">
                                 <rect key="frame" x="405" y="405" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="$">
                                         <attributes>
@@ -202,7 +200,6 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6T-2g-WeS">
                                 <rect key="frame" x="423" y="404" width="53" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Price">
                                         <attributes>
@@ -219,11 +216,9 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReviewSectionImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="weV-dl-5I5">
                                 <rect key="frame" x="405" y="507" width="336" height="517"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="black" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j6v-ri-nyD">
                                 <rect key="frame" x="405" y="182" width="343" height="215"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="N/A">
@@ -297,6 +292,9 @@
                                 <state key="normal" title="Employee">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapEmployee:" destination="JrS-Cg-NGO" eventType="touchUpInside" id="Llc-EJ-vhw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -304,18 +302,659 @@
                     <navigationItem key="navigationItem" id="icS-XF-CkL"/>
                     <connections>
                         <segue destination="UiE-qT-04A" kind="push" identifier="login-menuguide" id="2rT-yn-uvY"/>
+                        <segue destination="EpS-wF-BIU" kind="push" identifier="login-loginEmployee" id="8Zp-Vo-t0b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wNA-ce-CcQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="563" y="5"/>
         </scene>
+        <!--Edit Restaurant-->
+        <scene sceneID="rqn-sn-lgr">
+            <objects>
+                <viewController id="gt2-QI-E2e" customClass="EditRestaurant" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bPe-b0-hLS"/>
+                        <viewControllerLayoutGuide type="bottom" id="hk8-ZZ-p9t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o4X-XV-kyG">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditRestaurantBanner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uov-Z8-xjd">
+                                <rect key="frame" x="0.0" y="60" width="768" height="210"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditRestaurantImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QQX-yb-Sxr">
+                                <rect key="frame" x="0.0" y="267" width="768" height="757"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbQ-z3-10B">
+                                <rect key="frame" x="201" y="591" width="366" height="45"/>
+                                <state key="normal" image="CancelButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapCancelButton:" destination="gt2-QI-E2e" eventType="touchUpInside" id="WnO-Fb-D23"/>
+                                    <action selector="tapCancelButton:" destination="qXI-kR-53Z" eventType="touchUpInside" id="Z8e-6X-Ux1"/>
+                                    <segue destination="fHR-ko-Kh4" kind="unwind" identifier="cancel" unwindAction="cancel:" id="fC0-R8-KvN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xJ-S3-daj">
+                                <rect key="frame" x="201" y="509" width="366" height="45"/>
+                                <state key="normal" image="SaveButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fHR-ko-Kh4" kind="unwind" identifier="saveRest" unwindAction="save:" id="1cs-h3-ugh"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="6 p - 10 p, Thu - Su" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="ltA-jV-TKK">
+                                <rect key="frame" x="201" y="413" width="366" height="45"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="italian" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Ev-64-XCs">
+                                <rect key="frame" x="201" y="367" width="366" height="45"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Primo" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="K36-7d-n7K">
+                                <rect key="frame" x="201" y="321" width="366" height="45"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xGi-Cp-39P">
+                        <barButtonItem key="rightBarButtonItem" title="Cancel" id="h4l-rL-3lL">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="tapCancel:" destination="gt2-QI-E2e" id="Zlq-de-eOI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="category" destination="4Ev-64-XCs" id="60e-dG-Ryl"/>
+                        <outlet property="hours" destination="ltA-jV-TKK" id="lTK-Mk-z7g"/>
+                        <outlet property="name" destination="K36-7d-n7K" id="R6c-Cm-5TX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zby-1N-i8v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="fHR-ko-Kh4" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="4531" y="1133"/>
+        </scene>
+        <!--Login Page-->
+        <scene sceneID="T3d-Ej-fRc">
+            <objects>
+                <viewController id="EpS-wF-BIU" customClass="LoginPage" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="15W-7P-iVX"/>
+                        <viewControllerLayoutGuide type="bottom" id="dPY-h1-9dL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V5E-gY-4Ga">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_blur_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="JOv-5V-n2l">
+                                <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Name" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="cez-4I-gKC">
+                                <rect key="frame" x="10" y="30" width="360" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="7GH-MO-Daf"/>
+                                    <constraint firstAttribute="height" constant="45" id="Rlu-ZW-fUE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_banner.png" translatesAutoresizingMaskIntoConstraints="NO" id="58n-kC-3A2">
+                                <rect key="frame" x="0.0" y="63" width="768" height="210"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Username" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="UPV-Zm-uih">
+                                <rect key="frame" x="204" y="339" width="360" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="LAT-8P-u4J"/>
+                                    <constraint firstAttribute="width" constant="360" id="VVf-nS-u7u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="eRS-7c-b9V">
+                                <rect key="frame" x="204" y="383" width="360" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="134-sW-aXG"/>
+                                    <constraint firstAttribute="height" constant="45" id="V2N-j5-zB8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUl-nI-ZIG">
+                                <rect key="frame" x="204" y="461" width="360" height="45"/>
+                                <state key="normal" title="Button" image="login_button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapLogin:" destination="EpS-wF-BIU" eventType="touchUpInside" id="7T0-Sw-08Q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="F8C-bt-lmi">
+                        <barButtonItem key="backBarButtonItem" title="Login" id="raa-k1-Sv7"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="loginButton" destination="BUl-nI-ZIG" id="zGc-lA-zOM"/>
+                        <outlet property="passwordField" destination="eRS-7c-b9V" id="XdC-Ve-rfw"/>
+                        <outlet property="usernameField" destination="UPV-Zm-uih" id="UJr-yr-JBt"/>
+                        <segue destination="dra-1x-bZe" kind="push" identifier="login-restaurants" id="u05-5D-rJs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8BC-pb-zc2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1728" y="-4"/>
+        </scene>
+        <!--Restaurant Page-->
+        <scene sceneID="VLr-YC-Bhe">
+            <objects>
+                <viewController id="dra-1x-bZe" customClass="RestaurantPage" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="psa-0q-s5Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hfb-tc-mpU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZbT-kH-OLG">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditRestaurantBanner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sp4-NA-1Qk">
+                                <rect key="frame" x="0.0" y="57" width="768" height="210"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditRestaurantImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x0u-gB-gjh">
+                                <rect key="frame" x="0.0" y="267" width="768" height="757"/>
+                            </imageView>
+                            <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="96" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="oi8-Fh-xU3">
+                                <rect key="frame" x="224" y="392" width="320" height="612"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cells" id="wTc-qY-K9d" customClass="RestaurantCell">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="96"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wTc-qY-K9d" id="Lwj-uE-z9k">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Do3-Ea-9IH">
+                                                    <rect key="frame" x="0.0" y="5" width="320" height="53"/>
+                                                    <color key="backgroundColor" red="0.66274511810000003" green="0.13333334029999999" blue="0.16078431900000001" alpha="1" colorSpace="deviceRGB"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellName" destination="Do3-Ea-9IH" id="ecd-Ib-98B"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="dra-1x-bZe" id="3I0-Jf-O6f"/>
+                                    <outlet property="delegate" destination="dra-1x-bZe" id="a78-TL-SHl"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QDD-gn-nkn"/>
+                    <connections>
+                        <outlet property="tableView" destination="oi8-Fh-xU3" id="2MW-2m-KjH"/>
+                        <segue destination="yvO-2O-tiq" kind="push" identifier="restaurant-menubutler" id="nq5-MM-gir"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KSP-GU-Loh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2638" y="-4"/>
+        </scene>
+        <!--Menu Butler-->
+        <scene sceneID="3Lt-4u-yb0">
+            <objects>
+                <viewController id="yvO-2O-tiq" customClass="Menu_Butler" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Eu3-mC-B7j"/>
+                        <viewControllerLayoutGuide type="bottom" id="YCd-6l-pA8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B77-A7-RPU">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="employee-home.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PHE-QP-mNG">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JWMarriottLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="RQ6-82-aYp">
+                                <rect key="frame" x="32" y="977" width="161" height="18"/>
+                            </imageView>
+                            <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cgp-H6-Jcd">
+                                <rect key="frame" x="533" y="380" width="241" height="79"/>
+                                <state key="normal" title="editInventory" image="edit-inventory-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="editInventory:" destination="yvO-2O-tiq" eventType="touchUpInside" id="3ND-It-gCw"/>
+                                </connections>
+                            </button>
+                            <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7Y-16-LHV">
+                                <rect key="frame" x="533" y="488" width="241" height="79"/>
+                                <state key="normal" title="editMenu" image="edit-menu-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapMenu:" destination="yvO-2O-tiq" eventType="touchUpInside" id="XQC-mY-Au0"/>
+                                </connections>
+                            </button>
+                            <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wli-iK-4GF">
+                                <rect key="frame" x="533" y="601" width="241" height="79"/>
+                                <state key="normal" title="editRestaurant" image="edit-restaurant-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapRestaurant:" destination="yvO-2O-tiq" eventType="touchUpInside" id="Wh0-15-7gc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xbG-Mr-AfZ">
+                        <barButtonItem key="backBarButtonItem" title="Home" id="Nab-wh-bsG"/>
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="Glj-BE-FBI">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="tapLogout:" destination="yvO-2O-tiq" id="4uH-XR-YeD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="editInventory" destination="Cgp-H6-Jcd" id="QYV-JY-Faq"/>
+                        <outlet property="editMenu" destination="b7Y-16-LHV" id="PoF-mm-KEP"/>
+                        <outlet property="editRestaurant" destination="wli-iK-4GF" id="GC6-H7-WMU"/>
+                        <segue destination="fez-Fd-LqK" kind="push" identifier="butler-Inventory" id="e9M-ed-rtn"/>
+                        <segue destination="RbW-aV-a8H" kind="push" identifier="menubutler-menu" id="Auy-uN-LEZ"/>
+                        <segue destination="gt2-QI-E2e" kind="push" identifier="menubutler-restaurant" id="iii-HJ-rLa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VeX-ov-80Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3574" y="-4"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="2WH-Gw-ZZR">
+            <objects>
+                <viewController id="RbW-aV-a8H" customClass="Menu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fyE-Gy-cGa"/>
+                        <viewControllerLayoutGuide type="bottom" id="yXL-A5-qeT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RFb-l4-dWo">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditMenuItemBanner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Te3-a1-sYY">
+                                <rect key="frame" x="0.0" y="60" width="768" height="210"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZkP-qd-MMY">
+                                <rect key="frame" x="0.0" y="226" width="212" height="44"/>
+                                <state key="normal" title="Button" image="add-item-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapAdd:" destination="RbW-aV-a8H" eventType="touchUpInside" id="G5j-9r-Bki"/>
+                                    <action selector="tapAddItem:" destination="fez-Fd-LqK" eventType="touchUpInside" id="a9n-I4-fMj"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Sge-Sj-GHH">
+                                <rect key="frame" x="-2" y="268" width="773" height="756"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cells" id="r66-ZS-zi8" customClass="MenuCell">
+                                        <rect key="frame" x="0.0" y="22" width="773" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="r66-ZS-zi8" id="KJp-gN-jXX">
+                                            <rect key="frame" x="0.0" y="0.0" width="773" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnG-xZ-bST">
+                                                    <rect key="frame" x="67" y="11" width="469" height="21"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellName" destination="LnG-xZ-bST" id="E2b-Oc-h5C"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="RbW-aV-a8H" id="KAt-mb-Gh1"/>
+                                    <outlet property="delegate" destination="RbW-aV-a8H" id="3vq-fB-D7J"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OgA-bS-gH0">
+                        <barButtonItem key="backBarButtonItem" title="Inventory" id="cg5-ht-aUX"/>
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="9OD-vg-mo9">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="tapLogout:" destination="RbW-aV-a8H" id="wZl-U3-NB2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="Sge-Sj-GHH" id="Ve5-7R-bMr"/>
+                        <segue destination="jXQ-Uq-T6C" kind="push" identifier="menu-editMenu" id="ppU-34-DMd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tYM-Y3-rg7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4531" y="-19"/>
+        </scene>
+        <!--Edit Menu-->
+        <scene sceneID="sdr-DW-P4K">
+            <objects>
+                <viewController id="jXQ-Uq-T6C" customClass="EditMenu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PMi-cS-rko"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Ap-ai-1Nz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qF2-ow-6X2">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EditMenuItemBanner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Qjt-KF-FDb">
+                                <rect key="frame" x="0.0" y="59" width="768" height="210"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="BRf-As-PHp"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EditMenuItemImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="I0R-YL-2js">
+                                <rect key="frame" x="-5" y="268" width="778" height="764"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Category" minimumFontSize="15" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="HYb-lS-yqF">
+                                <rect key="frame" x="201" y="460" width="360" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="yQK-X8-eet"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Price" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hnd-Yb-L3C">
+                                <rect key="frame" x="201" y="368" width="360" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="dM6-IO-XdD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Name" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="sn4-bv-vMw">
+                                <rect key="frame" x="201" y="322" width="360" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="R6l-Bq-yyP"/>
+                                    <constraint firstAttribute="width" constant="360" id="aLV-cm-2zb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djB-EZ-Zil">
+                                <rect key="frame" x="201" y="934" width="360" height="45"/>
+                                <state key="normal" image="SaveButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Gm5-Zr-jBF" kind="unwind" identifier="saveSegue" unwindAction="save:" id="XVA-co-Zka"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Image" minimumFontSize="15" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="evZ-dl-eNM">
+                                <rect key="frame" x="201" y="415" width="360" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="BfD-kg-qCn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" text="Description" translatesAutoresizingMaskIntoConstraints="NO" id="8BU-Xa-ujx">
+                                <rect key="frame" x="20" y="583" width="360" height="281"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="EBz-ck-3qC">
+                                <rect key="frame" x="419" y="562" width="320" height="334"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellsI" id="cRo-h2-Ljc" customClass="MenuIngredientCell">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cRo-h2-Ljc" id="i6F-PP-uiy">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuC-JQ-5tG">
+                                                    <rect key="frame" x="39" y="11" width="208" height="21"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellName" destination="iuC-JQ-5tG" id="JYu-61-6xr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="jXQ-Uq-T6C" id="TTF-IS-r1J"/>
+                                    <outlet property="delegate" destination="jXQ-Uq-T6C" id="eu7-ua-fLf"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sn4-bv-vMw" firstAttribute="top" secondItem="Qjt-KF-FDb" secondAttribute="bottom" constant="53" id="31u-5d-QHd"/>
+                            <constraint firstItem="sn4-bv-vMw" firstAttribute="leading" secondItem="qF2-ow-6X2" secondAttribute="leading" constant="201" id="3Z4-Xn-4sw"/>
+                            <constraint firstItem="I0R-YL-2js" firstAttribute="centerX" secondItem="Qjt-KF-FDb" secondAttribute="centerX" id="5g7-N9-nnU"/>
+                            <constraint firstItem="Qjt-KF-FDb" firstAttribute="leading" secondItem="qF2-ow-6X2" secondAttribute="leading" id="72W-YY-Vja"/>
+                            <constraint firstItem="I0R-YL-2js" firstAttribute="top" secondItem="PMi-cS-rko" secondAttribute="bottom" constant="204" id="RXA-hO-0wL"/>
+                            <constraint firstItem="Qjt-KF-FDb" firstAttribute="top" secondItem="qF2-ow-6X2" secondAttribute="top" constant="59" id="fYj-oi-Dhv"/>
+                            <constraint firstItem="I0R-YL-2js" firstAttribute="leading" secondItem="qF2-ow-6X2" secondAttribute="leading" constant="-5" id="fkW-0s-sF4"/>
+                            <constraint firstAttribute="bottom" secondItem="I0R-YL-2js" secondAttribute="bottom" constant="-8" id="lRF-qB-pac"/>
+                            <constraint firstItem="Hnd-Yb-L3C" firstAttribute="top" secondItem="sn4-bv-vMw" secondAttribute="bottom" constant="1" id="rYe-gP-Ye9"/>
+                            <constraint firstItem="Hnd-Yb-L3C" firstAttribute="trailing" secondItem="sn4-bv-vMw" secondAttribute="trailing" id="uRv-MR-1vW"/>
+                            <constraint firstItem="sn4-bv-vMw" firstAttribute="leading" secondItem="Hnd-Yb-L3C" secondAttribute="leading" id="ugS-h6-6sw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="M6i-To-zgA">
+                        <barButtonItem key="rightBarButtonItem" title="Cancel" id="VjB-dv-bhm">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="tapCancel:" destination="jXQ-Uq-T6C" id="ZON-1X-9iR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="category" destination="HYb-lS-yqF" id="zya-Ax-GwK"/>
+                        <outlet property="description" destination="8BU-Xa-ujx" id="vg5-Id-WeO"/>
+                        <outlet property="image" destination="evZ-dl-eNM" id="FWw-9B-DX1"/>
+                        <outlet property="name" destination="sn4-bv-vMw" id="kRT-1Z-QsT"/>
+                        <outlet property="price" destination="Hnd-Yb-L3C" id="mC6-3Z-g5d"/>
+                        <outlet property="tableViewI" destination="EBz-ck-3qC" id="5KC-Ab-K39"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BWh-xR-eQr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Gm5-Zr-jBF" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="5566" y="-19"/>
+        </scene>
+        <!--Inventory-->
+        <scene sceneID="epi-27-ogM">
+            <objects>
+                <viewController id="fez-Fd-LqK" customClass="Inventory" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yad-yC-pgd"/>
+                        <viewControllerLayoutGuide type="bottom" id="9DF-q2-aI7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3b8-Jf-XHp">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditInventoryBanner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="g4e-DU-JFN">
+                                <rect key="frame" x="0.0" y="59" width="768" height="210"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GX-SM-x6M">
+                                <rect key="frame" x="0.0" y="225" width="212" height="44"/>
+                                <state key="normal" title="Button" image="add-item-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapAddItem:" destination="fez-Fd-LqK" eventType="touchUpInside" id="Ucs-0F-TvT"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="iJD-al-hfh">
+                                <rect key="frame" x="0.0" y="277" width="768" height="747"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cells" id="iaL-Hu-nqg" customClass="InventoryCell">
+                                        <rect key="frame" x="0.0" y="22" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iaL-Hu-nqg" id="XSn-VM-nds">
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTh-oB-9Hr">
+                                                    <rect key="frame" x="66" y="11" width="547" height="21"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellName" destination="MTh-oB-9Hr" id="RGs-MZ-amt"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fez-Fd-LqK" id="Jef-sc-eRJ"/>
+                                    <outlet property="delegate" destination="fez-Fd-LqK" id="3Hg-Dv-u40"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="itF-YN-R9s">
+                        <barButtonItem key="backBarButtonItem" title="Inventory" id="z4o-1A-EuQ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="pDi-eN-cLd">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="tapLogout:" destination="fez-Fd-LqK" id="lao-F7-yDu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="iJD-al-hfh" id="uXG-nq-Obc"/>
+                        <segue destination="qXI-kR-53Z" kind="push" identifier="inventory-edit" id="wwD-S4-VP9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uZi-AT-nk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4531" y="-1292"/>
+        </scene>
+        <!--Edit Inventory-->
+        <scene sceneID="es4-Qd-ibp">
+            <objects>
+                <viewController id="qXI-kR-53Z" customClass="EditInventory" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cjN-WV-1SW"/>
+                        <viewControllerLayoutGuide type="bottom" id="DyP-ZO-qMu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="m8A-b5-fDZ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditInventoryBanner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QSM-qB-t4Q">
+                                <rect key="frame" x="0.0" y="59" width="768" height="210"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EditInventoryImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Gqb-52-2X8">
+                                <rect key="frame" x="0.0" y="268" width="768" height="762"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="248" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Name" minimumFontSize="27" background="WhiteTextFieldBox.png" translatesAutoresizingMaskIntoConstraints="NO" id="81n-2I-8e2">
+                                <rect key="frame" x="201" y="496" width="366" height="45"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUt-GB-VjR">
+                                <rect key="frame" x="174" y="589" width="420" height="45"/>
+                                <state key="normal" image="SaveButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="L2f-gA-pXm" kind="unwind" identifier="saveSegue" unwindAction="save:" id="tUb-Zm-76g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBd-Ew-dfP">
+                                <rect key="frame" x="174" y="696" width="420" height="45"/>
+                                <state key="normal" image="CancelButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="L2f-gA-pXm" kind="unwind" identifier="cancelSegue" unwindAction="cancel:" id="pnc-Sw-02x"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="U2m-na-Czi">
+                        <barButtonItem key="rightBarButtonItem" title="Cancel" id="aAK-ie-MXx">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="tapCancel:" destination="qXI-kR-53Z" id="p0y-m6-Ulw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="name" destination="81n-2I-8e2" id="Y6T-Yn-8a3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aLG-ha-RSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="L2f-gA-pXm" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="5566" y="-1292"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="CancelButton.png" width="365" height="45"/>
         <image name="DivideDots.png" width="47" height="3"/>
+        <image name="EditInventoryBanner.jpg" width="768" height="204"/>
+        <image name="EditInventoryImage.jpg" width="768" height="1024"/>
+        <image name="EditMenuItemBanner.jpg" width="768" height="204"/>
+        <image name="EditMenuItemImage.jpg" width="768" height="1024"/>
+        <image name="EditRestaurantBanner.jpg" width="768" height="204"/>
+        <image name="EditRestaurantImage.jpg" width="768" height="1024"/>
         <image name="GuestSideHomeImage.jpg" width="768" height="1024"/>
         <image name="JWMarriottLogo.png" width="195" height="18"/>
         <image name="ReviewSectionImage.png" width="1356" height="2395"/>
+        <image name="SaveButton.png" width="365" height="45"/>
+        <image name="WhiteTextFieldBox.png" width="365" height="45"/>
+        <image name="add-item-button.png" width="901" height="179"/>
+        <image name="edit-inventory-button.png" width="1025" height="304"/>
+        <image name="edit-menu-button.png" width="1026" height="306"/>
+        <image name="edit-restaurant-button.png" width="1026" height="306"/>
+        <image name="employee-home.jpg" width="3201" height="4270"/>
+        <image name="login_banner.png" width="3201" height="1116"/>
+        <image name="login_blur_bg.png" width="3201" height="4270"/>
+        <image name="login_button.png" width="1511" height="185"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

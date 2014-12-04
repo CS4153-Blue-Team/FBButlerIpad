@@ -45,9 +45,8 @@
 }
 
 - (IBAction)tapEmployee:(id)sender {
-    [self performSegueWithIdentifier:@"login-login" sender:self];
+    [self performSegueWithIdentifier:@"login-loginEmployee" sender:self];
 }
-
 
 
 
